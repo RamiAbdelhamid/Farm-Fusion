@@ -1,18 +1,13 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-import tailwindcss from "@tailwindcss/vite";
+// vite.config.js
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: './',
   plugins: [react(), tailwindcss()],
-  resolve: {
-    alias: {
-      "@": "/src",
-    },
-  },
-  preview: {
-    host: "0.0.0.0",
-    port: process.env.PORT,
-    allowedHosts: ["agriculture-and-animals-3.onrender.com"],
-  },
-});
+  build: {
+    // 📈 زد حد التحذير لحجم التشنك إلى 1500 كيلوبايت
+    chunkSizeWarningLimit: 1500
+  }
+})
