@@ -65,7 +65,9 @@ app.use("/api/articles", articleRoutes);
 app.use("/api/products", productRoutes); 
 app.use('/api/plant-disease-detect', plantDiseaseRoutes);
 
-
+app.get('/', (req, res) => {
+  res.send('💰 Cashback API is running successfully');
+});
 
 
 
