@@ -36,7 +36,7 @@ const PlantDiseaseDetector = () => {
     try {
       const formData = new FormData();
       formData.append('image', image);
-      const response = await fetch('http://localhost:5000/api/plant-disease-detect', {
+      const response = await fetch('https://farm-fusion-srt9.onrender.com/api/plant-disease-detect', {
         method: 'POST',
         body: formData,
       });

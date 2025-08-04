@@ -30,7 +30,7 @@ const WishlistItem = ({
       <div className="relative overflow-hidden rounded-t-xl">
         <div className="h-56 bg-gray-50 flex items-center justify-center relative">
           <img
-            src={`http://localhost:5000${product.image}`}
+            src={`https://farm-fusion-srt9.onrender.com${product.image}`}
             alt={product.name}
             className="max-w-full max-h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105"
             onClick={onViewDetails}

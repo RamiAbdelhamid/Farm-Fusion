@@ -101,7 +101,7 @@ const Checkout = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/checkoutt",
+        "https://farm-fusion-srt9.onrender.com/api/checkoutt",
         orderData
       );
       if (response.data.success) {
@@ -408,7 +408,7 @@ const Checkout = () => {
                         {item.image && (
                           <div className="w-12 h-12 mr-3 bg-gray-100 rounded overflow-hidden">
                             <img
-                              src={`http://localhost:5000${item.image}`}
+                              src={`https://farm-fusion-srt9.onrender.com${item.image}`}
                               alt={item.name}
                               className="w-full h-full object-cover"
                             />

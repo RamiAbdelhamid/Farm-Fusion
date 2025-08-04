@@ -82,17 +82,17 @@ const ProductDetails = () => {
         setLoading(true);
 
         const productRes = await axios.get(
-          `http://localhost:5000/api/products/${id}`
+          `https://farm-fusion-srt9.onrender.com/api/products/${id}`
         );
         setProduct(productRes.data);
 
         const reviewsRes = await axios.get(
-          `http://localhost:5000/api/reviews/product/${id}`
+          `https://farm-fusion-srt9.onrender.com/api/reviews/product/${id}`
         );
         setReviews(reviewsRes.data);
 
         const userData = await axios
-          .get("http://localhost:5000/api/users/me", { withCredentials: true })
+          .get("https://farm-fusion-srt9.onrender.com/api/users/me", { withCredentials: true })
           .catch((error) => {
             console.log("Error fetching user data:", error);
             return null;
@@ -106,7 +106,7 @@ const ProductDetails = () => {
 
         if (productRes.data.category) {
           const relatedResponse = await axios.get(
-            `http://localhost:5000/api/products?category=${productRes.data.category}&limit=4`
+            `https://farm-fusion-srt9.onrender.com/api/products?category=${productRes.data.category}&limit=4`
           );
           setRelatedProducts(
             relatedResponse.data.filter(
@@ -186,7 +186,7 @@ const ProductDetails = () => {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:w-1/2 bg-gray-50">
             <img
-              src={`http://localhost:5000${product.image}`}
+              src={`https://farm-fusion-srt9.onrender.com${product.image}`}
               alt={product.name}
               className="w-full h-full object-contain max-h-96 lg:max-h-full"
             />
@@ -404,7 +404,7 @@ const ProductDetails = () => {
               >
                 <div className="h-40 bg-gray-50">
                   <img
-                    src={`http://localhost:5000${related.image}`}
+                    src={`https://farm-fusion-srt9.onrender.com${related.image}`}
                     alt={related.name}
                     className="w-full h-full object-contain"
                   />

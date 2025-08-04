@@ -95,7 +95,7 @@ const Shop = () => {
     const fetchProducts = async () => {
       try {
         setLoading(true);
-        const response = await axios.get("http://localhost:5000/api/products");
+        const response = await axios.get("https://farm-fusion-srt9.onrender.com/api/products");
         setProducts(response.data);
 
         const categories = [
@@ -224,7 +224,7 @@ const Shop = () => {
                   >
                     <div className="relative h-48 overflow-hidden">
                       <img
-                        src={`http://localhost:5000${product.image}`}
+                        src={`https://farm-fusion-srt9.onrender.com${product.image}`}
                         alt={product.name}
                         className="w-full h-full object-cover object-center transition-all duration-300"
                         loading="lazy"
@@ -524,7 +524,7 @@ const Shop = () => {
                             <li key={item._id} className="py-6 flex">
                               <div className="flex-shrink-0 w-24 h-24 border border-green-100 rounded-xl overflow-hidden">
                                 <img
-                                  src={`http://localhost:5000${item.image}`}
+                                  src={`https://farm-fusion-srt9.onrender.com${item.image}`}
                                   alt={item.name}
                                   className="w-full h-full object-cover object-center"
                                 />

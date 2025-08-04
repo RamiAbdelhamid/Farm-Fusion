@@ -20,7 +20,7 @@ import { toast } from "react-toastify";
  const handleLogout = async () => {
    try {
      await axios.post(
-       "http://localhost:5000/api/users/logout",
+       "https://farm-fusion-srt9.onrender.com/api/users/logout",
        {},
        { withCredentials: true }
      );

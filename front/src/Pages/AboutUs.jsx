@@ -16,7 +16,7 @@ const AboutUs = () => {
     const fetchHappyClients = async () => {
       try {
         const response = await fetch(
-          "http://localhost:5000/api/reviews/happy-clients"
+          "https://farm-fusion-srt9.onrender.com/api/reviews/happy-clients"
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");

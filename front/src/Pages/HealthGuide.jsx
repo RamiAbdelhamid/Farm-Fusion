@@ -40,7 +40,7 @@ const HealthGuide = () => {
     const fetchArticles = async () => {
       try {
         const res = await fetch(
-          `http://localhost:5000/api/articles?page=${currentPage}&limit=${articlesPerPage}`
+          `https://farm-fusion-srt9.onrender.com/api/articles?page=${currentPage}&limit=${articlesPerPage}`
         );
         const data = await res.json();
         setArticles(data.articles);
@@ -143,7 +143,7 @@ const HealthGuide = () => {
           </button>
           <div className="flex flex-col md:flex-row items-start mb-8 gap-8">
             <img
-              src={`http://localhost:5000${article.imageUrl}`}
+              src={`https://farm-fusion-srt9.onrender.com${article.imageUrl}`}
               alt={article.title}
               className="w-full md:w-2/5 rounded-2xl mb-4 md:mb-0 object-cover h-64 shadow-lg"
             />
@@ -250,7 +250,7 @@ const HealthGuide = () => {
     >
       <div className="h-48 overflow-hidden">
         <img
-          src={`http://localhost:5000${article.imageUrl}`}
+          src={`https://farm-fusion-srt9.onrender.com${article.imageUrl}`}
           alt={article.title}
           className="w-full h-full object-cover object-center transition-all duration-300"
           loading="lazy"

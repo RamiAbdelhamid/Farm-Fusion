@@ -23,7 +23,7 @@ const Profile = () => {
   useEffect(() => {
     const fetchUserProfile = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/users/profile", {
+        const res = await axios.get("https://farm-fusion-srt9.onrender.com/api/users/profile", {
           withCredentials: true,
         });
         setUser(res.data.user);
@@ -48,7 +48,7 @@ const Profile = () => {
       const fetchBookings = async () => {
         try {
           const res = await axios.get(
-            `http://localhost:5000/api/bookings/user?page=${pagination.currentPage}&limit=${pagination.pageSize}`,
+            `https://farm-fusion-srt9.onrender.com/api/bookings/user?page=${pagination.currentPage}&limit=${pagination.pageSize}`,
             {
               withCredentials: true,
             }
@@ -92,7 +92,7 @@ const Profile = () => {
 
     try {
       const res = await axios.put(
-        "http://localhost:5000/api/users/profile",
+        "https://farm-fusion-srt9.onrender.com/api/users/profile",
         formData,
         {
           withCredentials: true,
@@ -113,7 +113,7 @@ const Profile = () => {
   const handleLogout = async () => {
     try {
       await axios.post(
-        "http://localhost:5000/api/users/logout",
+        "https://farm-fusion-srt9.onrender.com/api/users/logout",
         {},
         { withCredentials: true }
       );
@@ -163,7 +163,7 @@ const Profile = () => {
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
             {user.profilePicture ? (
               <img
-                src={`http://localhost:5000${user.profilePicture}`}
+                src={`https://farm-fusion-srt9.onrender.com${user.profilePicture}`}
                 alt="Profile"
                 className="w-32 h-32 rounded-full border-4 border-white object-cover shadow-lg transform hover:scale-105 transition-transform"
               />

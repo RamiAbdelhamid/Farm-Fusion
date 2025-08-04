@@ -157,7 +157,7 @@ const Dashboard = () => {
       try {
         // Fetch products
         const productsResponse = await axios.get(
-          "http://localhost:5000/api/products"
+          "https://farm-fusion-srt9.onrender.com/api/products"
         );
         const activeProducts = productsResponse.data.filter(
           (product) => !product.isDeleted
@@ -169,7 +169,7 @@ const Dashboard = () => {
 
         // Fetch all bookings
         const bookingsResponse = await axios.get(
-          "http://localhost:5000/bookings"
+          "https://farm-fusion-srt9.onrender.com/bookings"
         );
         const allBookings = bookingsResponse.data;
 
@@ -226,7 +226,7 @@ const Dashboard = () => {
     // Fetch doctors
     const fetchDoctors = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/doctors");
+        const response = await axios.get("https://farm-fusion-srt9.onrender.com/api/doctors");
         if (response.data && response.data.length > 0) {
           const formattedDoctors = response.data.map((doctor) => ({
             id: doctor._id,
@@ -249,7 +249,7 @@ const Dashboard = () => {
     const fetchReservedDates = async (vetName) => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/api/bookings/vet/${vetName}`
+          `https://farm-fusion-srt9.onrender.com/api/bookings/vet/${vetName}`
         );
         setReservedDates(response.data);
       } catch (error) {
@@ -274,7 +274,7 @@ const Dashboard = () => {
         const fetchReservedDates = async () => {
           try {
             const response = await axios.get(
-              `http://localhost:5000/api/bookings/vet/${vetName}`
+              `https://farm-fusion-srt9.onrender.com/api/bookings/vet/${vetName}`
             );
             setReservedDates(response.data);
           } catch (error) {
@@ -710,7 +710,7 @@ const Dashboard = () => {
                           <td className="px-4 py-3">
                             <div className="flex items-center">
                               <img
-                                src={`http://localhost:5000${product.image}`}
+                                src={`https://farm-fusion-srt9.onrender.com${product.image}`}
                                 alt={product.name}
                                 className="w-10 h-10 rounded-full object-cover mr-3"
                               />

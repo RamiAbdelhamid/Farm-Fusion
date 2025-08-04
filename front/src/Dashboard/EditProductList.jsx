@@ -62,7 +62,7 @@ const EditProductList = () => {
   const fetchProducts = async () => {
     setLoading(true);
     try {
-      const response = await axios.get("http://localhost:5000/api/products");
+      const response = await axios.get("https://farm-fusion-srt9.onrender.com/api/products");
       const activeProducts = response.data.filter(
         (product) => !product.isDeleted
       );
@@ -79,7 +79,7 @@ const EditProductList = () => {
   const handleSoftDelete = async (id) => {
     try {
       const response = await axios.patch(
-        `http://localhost:5000/api/products/${id}/soft-delete`
+        `https://farm-fusion-srt9.onrender.com/api/products/${id}/soft-delete`
       );
       // Update UI after deletion
       setProducts((prevProducts) =>
@@ -315,7 +315,7 @@ const EditProductList = () => {
             >
               <div className="relative">
                 <img
-                  src={`http://localhost:5000${product.image}`}
+                  src={`https://farm-fusion-srt9.onrender.com${product.image}`}
                   alt={product.name}
                   className="w-full h-72 object-cover"
                 />
@@ -399,7 +399,7 @@ const EditProductList = () => {
                       <div className="flex-shrink-0 h-10 w-10">
                         <img
                           className="h-10 w-10 rounded-full object-cover"
-                          src={`http://localhost:5000${product.image}`}
+                          src={`https://farm-fusion-srt9.onrender.com${product.image}`}
                           alt={product.name}
                         />
                       </div>

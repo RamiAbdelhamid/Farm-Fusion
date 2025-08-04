@@ -10,7 +10,7 @@ const ContactMessages = () => {
   useEffect(() => {
     const fetchMessages = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/contact", {
+        const res = await axios.get("https://farm-fusion-srt9.onrender.com/api/contact", {
           withCredentials: true,
         });
 
@@ -48,7 +48,7 @@ const ContactMessages = () => {
 
   const sendEmail = async (message) => {
     try {
-      await axios.post("http://localhost:5000/api/send-email", {
+      await axios.post("https://farm-fusion-srt9.onrender.com/api/send-email", {
         to: message.email,
         subject: `Re: ${message.subject}`,
         body: `Hello ${message.firstName},\n\nThank you for your message:\n"${message.message}"\n\nBest regards,\nSupport Team`,

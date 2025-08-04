@@ -56,7 +56,7 @@ const AddVeterinarians = ({ onBack, onDataUpdate, initialDepartments }) => {
     const fetchDepartments = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/departments"
+          "https://farm-fusion-srt9.onrender.com/api/departments"
         );
         setDepartments(response.data);
       } catch (error) {
@@ -71,7 +71,7 @@ const AddVeterinarians = ({ onBack, onDataUpdate, initialDepartments }) => {
   useEffect(() => {
     const fetchVets = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/vets");
+        const response = await axios.get("https://farm-fusion-srt9.onrender.com/api/vets");
         setVets(response.data);
       } catch (error) {
         console.error("Error fetching vets:", error);
@@ -127,7 +127,7 @@ const AddVeterinarians = ({ onBack, onDataUpdate, initialDepartments }) => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/vets/add",
+        "https://farm-fusion-srt9.onrender.com/api/vets/add",
         newVet
       );
       const updatedVets = [...vets, response.data.vet];
@@ -164,7 +164,7 @@ const AddVeterinarians = ({ onBack, onDataUpdate, initialDepartments }) => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/departments/add",
+        "https://farm-fusion-srt9.onrender.com/api/departments/add",
         newDepartment
       );
 
@@ -190,7 +190,7 @@ const AddVeterinarians = ({ onBack, onDataUpdate, initialDepartments }) => {
       window.confirm(`Are you sure you want to delete veterinarian ${vetName}?`)
     ) {
       try {
-        await axios.patch(`http://localhost:5000/api/vets/${vetName}`, {
+        await axios.patch(`https://farm-fusion-srt9.onrender.com/api/vets/${vetName}`, {
           isDeleted: true,
         });
 
@@ -211,7 +211,7 @@ const AddVeterinarians = ({ onBack, onDataUpdate, initialDepartments }) => {
   const handleDeleteDepartment = async (id) => {
     if (window.confirm("Are you sure you want to delete this department?")) {
       try {
-        await axios.delete(`http://localhost:5000/api/departments/${id}`);
+        await axios.delete(`https://farm-fusion-srt9.onrender.com/api/departments/${id}`);
         setDepartments(departments.filter((dept) => dept.id !== id));
       } catch (error) {
         console.error("Error deleting department:", error);
@@ -689,7 +689,7 @@ export default AddVeterinarians;
 //     const fetchDepartments = async () => {
 //       try {
 //         const response = await axios.get(
-//           "http://localhost:5000/api/departments"
+//           "https://farm-fusion-srt9.onrender.com/api/departments"
 //         );
 //         setDepartments(response.data);
 //       } catch (error) {
@@ -704,7 +704,7 @@ export default AddVeterinarians;
 //   useEffect(() => {
 //     const fetchVets = async () => {
 //       try {
-//         const response = await axios.get("http://localhost:5000/api/vets");
+//         const response = await axios.get("https://farm-fusion-srt9.onrender.com/api/vets");
 //         setVets(response.data);
 //       } catch (error) {
 //         console.error("Error fetching vets:", error);
@@ -750,7 +750,7 @@ export default AddVeterinarians;
 
 //     try {
 //       const response = await axios.post(
-//         "http://localhost:5000/api/vets/add",
+//         "https://farm-fusion-srt9.onrender.com/api/vets/add",
 //         newVet
 //       );
 //       const updatedVets = [...vets, response.data.vet];
@@ -785,7 +785,7 @@ export default AddVeterinarians;
 
 //     try {
 //       const response = await axios.post(
-//         "http://localhost:5000/api/departments/add",
+//         "https://farm-fusion-srt9.onrender.com/api/departments/add",
 //         newDepartment
 //       );
 
@@ -810,7 +810,7 @@ export default AddVeterinarians;
 //       window.confirm(`Are you sure you want to delete veterinarian ${vetName}?`)
 //     ) {
 //       try {
-//         await axios.patch(`http://localhost:5000/api/vets/${vetName}`, {
+//         await axios.patch(`https://farm-fusion-srt9.onrender.com/api/vets/${vetName}`, {
 //           isDeleted: true,
 //         });
 
@@ -831,7 +831,7 @@ export default AddVeterinarians;
 //   const handleDeleteDepartment = async (id) => {
 //     if (window.confirm("Are you sure you want to delete this department?")) {
 //       try {
-//         await axios.delete(`http://localhost:5000/api/departments/${id}`);
+//         await axios.delete(`https://farm-fusion-srt9.onrender.com/api/departments/${id}`);
 //         setDepartments(departments.filter((dept) => dept.id !== id));
 //       } catch (error) {
 //         console.error("Error deleting department:", error);

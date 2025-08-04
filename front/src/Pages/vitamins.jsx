@@ -51,7 +51,7 @@ const Livevacc = () => {
     const fetchProducts = async () => {
       try {
         setLoading(true);
-        const response = await axios.get("http://localhost:5000/api/products");
+        const response = await axios.get("https://farm-fusion-srt9.onrender.com/api/products");
         setProducts(response.data);
 
         // حساب عدد المنتجات في كل فئة
@@ -218,7 +218,7 @@ const Livevacc = () => {
                             <li key={item._id} className="py-6 flex">
                               <div className="flex-shrink-0 w-24 h-24 border border-gray-200 rounded-md overflow-hidden">
                                 <img
-                                  src={`http://localhost:5000${item.image}`}
+                                  src={`https://farm-fusion-srt9.onrender.com${item.image}`}
                                   alt={item.name}
                                   className="w-full h-full object-cover object-center"
                                 />
@@ -348,7 +348,7 @@ const Livevacc = () => {
 
                   <div className="relative">
                     <img
-                      src={`http://localhost:5000${product.image}`}
+                      src={`https://farm-fusion-srt9.onrender.com${product.image}`}
                       alt={product.name}
                       onClick={() => navigate(`/product/${product._id}`)}
                       className="w-full h-64 object-cover"

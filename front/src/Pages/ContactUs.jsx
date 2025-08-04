@@ -67,7 +67,7 @@ const ContactUs = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/contact/add",
+        "https://farm-fusion-srt9.onrender.com/api/contact/add",
         formData,
         {
           withCredentials: true,

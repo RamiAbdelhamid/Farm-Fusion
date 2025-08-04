@@ -43,7 +43,7 @@ const Analytics = () => {
       try {
         // Fetch products
         const productsResponse = await axios.get(
-          "http://localhost:5000/api/products"
+          "https://farm-fusion-srt9.onrender.com/api/products"
         );
         const activeProducts = productsResponse.data.filter(
           (product) => !product.isDeleted
@@ -51,7 +51,7 @@ const Analytics = () => {
 
         // Fetch all bookings
         const bookingsResponse = await axios.get(
-          "http://localhost:5000/bookings"
+          "https://farm-fusion-srt9.onrender.com/bookings"
         );
         const allBookings = bookingsResponse.data;
 

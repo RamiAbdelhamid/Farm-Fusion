@@ -18,7 +18,7 @@ const Login = ({ switchForm ,onLogin ,setUserRole  }) => {
   const fetchUserRole = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:5000/api/users/get-role",
+        "https://farm-fusion-srt9.onrender.com/api/users/get-role",
         { withCredentials: true }
       );
       setUserRole(response.data.role);
@@ -50,7 +50,7 @@ const Login = ({ switchForm ,onLogin ,setUserRole  }) => {
         localStorage.removeItem("email");
       }
 
-      await axios.post("http://localhost:5000/api/users/login", formData, {
+      await axios.post("https://farm-fusion-srt9.onrender.com/api/users/login", formData, {
         withCredentials: true,
       });
 
@@ -78,7 +78,7 @@ const Login = ({ switchForm ,onLogin ,setUserRole  }) => {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/users/google-login",
+        "https://farm-fusion-srt9.onrender.com/api/users/google-login",
         { token: credentialResponse.credential },
         { withCredentials: true }
       );

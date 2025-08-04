@@ -44,7 +44,7 @@ const Reservations = () => {
     try {
       setLoading(true);
       // Fetch all bookings
-      const response = await axios.get("http://localhost:5000/bookings");
+      const response = await axios.get("https://farm-fusion-srt9.onrender.com/bookings");
 
       // Filter to get only bookings that have been notified to doctors
       const doctorReservations = response.data.filter(
@@ -77,7 +77,7 @@ const Reservations = () => {
     try {
       setLoading(true);
       // Fetch reservations for the specific doctor
-      const response = await axios.get("http://localhost:5000/bookings");
+      const response = await axios.get("https://farm-fusion-srt9.onrender.com/bookings");
 
       const doctorReservations = response.data.filter(
         (booking) => booking.vet === doctorName && booking.notified
@@ -98,7 +98,7 @@ const Reservations = () => {
   // Mark reservation as completed
   const markAsCompleted = async (bookingId) => {
     try {
-      await axios.put(`http://localhost:5000/bookings/${bookingId}/complete`, {
+      await axios.put(`https://farm-fusion-srt9.onrender.com/bookings/${bookingId}/complete`, {
         completed: true,
       });
 
@@ -122,7 +122,7 @@ const Reservations = () => {
   const approveBooking = async (bookingId) => {
     try {
       const response = await axios.put(
-        `http://localhost:5000/bookings/${bookingId}/status`,
+        `https://farm-fusion-srt9.onrender.com/bookings/${bookingId}/status`,
         {
           status: "approved",
         }
@@ -146,7 +146,7 @@ const Reservations = () => {
   const rejectBooking = async (bookingId) => {
     try {
       const response = await axios.put(
-        `http://localhost:5000/bookings/${bookingId}/status`,
+        `https://farm-fusion-srt9.onrender.com/bookings/${bookingId}/status`,
         {
           status: "rejected",
         }

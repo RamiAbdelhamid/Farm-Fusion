@@ -21,7 +21,7 @@ const EditProduct = () => {
     const fetchProduct = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/api/products/${id}`
+          `https://farm-fusion-srt9.onrender.com/api/products/${id}`
         );
         setProduct(response.data); // تعيين بيانات المنتج
         setLoading(false);
@@ -69,7 +69,7 @@ const EditProduct = () => {
 
     try {
       const response = await axios.patch(
-        `http://localhost:5000/api/products/${id}`,
+        `https://farm-fusion-srt9.onrender.com/api/products/${id}`,
         formData,
         {
           headers: {

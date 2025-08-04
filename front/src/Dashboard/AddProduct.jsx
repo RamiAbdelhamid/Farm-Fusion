@@ -89,7 +89,7 @@ const AddProduct = () => {
     
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/products",
+        "https://farm-fusion-srt9.onrender.com/api/products",
         formData,
         {
           headers: {

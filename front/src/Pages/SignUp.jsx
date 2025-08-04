@@ -47,7 +47,7 @@ const Register = ({ switchForm }) => {
         password: formData.password,
       };
 
-      await axios.post("http://localhost:5000/api/users/register", dataToSend, {
+      await axios.post("https://farm-fusion-srt9.onrender.com/api/users/register", dataToSend, {
         withCredentials: true,
       });
       
@@ -61,7 +61,7 @@ const Register = ({ switchForm }) => {
       });
       
    await axios.post(
-     "http://localhost:5000/api/users/login",
+     "https://farm-fusion-srt9.onrender.com/api/users/login",
      {
        email: formData.email,
        password: formData.password,

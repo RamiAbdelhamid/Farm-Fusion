@@ -106,7 +106,7 @@ const AddFarmArticle = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/articles",
+        "https://farm-fusion-srt9.onrender.com/api/articles",
         data,
         {
           headers: {

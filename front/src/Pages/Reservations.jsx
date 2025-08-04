@@ -18,7 +18,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Swal from "sweetalert2";
 
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = "https://farm-fusion-srt9.onrender.com";
 
 const Reservations = () => {
   const { t } = useTranslation();

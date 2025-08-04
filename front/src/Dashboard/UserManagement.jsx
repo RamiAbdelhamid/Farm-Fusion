@@ -13,7 +13,7 @@ const UserManagement = () => {
     const fetchUsers = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/users/users",
+          "https://farm-fusion-srt9.onrender.com/api/users/users",
           {
             withCredentials: true,
           }
@@ -33,7 +33,7 @@ const UserManagement = () => {
 const handleRoleChange = async (userId, newRole) => {
   try {
     await axios.put(
-      `http://localhost:5000/api/users/${userId}/role`,
+      `https://farm-fusion-srt9.onrender.com/api/users/${userId}/role`,
       { newRole }, // Send the newRole in the request body
       {
         withCredentials: true,
@@ -61,7 +61,7 @@ const handleRoleChange = async (userId, newRole) => {
 // Function to handle suspend/unsuspend
 const handleSuspendToggle = async (userId, isSuspended) => {
   try {
-    const url = `http://localhost:5000/api/users/${userId}/${isSuspended ? 'unsuspend' : 'suspend'}`;
+    const url = `https://farm-fusion-srt9.onrender.com/api/users/${userId}/${isSuspended ? 'unsuspend' : 'suspend'}`;
     await axios.put(
       url,
       {},

@@ -58,7 +58,7 @@ const VetBooking = () => {
     const fetchDepartments = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/departments",
+          "https://farm-fusion-srt9.onrender.com/api/departments",
           { withCredentials: true }
         );
         setDepartments(response.data);
@@ -81,7 +81,7 @@ const VetBooking = () => {
       const fetchVets = async () => {
         try {
           const response = await axios.get(
-            `http://localhost:5000/api/vets/by-department/${selectedDepartment}`,
+            `https://farm-fusion-srt9.onrender.com/api/vets/by-department/${selectedDepartment}`,
             { withCredentials: true }
           );
           setVets(response.data);
@@ -111,7 +111,7 @@ const VetBooking = () => {
   const fetchReservedDates = async (vetName) => {
     try {
       const response = await axios.get(
-        `http://localhost:5000/bookings/vet/${vetName}`,
+        `https://farm-fusion-srt9.onrender.com/bookings/vet/${vetName}`,
         { withCredentials: true }
       );
       setReservedDates(response.data);
@@ -198,7 +198,7 @@ const VetBooking = () => {
         didOpen: () => Swal.showLoading(),
       });
 
-      await axios.post("http://localhost:5000/bookings", bookingData, {
+      await axios.post("https://farm-fusion-srt9.onrender.com/bookings", bookingData, {
         withCredentials: true,
       });
 
