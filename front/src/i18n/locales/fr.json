@@ -1,0 +1,674 @@
+{
+    "aboutTitle": "À propos de notre entreprise",
+    "whoWeAre": "Qui sommes-nous",
+    "description": "Bienvenue chez Farm Fusion, votre destination idéale dans le monde de l'agriculture et de la production animale.",
+    "ourServices": "Nos services",
+    "agriculture": "Production agricole",
+    "animal": "Production animale",
+    "equipment": "Équipement agricole",
+    "consulting": "Support et conseil",
+    "ourVision": "Notre vision",
+    "global": "Portée mondiale et expansion",
+    "leadership": "Leadership dans l'industrie",
+    "innovation": "Innovation durable",
+    "happyClients": "Clients satisfaits",
+    "products": "Produits",
+    "bookings": "Réservations",
+    "vets": "Vétérinaires",
+  
+    "contactTitle": "Contactez-nous",
+    "contactSubtitle": "Des questions sur les soins aux animaux, la gestion des cultures ou les solutions agricoles ? Notre équipe d'experts est là pour vous aider à grandir et à réussir.",
+    "contactFormTitle": "Formulaire de contact",
+    "firstNameLabel": "Prénom",
+    "lastNameLabel": "Nom",
+    "emailLabel": "Email",
+    "subjectLabel": "Sujet",
+    "selectTopic": "Sélectionnez un sujet",
+    "livestockOption": "Soins aux animaux",
+    "cropOption": "Gestion des cultures",
+    "equipmentOption": "Équipement agricole",
+    "pricingOption": "Tarifs et services",
+    "otherOption": "Autre",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Dites-nous comment nous pouvons vous aider avec vos besoins agricoles ou de soins aux animaux...",
+    "sendButton": "Envoyer le message",
+    "whatsappButton": "WhatsApp",
+    "sending": "Envoi en cours...",
+    "contactInfoTitle": "Informations de contact",
+    "locationTitle": "Notre emplacement",
+    "locationAddress": "123 Farm Road, Rural County, State 12345",
+    "phoneTitle": "Téléphone",
+    "phoneNumber": "(555) 123-4567",
+    "emailTitle": "Email",
+    "emailAddress": "info@farmfusion.com",
+    "businessHoursTitle": "Heures d'ouverture",
+    "weekdaysLabel": "Lundi - Vendredi",
+    "weekdaysHours": "8h00 - 17h00",
+    "saturdayLabel": "Samedi",
+    "saturdayHours": "9h00 - 14h00",
+    "sundayLabel": "Dimanche",
+    "sundayHours": "Fermé",
+    "servicesTitle": "Nos services",
+    "service1": "Santé et gestion du bétail",
+    "service2": "Planification et rotation des cultures",
+    "service3": "Pratiques agricoles durables",
+    "service4": "Vente et location d'équipements",
+    "service5": "Consultations agricoles",
+    "findUsTitle": "Nous trouver",
+    "mapTitle": "Notre emplacement",
+    "chatTitle": "Assistant agricole",
+    "chatPlaceholder": "Posez des questions sur nos services...",
+    "chatWelcomeMessage": "Bonjour ! Comment puis-je vous aider avec vos questions sur les animaux ou l'agriculture aujourd'hui ?",
+    "defaultBotResponse": "Je vais demander à un membre de notre équipe de vous répondre sur cette question.",
+    "livestockBotResponse": "Nos spécialistes du bétail peuvent aider avec les questions sur la santé animale, l'élevage et la gestion. Voulez-vous que je vous mette en contact avec un spécialiste ?",
+    "cropBotResponse": "Nos experts en cultures peuvent fournir des conseils sur la plantation, la fertilisation, la gestion des parasites et la récolte. Avez-vous besoin d'informations spécifiques sur les cultures ?",
+    "hoursBotResponse": "Notre bureau est ouvert du lundi au vendredi de 8h à 17h, et le samedi de 9h à 14h. Nous sommes fermés le dimanche.",
+    "pricingBotResponse": "Les tarifs varient selon le service. Pour un devis détaillé, veuillez remplir notre formulaire de contact ou nous appeler directement au (555) 123-4567.",
+    "locationBotResponse": "Nous sommes situés au 123 Farm Road, Rural County, State 12345. Vous pouvez voir notre emplacement sur la carte ci-dessous.",
+    "thankYou": "Merci !",
+    "contactSuccessMessage": "Votre message a été envoyé avec succès. Nous vous répondrons bientôt !",
+    "great": "Parfait !",
+    "loginRequired": "Veuillez d'abord vous connecter",
+    "loginPrompt": "Vous devez vous connecter avant d'envoyer un message.",
+    "login": "Connexion",
+    "contactErrorMessage": "Échec de l'envoi du message. Veuillez réessayer.",
+    "whatsappTitle": "Contactez-nous sur WhatsApp !",
+    "whatsappPrompt": "Voulez-vous discuter avec nous sur WhatsApp ?",
+    "openWhatsApp": "Oui, ouvrir WhatsApp",
+    "notNow": "Pas maintenant",
+  
+    "alerts": {
+      "success": "Succès !",
+      "error": "Erreur !",
+      "warning": "Avertissement !"
+    },
+    "vetBooking": {
+      "title": "Services vétérinaires agricoles",
+      "subtitle": "Soins vétérinaires experts pour vos animaux de ferme",
+      "programName": "Programme de soutien agricole rural",
+      "step1": "Sélectionnez un département",
+      "step2": "Choisissez un vétérinaire",
+      "step3": "Détails du rendez-vous",
+      "emergencyCase": "Cas d'urgence",
+      "emergencyNote": "Les urgences sont prioritaires",
+      "selectVet": "Sélectionnez un vétérinaire",
+      "selectVetPlaceholder": "Sélectionnez un vétérinaire",
+      "drPrefix": "Dr.",
+      "yearsExperience": "Années d'expérience",
+      "specializations": "Spécialisations",
+      "nextAvailable": "Prochaine disponibilité",
+      "selectDepartmentFirst": "Veuillez d'abord sélectionner un département",
+      "reservedDates": "Dates réservées",
+      "noReservedDates": "Aucune date réservée trouvée pour ce vétérinaire",
+      "selectDate": "Sélectionnez une date",
+      "phoneNumber": "Votre numéro de téléphone",
+      "phonePlaceholder": "Entrez votre numéro de téléphone",
+      "phoneFormat": "Format : +1234567890 ou 0123456789",
+      "reasonForVisit": "Motif de la visite",
+      "reasonPlaceholder": "Veuillez décrire le problème ou le motif de votre visite...",
+      "bookAppointment": "Prendre rendez-vous",
+      "bookingSummary": "Vous prenez rendez-vous avec le Dr {vetName} pour {departmentName}",
+      "namear": "nom en arabe",
+      "footer": "Services vétérinaires agricoles - Fournissant des soins de qualité aux animaux de ferme depuis 2010",
+      "alerts": {
+        "loginRequired": "Veuillez vous connecter pour accéder aux services vétérinaires",
+        "departmentsError": "Échec du chargement des départements. Veuillez réessayer plus tard.",
+        "loginVets": "Veuillez vous connecter pour voir les vétérinaires disponibles",
+        "vetsError": "Échec du chargement des vétérinaires. Veuillez réessayer plus tard.",
+        "loginDates": "Veuillez vous connecter pour voir les dates disponibles",
+        "datesError": "Échec du chargement des dates réservées. Veuillez réessayer plus tard.",
+        "fillAllFields": "Veuillez remplir tous les champs requis !",
+        "dateBooked": "Cette date est déjà réservée pour le vétérinaire sélectionné. Veuillez choisir une autre date.",
+        "validPhone": "Veuillez entrer un numéro de téléphone valide (10-15 chiffres)",
+        "loginBook": "Veuillez vous connecter pour prendre rendez-vous",
+        "bookingError": "Une erreur est survenue lors de l'enregistrement de votre rendez-vous. Veuillez réessayer.",
+        "networkError": "Erreur réseau. Veuillez vérifier votre connexion et réessayer.",
+        "bookingSuccess": "Votre rendez-vous a été pris avec succès !"
+      },
+      "processing": "Traitement en cours...",
+      "pleaseWait": "Veuillez patienter pendant que nous prenons votre rendez-vous"
+    },
+  
+    "agriculturalHealthPlatform": "Plateforme de santé agricole",
+    "healthPlatformDescription": "Ressource complète d'informations sur la santé animale et végétale",
+    "searchPlaceholder": "Rechercher des articles par titre, contenu ou mots-clés...",
+    "filters": "Filtres",
+    "advancedFilters": "Filtres avancés",
+    "dateRange": "Période",
+    "allTime": "Toutes périodes",
+    "pastWeek": "La semaine dernière",
+    "pastMonth": "Le mois dernier",
+    "pastYear": "L'année dernière",
+    "sortBy": "Trier par",
+    "newestFirst": "Plus récent d'abord",
+    "oldestFirst": "Plus ancien d'abord",
+    "aToZ": "A-Z",
+    "zToA": "Z-A",
+    "agriculturalHealthArticles": "Articles sur la santé agricole",
+    "showingArticles": "Affichage de {{count}} articles",
+    "noArticlesFound": "Aucun article trouvé",
+    "adjustSearchFilters": "Essayez d'ajuster vos filtres de recherche ou explorez une autre catégorie",
+    "prev": "Précédent",
+    "next": "Suivant",
+    "pageInfo": "Page {{current}} sur {{total}}",
+    "articleContent": "Contenu de l'article",
+    "references": "Références",
+    "relatedArticles": "Articles connexes",
+    "readMore": "Lire la suite",
+    "by": "par",
+    "unknown": "Inconnu",
+    "unknownAuthor": "Auteur inconnu",
+  
+    "home": "Accueil",
+    "shop": "Boutique",
+    "veterinarians": "Vétérinaires",
+    "reservations": "Réservations",
+    "healthGuide": "Guide santé",
+    "about": "À propos",
+    "contact": "Contact",
+    "login": "Connexion",
+    "signUp": "S'inscrire",
+    "yourProfile": "Votre profil",
+    "signOut": "Déconnexion",
+    "openMenu": "Ouvrir le menu principal",
+    "openUserMenu": "Ouvrir le menu utilisateur",
+    "userProfile": "Profil utilisateur",
+    "shoppingCart": "Panier",
+    "emptyCart": "Votre panier est vide",
+    "startShopping": "Commencez à ajouter des articles à votre panier",
+    "continueShopping": "Continuer vos achats",
+    "jd": "JD",
+    "subtotal": "Sous-total",
+    "shippingCalc": "Frais de livraison et taxes calculés à la caisse.",
+    "checkout": "Paiement",
+    "clearCart": "Vider le panier",
+    "remove": "Supprimer",
+    "logoutSuccess": "Déconnexion réussie",
+    "logoutFailed": "Échec de la déconnexion",
+    "fetchUserError": "Échec de la récupération des données utilisateur",
+  
+    "slide1Title": "Solutions complètes pour volailles",
+    "slide1Description": "Vaccins, équipements et expertise pour un élevage optimal de volailles",
+    "slide2Title": "De la ferme au futur",
+    "slide2Description": "Solutions modernes pour les défis agricoles traditionnels",
+    "slide3Title": "Solutions agricoles de qualité",
+    "slide3Description": "Fournir aux agriculteurs les meilleurs produits pour une croissance durable",
+    "viewSolutions": "Voir les solutions",
+    "exploreProducts": "Explorer les produits",
+    "shopNow": "Acheter maintenant",
+    "goToSlide": "Aller à la diapositive {{number}}",
+    "browserNotSupportVideo": "Votre navigateur ne prend pas en charge la balise vidéo.",
+  
+    "vaccine": "Vaccin",
+    "vitamins": "Vitamines",
+    "disinfectants": "Désinfectants",
+    "fertilizers": "Engrais",
+    "seeds": "Semences",
+    "equipment": "Équipement",
+    "Live Vaccine": "Vaccin vivant",
+    "Vitamins": "Vitamines",
+    "Disinfectants": "Désinfectants",
+    "Fertilizer": "Engrais",
+    "Seeds": "Semences",
+    "Equipment": "Équipement",
+  
+    "dir": "ltr",
+    "homepage": {
+      "categories": {
+        "title": "Nos catégories de produits",
+        "description": "Découvrez notre large gamme de produits agricoles et d'élevage de haute qualité."
+      },
+      "featured": {
+        "tag": "En vedette",
+        "title": "Produits premium de thym"
+      },
+      "poultry": {
+        "tag": "Élevage",
+        "title": "Solutions pour l'élevage de volailles"
+      },
+      "calendar": {
+        "tag": "Guide saisonnier",
+        "title": "Calendrier agricole",
+        "description": "Planifiez vos activités agricoles selon les saisons",
+        "spring_items": [
+          "Plantation de légumes",
+          "Taille des arbres fruitiers",
+          "Préparation du sol pour les cultures d'été"
+        ],
+        "summer_items": [
+          "Gestion de l'irrigation",
+          "Récolte des cultures précoces",
+          "Lutte contre les parasites"
+        ],
+        "fall_items": [
+          "Plantation des cultures d'hiver",
+          "Récolte des fruits d'été",
+          "Préparation du sol"
+        ],
+        "winter_items": [
+          "Entretien des serres",
+          "Soins aux animaux",
+          "Réparation des équipements"
+        ]
+      },
+      "services": {
+        "title": "Nos services",
+        "description": "Solutions complètes pour tous vos besoins agricoles",
+        "shop": {
+          "title": "Boutique en ligne",
+          "description": "Achetez des semences, des outils et des fournitures agricoles de haute qualité"
+        },
+        "health": {
+          "title": "Guides santé",
+          "description": "Conseils d'experts pour maintenir la santé des animaux et des cultures"
+        },
+        "vet": {
+          "title": "Vétérinaires",
+          "description": "Connectez-vous avec des professionnels certifiés de la santé animale"
+        }
+      },
+      "cta": {
+        "title": "Prêt à grandir avec nous ?",
+        "description": "Rejoignez des milliers d'agriculteurs qui font confiance à nos produits et services",
+        "vet_button": "Trouver un vétérinaire",
+        "products_button": "Parcourir les produits"
+      }
+    },
+    "seasons": {
+      "spring": "Printemps",
+      "summer": "Été",
+      "fall": "Automne",
+      "winter": "Hiver"
+    },
+  
+    "homepagee": {
+      "featured": {
+        "thyme_image_alt": "Culture de thym biologique premium",
+        "organic_badge": "100% Biologique",
+        "grown_naturally": "Cultivé naturellement",
+        "section_title": "Notre culture premium",
+        "description_paragraph1": "Découvrez la bonté et la créativité de la nature avec notre récolte de thym local authentique soigneusement cultivé dans un environnement naturel idéal. Notre thym se distingue par son arôme parfumé et sa saveur prononcée qui ajoute une touche exceptionnelle à vos recettes.",
+        "description_paragraph2": "Il est cultivé en utilisant des méthodes agricoles durables qui garantissent une haute qualité et une pureté totale, ce qui en fait le choix parfait pour la cuisine, les infusions ou les usages médicinaux traditionnels.",
+        "benefits": {
+          "organic": {
+            "title": "100% Biologique",
+            "description": "Sans produits chimiques ni pesticides"
+          },
+          "flavor": {
+            "title": "Saveur riche",
+            "description": "Aromatique et puissant"
+          },
+          "health": {
+            "title": "Bienfaits pour la santé",
+            "description": "Riche en huiles essentielles"
+          },
+          "sustainable": {
+            "title": "Durable",
+            "description": "Agriculture écologique"
+          }
+        },
+        "cta_button": "Explorer nos produits biologiques"
+      }
+    },
+  
+    "homepageChicken": {
+      "poultry": {
+        "main_image_alt": "Opération d'élevage de poulets de chair",
+        "main_title": "Solutions premium pour poulets de chair",
+        "main_subtitle": "Soins complets du premier jour jusqu'à la commercialisation",
+        "excellence_tag": "Excellence avicole",
+        "description": "Nous vous offrons les meilleures solutions d'élevage de poulets de chair qui vous garantissent une productivité élevée et une qualité inégalée ! Nous prenons soin de chaque détail pour assurer la santé des volailles et leur croissance rapide.",
+        "why_choose_title": "Pourquoi choisir nos services ?",
+        "benefits": {
+          "integrated_care": {
+            "title": "Soins intégrés",
+            "description": "Alimentation équilibrée et programmes de vaccination complets"
+          },
+          "vitamins": {
+            "title": "Vitamines avancées",
+            "description": "Produits enrichis garantissant une croissance rapide et d'excellentes performances"
+          },
+          "productivity": {
+            "title": "Haute productivité",
+            "description": "Des soins optimaux conduisent à une meilleure qualité de viande et un gain de poids"
+          },
+          "environment": {
+            "title": "Environnement sain",
+            "description": "Conditions d'élevage propres et bien entretenues"
+          }
+        },
+        "cta_button": "Explorer les solutions avicoles",
+        "gallery": {
+          "chicks_alt": "Poussins d'un jour",
+          "bedding_alt": "Litière de qualité en copeaux de bois",
+          "broilers_alt": "Poulets de chair en bonne santé"
+        },
+        "stats_title": "Notre succès avicole",
+        "stats_subtitle": "Résultats réels de notre approche intégrée",
+        "stats": {
+          "survival_rate": "Taux de survie",
+          "growth_rate": "Croissance plus rapide",
+          "avg_weight": "Poids moyen",
+          "farmers": "Agriculteurs satisfaits"
+        }
+      }
+    },
+  
+    "footer": {
+      "brandName": "FarmFusion",
+      "brandDescription": "Grandir ensemble pour un avenir plus vert. Nous fournissons des produits agricoles et des services vétérinaires de qualité pour aider votre ferme et vos animaux à prospérer.",
+      "home": "Accueil",
+      "shop": "Boutique",
+      "contact": "Contact",
+      "about": "À propos",
+      "createAccount": "Créer un compte",
+      "terms": "Conditions générales",
+      "privacy": "Politique de confidentialité",
+      "faq": "FAQ",
+      "quickLinksTitle": "Liens rapides",
+      "usefulLinksTitle": "Liens utiles",
+      "newsletterTitle": "Abonnez-vous à notre newsletter",
+      "emailPlaceholder": "Votre adresse email",
+      "subscribe": "S'abonner",
+      "thankYouSubscribe": "Merci pour votre abonnement !",
+      "connectWithUs": "Connectez-vous avec nous",
+      "followUs": "Suivez-nous sur",
+      "address": "123 Farm Road, Greenville, AG 54321",
+      "phone": "+1 (555) 123-4567",
+      "copyright": "Équipe FarmFusion. Tous droits réservés."
+    },
+  
+    "partners": {
+      "trustedBy": "Recommandé par",
+      "title": "Nos partenaires et fournisseurs",
+      "nabil": "Nabil",
+      "tamam": "Tamam",
+      "alEzz": "Al-Ezz",
+      "alJazeera": "Al-Jazeera",
+      "siniora": "Siniora",
+      "alWataniya": "Al-Wataniya"
+    },
+  
+    "wishlist": {
+      "title": "Ma liste de souhaits",
+      "items": "articles",
+      "emptyTitle": "Votre liste de souhaits est vide",
+      "emptyMessage": "Explorez notre collection et enregistrez vos articles préférés pour les voir plus tard",
+      "continueShopping": "Continuer vos achats"
+    },
+  
+    "profile": {
+      "fetchError": "Échec de la récupération des données utilisateur",
+      "bookingsError": "Échec de la récupération des réservations",
+      "updateSuccess": "Informations mises à jour avec succès",
+      "updateError": "Échec de la mise à jour des informations",
+      "logoutError": "Échec de la déconnexion",
+      "loading": "Chargement du profil agricole...",
+      "signOut": "Déconnexion",
+      "personalInfo": "Informations personnelles",
+      "cancel": "Annuler",
+      "edit": "Modifier",
+      "name": "Nom",
+      "email": "Email",
+      "profilePicture": "Photo de profil",
+      "saveChanges": "Enregistrer les modifications",
+      "role": "Rôle",
+      "creationDate": "Date de création",
+      "vetBookings": "Réservations vétérinaires",
+      "noBookings": "Aucune réservation vétérinaire pour le moment",
+      "vetConsultation": "Consultation vétérinaire",
+      "emergency": "Urgence",
+      "routine": "Routine",
+      "veterinarian": "Vétérinaire",
+      "date": "Date",
+      "reasonForVisit": "Motif de la visite",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "page": "Page",
+      "of": "sur"
+    },
+  
+    "shopTitle": "Nos produits",
+    "searchPlaceholder": "Rechercher des produits...",
+    "categories": "Catégories",
+    "allProducts": "Tous les produits",
+    "resetFilters": "Réinitialiser les filtres",
+    "addToCart": "Ajouter au panier",
+    "viewDetails": "Voir les détails",
+    "currency": "JD",
+    "loadingProducts": "Chargement des produits...",
+    "noItemsFound": "Aucun article trouvé",
+    "noItemsMatch": "Aucun article ne correspond à vos filtres.",
+    "noItemsAvailable": "Aucun produit disponible pour le moment.",
+    "showingResults": "Affichage de {{start}} à {{end}} sur {{total}} produits",
+    "cart": "Panier",
+    "shoppingCart": "Panier",
+    "cartEmpty": "Votre panier est vide",
+    "startAddingItems": "Commencez à ajouter des articles à votre panier",
+    "continueShopping": "Continuer vos achats",
+    "remove": "Supprimer",
+    "subtotal": "Sous-total",
+    "shippingCalculated": "Frais de livraison et taxes calculés à la caisse.",
+    "checkout": "Paiement",
+    "clearCart": "Vider le panier",
+  
+    "addNewProduct": "Ajouter un nouveau produit",
+    "productName": "Nom du produit",
+    "category": "Catégorie",
+    "description": "Description",
+    "details": "Détails",
+    "price": "Prix",
+    "currency": "JD",
+    "productImage": "Image du produit",
+    "english": "Anglais",
+    "arabic": "Arabe",
+    "addProduct": "Ajouter le produit",
+    "confirmProductAddition": "Confirmer l'ajout du produit",
+    "confirmAddProductMessage": "Êtes-vous sûr de vouloir ajouter ce produit ?",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "submitting": "Envoi en cours",
+    "productAddedSuccess": "Produit ajouté avec succès !",
+    "errorAddingProduct": "Erreur lors de l'ajout du produit : ",
+  
+    "productDetails": {
+      "checkOut": "Découvrez ce produit :",
+      "errorLoading": "Erreur de chargement du produit",
+      "goBack": "Retour",
+      "notFound": "Produit non trouvé !",
+      "back": "Retour aux produits",
+      "shareFacebook": "Partager sur Facebook",
+      "shareWhatsApp": "Partager sur WhatsApp",
+      "shareInstagram": "Partager sur Instagram",
+      "currency": "JD",
+      "category": "Catégorie",
+      "availability": "Disponibilité",
+      "inStock": "En stock",
+      "addToCart": "Ajouter au panier",
+      "description": "Description",
+      "details": "Détails",
+      "reviews": "Avis",
+      "noDetails": "Aucune spécification détaillée disponible pour ce produit.",
+      "customerReviews": "Avis clients",
+      "noReviews": "Aucun avis pour le moment.",
+      "writeReview": "Écrire un avis",
+      "loginToReview": "Veuillez vous",
+      "login": "connecter",
+      "relatedProducts": "Produits similaires",
+      "viewAll": "Voir tout",
+      "viewDetails": "Voir les détails",
+      "yourCart": "Votre panier",
+      "cartEmpty": "Votre panier est vide",
+      "continueShopping": "Continuer vos achats",
+      "remove": "Supprimer",
+      "subtotal": "Sous-total",
+      "proceedToCheckout": "Passer à la caisse"
+    },
+  
+    "checkoutt": {
+      "secure_checkoutt": "Paiement sécurisé",
+      "customer_info": "Informations client",
+      "full_name": "Nom complet",
+      "enter_full_name": "Entrez votre nom complet",
+      "phone_number": "Numéro de téléphone",
+      "enter_phone": "Entrez votre numéro de téléphone",
+      "location": "Localisation",
+      "enter_location": "Entrez votre localisation",
+      "postal_code": "Code postal",
+      "enter_postal": "Entrez votre code postal",
+      "shipping_address": "Adresse de livraison",
+      "enter_shipping": "Entrez votre adresse de livraison complète",
+      "payment_method": "Méthode de paiement",
+      "visa_card": "Carte Visa",
+      "click_payment": "Paiement par clic",
+      "card_number": "Numéro de carte",
+      "expiry_date": "Date d'expiration",
+      "cvv": "CVV",
+      "paypal_email": "Email PayPal",
+      "click_redirect": "Vous serez redirigé vers Click Payment pour finaliser votre achat après confirmation de votre commande.",
+      "order_summary": "Récapitulatif de commande",
+      "empty_cart": "Votre panier est vide",
+      "qty": "Qté",
+      "total": "Total",
+      "subtotal": "Sous-total",
+      "complete_purchase": "Finaliser l'achat sécurisé",
+      "error": "Erreur",
+      "fill_all_details": "Veuillez remplir tous les détails.",
+      "invalid_phone": "Téléphone invalide",
+      "valid_phone_message": "Veuillez entrer un numéro de téléphone valide à 10 chiffres.",
+      "invalid_postal": "Code postal invalide",
+      "valid_postal_message": "Veuillez entrer un code postal valide à 5 chiffres.",
+      "fill_card_details": "Veuillez remplir tous les détails de la carte.",
+      "paypal_email": "Veuillez entrer votre email PayPal.",
+      "order_confirmed": "Commande confirmée",
+      "thank_you": "Merci pour votre achat !",
+      "payment_failed": "Paiement échoué",
+      "payment_error": "Un problème est survenu lors du traitement de votre paiement. Veuillez réessayer.",
+      "success_title": "Votre achat a réussi !",
+      "success_message": "Merci de soutenir l'agriculture locale. Votre commande est en cours de traitement."
+    },
+  
+    "loginn": {
+      "app_name": "Hub agricole",
+      "welcome_message": "Bienvenue sur votre plateforme de gestion agricole",
+      "email_placeholder": "Adresse email",
+      "password_placeholder": "Mot de passe",
+      "remember_me": "Se souvenir de moi",
+      "forgot_password": "Mot de passe oublié ?",
+      "sign_in": "Se connecter",
+      "logging_in": "Connexion en cours...",
+      "or_continue_with": "Ou continuer avec",
+      "no_account": "Pas de compte ?",
+      "sign_up": "S'inscrire",
+      "login_failed": "Échec de la connexion",
+      "google_login_failed": "Échec de la connexion Google"
+    }
+
+,
+
+    
+      "reservationss": {
+        "title": "Rendez-vous Vétérinaires",
+        "subtitle": "Gérer les rendez-vous de soins pour animaux et les plannings de traitement",
+        "loading": "Chargement des rendez-vous...",
+        "fetchError": "Échec du chargement des données. Veuillez réessayer.",
+        "doctorFetchError": "Échec du chargement des rendez-vous du vétérinaire.",
+        "noDoctors": "Aucun vétérinaire avec des rendez-vous trouvé.",
+        "retry": "Réessayer",
+        "refresh": "Actualiser",
+        "selectVet": "Sélectionner un vétérinaire",
+        "drPrefix": "Dr.",
+        "noAppointments": "Aucun rendez-vous trouvé pour {{doctor}} avec le filtre sélectionné.",
+        "department": "Département",
+        "customerPhone": "Téléphone du client",
+        "reason": "Raison de la visite",
+        "bookingId": "ID de réservation",
+        "approve": "Approuver",
+        "reject": "Rejeter",
+        "markCompleted": "Marquer comme terminé",
+        "markCompletedSuccess": "Rendez-vous marqué comme terminé !",
+        "markCompletedError": "Échec du marquage du rendez-vous comme terminé.",
+        "approveSuccess": "Rendez-vous approuvé avec succès !",
+        "approveError": "Échec de l'approbation du rendez-vous.",
+        "rejectSuccess": "Rendez-vous rejeté avec succès !",
+        "rejectError": "Échec du rejet du rendez-vous.",
+        "appointmentWith": "Rendez-vous avec {{doctor}}",
+        "tabs": {
+          "pending": "En attente",
+          "completed": "Terminé",
+          "all": "Tous les rendez-vous"
+        },
+        "status": {
+          "completed": "Terminé",
+          "approved": "Approuvé",
+          "rejected": "Rejeté",
+          "emergency": "Urgence",
+          "pending": "En attente"
+        }
+      }
+    
+
+
+,
+
+
+"PlantDiseaseDetector":" Détecteur de Maladies des Plantes",
+  "title": "Détecteur de Maladies des Plantes",
+  "description": "Téléchargez une image de plante pour détecter les maladies et obtenir des recommandations de traitement instantanées grâce à l'IA.",
+  "uploadSection": {
+    "selectImage": "Sélectionner une image de plante",
+    "instructions": "Glisser-déposer ou cliquer pour parcourir",
+    "formats": "JPG, PNG, WebP",
+    "maxSize": "Max 10MB",
+    "ready": "Prêt pour l'analyse"
+  },
+  "buttons": {
+    "analyze": "Commencer l'Analyse",
+    "analyzing": "Analyse en cours..."
+  },
+  "results": {
+    "placeholder": "Téléchargez une image pour voir les résultats d'analyse",
+    "analyzing": "L'IA analyse votre plante...",
+    "errorTitle": "Erreur d'Analyse",
+    "diseaseDetection": "Détection de Maladie",
+    "unknownCondition": "Condition inconnue",
+    "treatment": "Recommandation de Traitement",
+    "noTreatment": "Aucune recommandation de traitement spécifique disponible."
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }

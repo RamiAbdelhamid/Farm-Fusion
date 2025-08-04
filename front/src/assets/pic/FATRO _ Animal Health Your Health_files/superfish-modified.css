@@ -1,0 +1,450 @@
+/* $gray-lighter:        lighten($gray-base, 93.5%) !default; // #eee */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/* nopadding */
+/*  
+ * LAYOUT VARIABLES 
+ */
+/** CHECKOUT BY STEP */
+/* --- SCSS For Accordion --- */
+/* --- SCSS For Breadcrumb --- */
+/* --- SCSS For Buttons --- */
+/* --- SCSS For Call-to-action --- */
+/* --- SCSS For Content-slider --- */
+/*  */
+/* carousel-controls-v1 */
+/* carousel-controls-v2 */
+/* carousel-controls-v3 */
+/* Navigation Styles */
+/* carousel-indicators-v1 */
+/* carousel-indicators-v2 */
+/* carousel-indicators-v3 */
+/* carousel-indicators-v4 */
+/* carousel-indicators-v5 */
+/* carousel-indicators-v6 */
+/* --- SCSS For Counters --- */
+/* --- SCSS For Heading --- */
+/* --- SCSS For Icon-box --- */
+/* --- SCSS For Interactive-banner --- */
+/* --- SCSS For Latest-posts --- */
+/* latest posts */
+/* --- SCSS For List --- */
+/* variables for list */
+/* variables for list light */
+/* --- SCSS For Message --- */
+/* --- SCSS For Newsletter --- */
+/* --- SCSS For Piechart --- */
+/* --- SCSS For Pricing --- */
+/* --- SCSS For Process-steps --- */
+/* process-steps */
+/* --- SCSS For Service --- */
+/* variables for tab style1 using as base of tab */
+/* --- SCSS For Style-icon --- */
+/* Variables icons default */
+/* Variables icons bodered */
+/* Variables icons darker */
+/* Variables icons light */
+/* Variables icons plain */
+/* Variables icons outline */
+/* Variables icons inverse */
+/* Variables icons for light style */
+/* --- SCSS For Table --- */
+/* --- SCSS For Tabs --- */
+/* variables for tab style1 using as base of tab */
+/* tab style version 4 */
+/* tab style version 5 */
+/* tab style version 6 */
+/* --- SCSS For Testimonials --- */
+/* testimonials default */
+/* testimonials-v1 */
+/* testimonials light */
+/* testimonials-v4 */
+/* testimonials-v5 */
+/* testimonials-v6 */
+/* --- SCSS For Typography --- */
+/*** ESSENTIAL STYLES ***/
+/* line 4, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-contener {
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+/* line 11, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu,
+.sf-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 16, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  background-color: transparent;
+}
+@media (max-width: 767px) {
+  /* line 16, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu {
+    display: none;
+  }
+}
+
+/* line 25, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu ul {
+  position: absolute;
+  top: -999em;
+  background-color: white;
+}
+@media (max-width: 767px) {
+  /* line 25, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu ul {
+    position: relative;
+  }
+}
+
+/* line 33, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu ul li {
+  width: 100%;
+}
+
+/* line 36, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li:hover {
+  visibility: inherit;
+  /* fixes IE7 'sticky bug' */
+}
+
+/* line 39, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li {
+  float: left;
+  margin-right: 1px;
+}
+/* line 19, ../../../../sass/mixins/_app.scss */
+.rtl .sf-menu > li {
+  margin-left: 1px;
+  margin-right: inherit;
+}
+@media (max-width: 767px) {
+  /* line 39, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li {
+    float: none;
+    position: relative;
+    border-right: none;
+  }
+  /* line 46, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li span {
+    position: absolute;
+    right: 6px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    z-index: 2;
+  }
+  /* line 53, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li span:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    font-size: 26px;
+  }
+  /* line 59, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li span.active:after {
+    content: "\f068";
+  }
+}
+/* line 65, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > a {
+  display: block;
+  margin: 0 20px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #444444;
+  background-color: transparent!important;
+  font-weight: 400;
+  text-decoration: none;
+  -webkit-transition: all 350ms ease-out;
+  -o-transition: all 350ms ease-out;
+  transition: all 350ms ease-out;
+}
+/* line 76, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > a:hover, .sf-menu > li > a:focus, .sf-menu > li > a:active {
+  color: #444444 !important;
+}
+/* line 79, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > a:after {
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  line-height: 0;
+  position: absolute;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 0px solid white;
+  width: 0px;
+  height: 0px;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+  -webkit-transition: border 300ms ease-out 0s;
+  -o-transition: border 300ms ease-out 0s;
+  transition: border 300ms ease-out 0s;
+}
+
+/* line 102, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li li li a {
+  display: inline-block;
+  position: relative;
+  color: #777777;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+/* line 110, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li li li a:before {
+  content: "\f105";
+  display: inline-block;
+  font-family: "FontAwesome";
+  padding-right: 10px;
+}
+/* line 116, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li li li a:hover {
+  color: #555555;
+}
+
+/* line 120, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li ul {
+  display: none;
+  left: 0;
+  top: 59px;
+  /* match top ul list item height */
+  z-index: 99;
+  color: #444444;
+  border: 0;
+  min-width: 185px;
+  padding: 20px;
+  background-color: white;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+  -webkit-transition: opacity 0.3s linear 0s;
+  -o-transition: opacity 0.3s linear 0s;
+  transition: opacity 0.3s linear 0s;
+}
+
+/* line 134, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li li ul {
+  position: static;
+  display: block !important;
+  opacity: 1 !important;
+  background: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+}
+
+/* line 141, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li li li ul {
+  padding: 0 0 0 20px;
+}
+
+/* line 144, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li li li ul {
+  width: 220px;
+}
+
+/* line 148, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+  top: -999em;
+}
+
+/* line 152, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+  left: 200px;
+  /* match ul width */
+  top: 0;
+}
+
+/* line 157, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+  top: -999em;
+}
+
+/* line 161, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+  left: 200px;
+  /* match ul width */
+  top: 0;
+}
+
+/* line 165, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > ul {
+  padding: 26px 30px 31px;
+  width: 100%;
+}
+/* line 169, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > ul > li > a {
+  font: 600 16px/20px "Hind", sans-serif;
+  color: #555555;
+}
+/* line 173, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > ul > li > a:hover {
+  color: #656565;
+}
+
+/* line 179, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > ul > li {
+  float: left;
+  width: 20%;
+  padding-right: 15px;
+}
+@media (max-width: 767px) {
+  /* line 179, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li > ul > li {
+    width: 50%;
+  }
+}
+@media (max-width: 479px) {
+  /* line 179, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li > ul > li {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  /* line 190, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li > ul > li.first-in-line-lg {
+    clear: left;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* line 195, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li > ul > li.first-in-line-xs {
+    clear: left;
+  }
+}
+
+/* line 200, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > ul > li#category-thumbnail {
+  width: 100% !important;
+  float: none;
+  clear: both;
+  overflow: hidden;
+  padding-right: 0;
+}
+/* line 206, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > ul > li#category-thumbnail > div {
+  float: left;
+  padding-left: 10px;
+  width: 33.333%;
+}
+@media (max-width: 479px) {
+  /* line 206, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .sf-menu > li > ul > li#category-thumbnail > div {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
+}
+/* line 216, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > ul > li#category-thumbnail > div:first-child {
+  padding-left: 0;
+}
+/* line 219, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu > li > ul > li#category-thumbnail > div img {
+  max-width: 100%;
+  display: block;
+}
+
+/* line 225, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.cat-title {
+  display: none;
+}
+@media (max-width: 767px) {
+  /* line 225, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .cat-title {
+    display: block;
+    font: 600 18px/22px "Hind", sans-serif;
+    text-transform: uppercase;
+    color: #484848;
+    display: block;
+    padding: 17px 20px;
+    border-bottom: 3px solid #e9e9e9;
+    background: #f6f6f6;
+    position: relative;
+  }
+  /* line 237, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .cat-title:hover {
+    background: black;
+    border-bottom-color: #666666;
+    color: black;
+  }
+  /* line 242, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .cat-title:after {
+    display: block;
+    font-family: "FontAwesome";
+    content: "\f067";
+    position: absolute;
+    right: 15px;
+    top: 18px;
+    font-size: 26px;
+  }
+  /* line 251, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+  .cat-title.active:after {
+    content: "\f068";
+  }
+}
+
+/* line 258, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li.sf-search {
+  border: none;
+}
+/* line 260, ../../../../sass/modules/blocktopmenu/css/superfish-modified.scss */
+.sf-menu li.sf-search input {
+  display: inline;
+  padding: 0 13px;
+  height: 30px;
+  line-height: 30px;
+  background: white;
+  margin: 13px 10px 0 0;
+  font-size: 13px;
+  color: #555555;
+  border: 1px solid #e5e5e5;
+}

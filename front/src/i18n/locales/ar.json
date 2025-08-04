@@ -1,0 +1,729 @@
+{
+  "aboutTitle": "عن شركتنا",
+  "whoWeAre": "من نحن",
+  "description": "مرحبًا بكم في فارم فيوجن، وجهتكم المثالية في عالم الزراعة والإنتاج الحيواني.",
+  "ourServices": "خدماتنا",
+  "agriculture": "الإنتاج الزراعي",
+  "animal": "الإنتاج الحيواني",
+  "equipment": "معدات زراعية",
+  "consulting": "الدعم والاستشارات",
+  "ourVision": "رؤيتنا",
+  "global": "الانتشار العالمي والتوسع",
+  "leadership": "الريادة الصناعية",
+  "innovation": "الابتكار المستدام",
+  "happyClients": "عملاء سعداء",
+  "products": "المنتجات",
+  "bookings": "الحجوزات",
+  "vets": "الأطباء البيطريون"
+,
+  "contactTitle": "تواصل معنا",
+  "contactSubtitle": "هل لديك أسئلة حول رعاية الماشية أو إدارة المحاصيل أو الحلول الزراعية؟ فريق خبرائنا هنا لمساعدتك على النجاح.",
+  "contactFormTitle": "نموذج الاتصال",
+  "firstNameLabel": "الاسم الأول",
+  "lastNameLabel": "الاسم الأخير",
+  "emailLabel": "البريد الإلكتروني",
+  "subjectLabel": "الموضوع",
+  "selectTopic": "اختر موضوعًا",
+  "livestockOption": "رعاية الماشية",
+  "cropOption": "إدارة المحاصيل",
+  "equipmentOption": "المعدات الزراعية",
+  "pricingOption": "الأسعار والخدمات",
+  "otherOption": "أخرى",
+  "messageLabel": "الرسالة",
+  "messagePlaceholder": "أخبرنا كيف يمكننا مساعدتك في احتياجاتك الزراعية أو رعاية الحيوانات...",
+  "sendButton": "إرسال الرسالة",
+  "whatsappButton": "واتساب",
+  "sending": "جاري الإرسال...",
+  "contactInfoTitle": "معلومات الاتصال",
+  "locationTitle": "موقعنا",
+  "locationAddress": "الأردن، الزرقاء",
+  "phoneTitle": "الهاتف",
+  "phoneNumber": "(+962) 785956180",
+  "emailTitle": "البريد الإلكتروني",
+  "emailAddress": "info@farmfusion.com",
+  "businessHoursTitle": "ساعات العمل",
+  "weekdaysLabel": "من الاثنين إلى الجمعة",
+  "weekdaysHours": "8:00 صباحًا - 5:00 مساءً",
+  "saturdayLabel": "السبت",
+  "saturdayHours": "9:00 صباحًا - 2:00 ظهرًا",
+  "sundayLabel": "الأحد",
+  "sundayHours": "مغلق",
+  "servicesTitle": "خدماتنا",
+  "service1": "صحة وإدارة الماشية",
+  "service2": "تخطيط وتناوب المحاصيل",
+  "service3": "ممارسات الزراعة المستدامة",
+  "service4": "بيع واستئجار المعدات",
+  "service5": "استشارات زراعية",
+  "findUsTitle": "ابحث عنا",
+  "mapTitle": "موقعنا",
+  "chatTitle": "مساعد المزرعة",
+  "chatPlaceholder": "اسأل عن خدماتنا...",
+  "chatWelcomeMessage": "مرحبًا! كيف يمكنني مساعدتك في أسئلتك حول الحيوانات أو الزراعة اليوم؟",
+  "defaultBotResponse": "سأطلب من أحد أعضاء فريقنا الرد عليك في هذا السؤال.",
+  "livestockBotResponse": "يمكن لأخصائيي الماشية المساعدة في أسئلة صحة الحيوانات والتكاثر والإدارة. هل تريد أن أوصلك بأخصائي؟",
+  "cropBotResponse": "يمكن لخبراء المحاصيل تقديم إرشادات حول الزراعة والتسميد وإدارة الآفات والحصاد. هل تحتاج إلى معلومات محددة عن المحاصيل؟",
+  "hoursBotResponse": "مكتبنا مفتوح من الاثنين إلى الجمعة من 8 صباحًا إلى 5 مساءً، والسبت من 9 صباحًا إلى 2 ظهرًا. نحن مغلقون أيام الأحد.",
+  "pricingBotResponse": "تختلف الأسعار حسب الخدمة. للحصول على عرض أسعار مفصل، يرجى ملء نموذج الاتصال أو الاتصال بنا مباشرة على (555) 123-4567.",
+  "locationBotResponse": "نحن موجودون في 123 Farm Road, Rural County, State 12345. يمكنك عرض موقعنا على الخريطة أسفل نموذج الاتصال.",
+  "thankYou": "شكرًا لك!",
+  "contactSuccessMessage": "تم إرسال رسالتك بنجاح. سنرد عليك قريبًا!",
+  "great": "عظيم!",
+  "loginRequired": "يرجى تسجيل الدخول أولاً",
+  "loginPrompt": "يجب عليك تسجيل الدخول قبل إرسال رسالة.",
+  "login": "تسجيل الدخول",
+  "contactErrorMessage": "فشل إرسال الرسالة. يرجى المحاولة مرة أخرى.",
+  "whatsappTitle": "تواصل عبر واتساب!",
+  "whatsappPrompt": "هل ترغب في الدردشة معنا على واتساب؟",
+  "openWhatsApp": "نعم، افتح واتساب",
+  "notNow": "ليس الآن"
+,
+  
+  "alerts": {
+    "success": "نجاح!",
+    "error": "خطأ!",
+    "warning": "تحذير!"
+  },
+  "vetBooking": {
+    "title": "خدمات الطبيب البيطري للمزارع",
+    "subtitle": "رعاية بيطرية متخصصة لحيوانات المزرعة",
+    "programName": "برنامج الدعم الزراعي الريفي",
+    "step1": "اختر القسم",
+    "step2": "اختر الطبيب البيطري",
+    "step3": "تفاصيل الموعد",
+    "emergencyCase": "حالة طارئة",
+    "emergencyNote": "الحالات الطارئة تحصل على أولوية في الجدولة",
+    "selectVet": "اختر طبيب بيطري",
+    "selectVetPlaceholder": "اختر طبيب بيطري",
+    "drPrefix": "د.",
+    "yearsExperience": "سنوات خبرة",
+    "specializations": "التخصصات",
+    "nextAvailable": "أقرب موعد متاح",
+    "selectDepartmentFirst": "الرجاء اختيار القسم أولاً",
+    "reservedDates": "المواعيد المحجوزة",
+    "noReservedDates": "لا توجد مواعيد محجوزة لهذا الطبيب",
+    "selectDate": "اختر التاريخ",
+    "phoneNumber": "رقم هاتفك",
+    "phonePlaceholder": "أدخل رقم هاتفك",
+    "phoneFormat": "التنسيق: +1234567890 أو 0123456789",
+    "reasonForVisit": "سبب الزيارة",
+    "reasonPlaceholder": "الرجاء وصف المشكلة أو سبب الزيارة...",
+    "bookAppointment": "حجز موعد",
+    "bookingSummary": "أنت تحجز مع د. {vetName} لقسم {departmentName}",
+    "namear": "اسم الطبيب",
+    "footer": "خدمات الطبيب البيطري للمزارع - تقديم رعاية عالية الجودة لحيوانات المزرعة منذ 2010",
+    "alerts": {
+      "loginRequired": "الرجاء تسجيل الدخول للوصول إلى الخدمات البيطرية",
+      "departmentsError": "فشل تحميل الأقسام. الرجاء المحاولة لاحقاً.",
+      "loginVets": "الرجاء تسجيل الدخول لعرض الأطباء البيطريين المتاحين",
+      "vetsError": "فشل تحميل الأطباء البيطريين. الرجاء المحاولة لاحقاً.",
+      "loginDates": "الرجاء تسجيل الدخول لعرض المواعيد المتاحة",
+      "datesError": "فشل تحميل المواعيد المحجوزة. الرجاء المحاولة لاحقاً.",
+      "fillAllFields": "الرجاء ملء جميع الحقول المطلوبة!",
+      "dateBooked": "هذا التاريخ محجوز مسبقاً للطبيب البيطري المحدد. الرجاء اختيار تاريخ آخر.",
+      "validPhone": "الرجاء إدخال رقم هاتف صحيح (10-15 رقم)",
+      "loginBook": "الرجاء تسجيل الدخول لحجز موعد",
+      "bookingError": "حدث خطأ أثناء حفظ الحجز. الرجاء المحاولة مرة أخرى.",
+      "networkError": "خطأ في الشبكة. الرجاء التحقق من الاتصال والمحاولة مرة أخرى.",
+      "bookingSuccess": "تم حجز موعدك بنجاح!"
+    },
+    "processing": "جاري المعالجة...",
+    "pleaseWait": "الرجاء الانتظار أثناء قيامنا بحجز موعدك"
+  }
+
+
+
+,
+
+
+
+  "agriculturalHealthPlatform": "منصة الصحة الزراعية",
+  "healthPlatformDescription": "مصدر شامل لمعلومات صحة الحيوانات والنباتات",
+  "searchPlaceholder": "ابحث عن المقالات حسب العنوان أو المحتوى أو الوسوم...",
+  "filters": "الفلاتر",
+  "advancedFilters": "فلاتر متقدمة",
+  "dateRange": "النطاق الزمني",
+  "allTime": "كل الوقت",
+  "pastWeek": "الأسبوع الماضي",
+  "pastMonth": "الشهر الماضي",
+  "pastYear": "السنة الماضية",
+  "sortBy": "ترتيب حسب",
+  "newestFirst": "الأحدث أولاً",
+  "oldestFirst": "الأقدم أولاً",
+  "aToZ": "أ-ي",
+  "zToA": "ي-أ",
+  "agriculturalHealthArticles": "مقالات الصحة الزراعية",
+  "showingArticles": "عرض {{count}} مقال",
+  "noArticlesFound": "لم يتم العثور على مقالات",
+  "adjustSearchFilters": "حاول تعديل فلاتر البحث أو استكشف فئة مختلفة",
+  "prev": "السابق",
+  "next": "التالي",
+  "pageInfo": "الصفحة {{current}} من {{total}}",
+  "articleContent": "محتويات المقال",
+  "references": "المراجع",
+  "relatedArticles": "مقالات ذات صلة",
+  "readMore": "اقرأ المزيد",
+  "by": "بواسطة",
+  "unknown": "غير معروف",
+  "unknownAuthor": "مؤلف غير معروف"
+
+
+,
+
+  "home": "الرئيسية",
+  "shop": "المتجر",
+  "veterinarians": "الأطباء البيطريين",
+  "reservations": "الحجوزات",
+  "healthGuide": "الدليل الصحي",
+  "about": "من نحن",
+  "contact": "اتصل بنا",
+  "login": "تسجيل الدخول",
+  "signUp": "إنشاء حساب",
+  "yourProfile": "ملفك الشخصي",
+  "signOut": "تسجيل الخروج",
+  "openMenu": "فتح القائمة الرئيسية",
+  "openUserMenu": "فتح قائمة المستخدم",
+  "userProfile": "صورة المستخدم",
+  "shoppingCart": "سلة التسوق",
+  "emptyCart": "سلة التسوق فارغة",
+  "startShopping": "ابدأ بإضافة بعض العناصر إلى سلة التسوق",
+  "continueShopping": "مواصلة التسوق",
+  "jd": "دينار",
+  "subtotal": "المجموع الفرعي",
+  "shippingCalc": "سيتم حساب الشحن والضرائب عند الدفع.",
+  "checkout": "الدفع",
+  "clearCart": "إفراغ السلة",
+  "remove": "إزالة",
+  "logoutSuccess": "تم تسجيل الخروج بنجاح",
+  "logoutFailed": "فشل تسجيل الخروج",
+  "fetchUserError": "فشل جلب بيانات المستخدم"
+
+,
+
+
+  "slide1Title": "حلول دواجن متكاملة",
+  "slide1Description": "لقاحات، معدات، وخبرة لتحقيق أفضل إنتاج دواجن",
+  "slide2Title": "من المزرعة إلى المستقبل",
+  "slide2Description": "حلول حديثة لتحديات الزراعة التقليدية",
+  "slide3Title": "حلول زراعية عالية الجودة",
+  "slide3Description": "نوفر للمزارعين أفضل المنتجات للنمو المستدام",
+  "viewSolutions": "عرض الحلول",
+  "exploreProducts": "استكشف المنتجات",
+  "shopNow": "تسوق الآن",
+  "goToSlide": "انتقل إلى الشريحة {{number}}",
+  "browserNotSupportVideo": "متصفحك لا يدعم تشغيل الفيديو"
+
+
+
+,
+
+
+  "Vaccine": "لقاح",
+  "vitamins": "فيتامينات",
+  "disinfectants": "مطهرات",
+  "fertilizers": "أسمدة",
+  "seeds": "بذور",
+  "equipment": "معدات",
+  "Live Vaccine": "لقاح حي",
+  "Vitamins": "فيتامينات",
+  "Disinfectant": "مطهرات",
+  "Fertilizer":"سماد",
+  "Seeds": "بذور",
+  "Equipment": "معدات"
+
+
+,
+  "dir": "rtl",
+  "homepage": {
+    "categories": {
+      "title": "فئات منتجاتنا",
+      "description": "استكشف مجموعة واسعة من المنتجات الزراعية والثروة الحيوانية عالية الجودة."
+    },
+    "featured": {
+      "tag": "مميز",
+      "title": "منتجات الزعتر الممتازة"
+    },
+    "poultry": {
+      "tag": "الثروة الحيوانية",
+      "title": "حلول تربية الدواجن"
+    },
+    "calendar": {
+      "tag": "دليل موسمي",
+      "title": "التقويم الزراعي",
+      "description": "خطط لأنشطتك الزراعية وفقًا للمواسم",
+      "spring_items": [
+        "زراعة الخضروات",
+        "تقليم أشجار الفاكهة",
+        "تحضير التربة لمحاصيل الصيف"
+      ],
+      "summer_items": [
+        "إدارة الري",
+        "حصاد المحاصيل المبكرة",
+        "مكافحة الآفات"
+      ],
+      "fall_items": [
+        "زراعة المحاصيل الشتوية",
+        "حصاد فواكه الصيف",
+        "تحضير التربة"
+      ],
+      "winter_items": [
+        "صيانة البيوت المحمية",
+        "رعاية الماشية",
+        "إصلاح المعدات"
+      ]
+    },
+    "services": {
+      "title": "خدماتنا",
+      "description": "حلول شاملة لجميع احتياجاتك الزراعية",
+      "shop": {
+        "title": "متجر إلكتروني",
+        "description": "شراء بذور عالية الجودة وأدوات ومستلزمات زراعية"
+      },
+      "health": {
+        "title": "إرشادات صحية",
+        "description": "نصائح الخبراء للحفاظ على صحة المحاصيل والثروة الحيوانية"
+      },
+      "vet": {
+        "title": "الأطباء البيطريون",
+        "description": "تواصل مع متخصصي صحة الحيوانات المعتمدين"
+      }
+    },
+    "cta": {
+      "title": "هل أنت مستعد للنمو معنا؟",
+      "description": "انضم إلى الآلاف من المزارعين الذين يثقون بمنتجاتنا وخدماتنا",
+      "vet_button": "ابحث عن طبيب بيطري",
+      "products_button": "تصفح المنتجات"
+    }
+  },
+  "seasons": {
+    "spring": "الربيع",
+    "summer": "الصيف",
+    "fall": "الخريف",
+    "winter": "الشتاء"
+  }
+
+
+
+,
+
+
+
+"homepagee": {
+  "featured": {
+    "thyme_image_alt": "محصول الزعتر العضوي الممتاز",
+    "organic_badge": "عضوي 100%",
+    "grown_naturally": "ينمو بشكل طبيعي",
+    "section_title": "محصولنا الممتاز",
+    "description_paragraph1": "اكتشف خيرات وإبداعات الطبيعة مع حصادنا من الزعتر المحلي الأصيل المزروع بعناية في بيئة طبيعية مثالية. يتميز زعترنا برائحته العطرة ونكهته القوية التي تضيف لمسة استثنائية إلى وصفاتك.",
+    "description_paragraph2": "يتم زراعته باستخدام أساليب زراعية مستدامة تضمن الجودة العالية والنقاء الكامل، مما يجعله الخيار الأمثل للطبخ، شاي الأعشاب، أو الاستخدامات الطبية التقليدية.",
+    "benefits": {
+      "organic": {
+        "title": "عضوي 100%",
+        "description": "بدون مواد كيميائية أو مبيدات"
+      },
+      "flavor": {
+        "title": "نكهة غنية",
+        "description": "عطري وقوي"
+      },
+      "health": {
+        "title": "فوائد صحية",
+        "description": "غني بالزيوت الأساسية"
+      },
+      "sustainable": {
+        "title": "مستدام",
+        "description": "زراعة صديقة للبيئة"
+      }
+    },
+    "cta_button": "استكشف منتجاتنا العضوية"
+  }
+}
+
+
+
+
+
+
+
+
+
+,
+
+"homepageChicken": {
+  "poultry": {
+    "main_image_alt": "عملية تربية دجاج التسمين",
+    "main_title": "حلول دجاج التسمين الممتازة",
+    "main_subtitle": "رعاية شاملة من اليوم الأول حتى وصول الطيور لمرحلة التسويق",
+    "excellence_tag": "تميز في الدواجن",
+    "description": "نقدم لكم أفضل حلول تربية دجاج التسمين التي تضمن لكم إنتاجية عالية وجودة لا مثيل لها! نحن نهتم بكل التفاصيل لضمان صحة الدواجن ونموها السريع.",
+    "why_choose_title": "لماذا تختار خدماتنا؟",
+    "benefits": {
+      "integrated_care": {
+        "title": "رعاية متكاملة",
+        "description": "تغذية متوازنة وبرامج تحصين شاملة"
+      },
+      "vitamins": {
+        "title": "فيتامينات متطورة",
+        "description": "منتجات مدعمة تضمن نمو سريع وأداء ممتاز"
+      },
+      "productivity": {
+        "title": "إنتاجية عالية",
+        "description": "الرعاية المثلى تؤدي إلى جودة لحم أفضل وزيادة في الوزن"
+      },
+      "environment": {
+        "title": "بيئة صحية",
+        "description": "ظروف تربية دواجن نظيفة ومحفوظة جيداً"
+      }
+    },
+    "cta_button": "استكشف حلول الدواجن",
+    "gallery": {
+      "chicks_alt": "كتاكيت عمر يوم",
+      "bedding_alt": "نشارة خشب عالية الجودة",
+      "broilers_alt": "دجاج تسمين صحي"
+    },
+    "stats_title": "نجاحنا في مجال الدواجن",
+    "stats_subtitle": "نتائج حقيقية من نهجنا المتكامل",
+    "stats": {
+      "survival_rate": "معدل البقاء",
+      "growth_rate": "نمو أسرع",
+      "avg_weight": "متوسط الوزن",
+      "farmers": "مزارعون سعداء"
+    }
+  }
+}
+
+,
+
+
+
+
+
+  "footer": {
+    "brandName": "فارم فيوجن",
+    "brandDescription": "ننمو معًا من أجل مستقبل أكثر اخضرارًا. نقدم منتجات زراعية وخدمات بيطرية عالية الجودة لمساعدة مزرعتك وحيواناتك على الازدهار.",
+    "home": "الرئيسية",
+    "shop": "المتجر",
+    "contact": "اتصل بنا",
+    "about": "من نحن",
+    "createAccount": "إنشاء حساب",
+    "terms": "الشروط والأحكام",
+    "privacy": "سياسة الخصوصية",
+    "faq": "الأسئلة الشائعة",
+    "quickLinksTitle": "روابط سريعة",
+    "usefulLinksTitle": "روابط مفيدة",
+    "newsletterTitle": "انضم إلى نشرتنا الإخبارية",
+    "emailPlaceholder": "عنوان بريدك الإلكتروني",
+    "subscribe": "اشتراك",
+    "thankYouSubscribe": "شكرًا لك على الاشتراك!",
+    "connectWithUs": "تواصل معنا",
+    "followUs": "تابعنا على",
+    "address": "123 طريق المزرعة، جرينفيل، AG 54321",
+    "phone": "+1 (555) 123-4567",
+    "copyright": "فريق فارم فيوجن. جميع الحقوق محفوظة."
+  }
+
+
+,
+
+  "partners": {
+    "trustedBy": "موثوق من قبل",
+    "title": "شركاؤنا وموردونا",
+    "nabil": "نبيل",
+    "tamam": "تمام",
+    "alEzz": "العز",
+    "alJazeera": "الجزيرة",
+    "siniora": "سنيورة",
+    "alWataniya": "الوطنية"
+  }
+
+
+,
+
+  "wishlist": {
+    "title": "المفضلة ",
+    "items": "عناصر",
+    "emptyTitle": "قائمة الأمنيات فارغة",
+    "emptyMessage": "استكشف مجموعتنا واحفظ العناصر المفضلة لديك لعرضها لاحقًا",
+    "continueShopping": "مواصلة التسوق"
+  }
+
+  ,
+
+    "profile": {
+    "fetchError": "فشل في جلب بيانات المستخدم",
+    "bookingsError": "فشل في جلب الحجوزات",
+    "updateSuccess": "تم تحديث المعلومات بنجاح",
+    "updateError": "فشل في تحديث المعلومات",
+    "logoutError": "فشل في تسجيل الخروج",
+    "loading": "جاري تحميل الملف الشخصي...",
+    "signOut": "تسجيل الخروج",
+    "personalInfo": "المعلومات الشخصية",
+    "cancel": "إلغاء",
+    "edit": "تعديل",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "profilePicture": "صورة الملف الشخصي",
+    "saveChanges": "حفظ التغييرات",
+    "role": "الدور",
+    "creationDate": "تاريخ الإنشاء",
+    "vetBookings": "حجوزات الطبيب البيطري",
+    "noBookings": "لا توجد حجوزات بيطرية حتى الآن",
+    "vetConsultation": "استشارة بيطرية",
+    "emergency": "طارئ",
+    "routine": "روتيني",
+    "veterinarian": "الطبيب البيطري",
+    "date": "التاريخ",
+    "reasonForVisit": "سبب الزيارة",
+    "previous": "السابق",
+    "next": "التالي",
+    "page": "صفحة",
+    "of": "من"
+  }
+
+
+,
+
+
+  "shopTitle": "منتجاتنا",
+  "searchPlaceholder": "ابحث عن المنتجات...",
+  "categories": "الفئات",
+  "allProducts": "جميع المنتجات",
+  "resetFilters": "إعادة تعيين الفلاتر",
+  "addToCart": "أضف إلى السلة",
+  "viewDetails": "عرض التفاصيل",
+  "currency": "د.أ",
+  "loadingProducts": "جاري تحميل المنتجات...",
+  "noItemsFound": "لا توجد عناصر",
+  "noItemsMatch": "لا توجد عناصر تطابق الفلاتر المحددة.",
+  "noItemsAvailable": "لا توجد منتجات حالياً.",
+  "showingResults": "عرض من {{start}} إلى {{end}} من أصل {{total}} منتج",
+  "cart": "السلة",
+  "shoppingCart": "سلة التسوق",
+  "cartEmpty": "سلة التسوق فارغة",
+  "startAddingItems": "ابدأ بإضافة المنتجات إلى السلة",
+  "continueShopping": "مواصلة التسوق",
+  "remove": "حذف",
+  "subtotal": "المجموع الفرعي",
+  "shippingCalculated": "سيتم حساب الشحن والضرائب عند الدفع.",
+  "checkout": "الدفع",
+  "clearCart": "إفراغ السلة"
+
+  
+
+
+
+
+
+,
+
+
+  "addNewProduct": "إضافة منتج جديد",
+  "productName": "اسم المنتج",
+  "category": "الفئة",
+  "description": "الوصف",
+  "details": "تفاصيل",
+  "price": "السعر",
+  "currency": "د.أ",
+  "productImage": "صورة المنتج",
+  "english": "الإنجليزية",
+  "arabic": "العربية",
+  "addProduct": "إضافة المنتج",
+  "confirmProductAddition": "تأكيد إضافة المنتج",
+  "confirmAddProductMessage": "هل أنت متأكد أنك تريد إضافة هذا المنتج؟",
+  "cancel": "إلغاء",
+  "confirm": "تأكيد",
+  "submitting": "جاري الإرسال",
+  "productAddedSuccess": "تمت إضافة المنتج بنجاح!",
+  "errorAddingProduct": "حدث خطأ أثناء إضافة المنتج: "
+
+,
+
+
+  "productDetails": {
+    "checkOut": "تحقق من هذا المنتج:",
+    "errorLoading": "خطأ في تحميل المنتج",
+    "goBack": "العودة",
+    "notFound": "المنتج غير موجود!",
+    "back": "العودة إلى المنتجات",
+    "shareFacebook": "مشاركة على فيسبوك",
+    "shareWhatsApp": "مشاركة على واتساب",
+    "shareInstagram": "مشاركة على إنستغرام",
+    "currency": "دينار",
+    "category": "الفئة",
+    "availability": "التوفر",
+    "inStock": "متوفر في المخزون",
+    "addToCart": "إضافة إلى السلة",
+    "description": "الوصف",
+    "details": "التفاصيل",
+    "reviews": "التقييمات",
+    "noDetails": "لا توجد مواصفات مفصلة متاحة لهذا المنتج.",
+    "customerReviews": "تقييمات العملاء",
+    "noReviews": "لا توجد تقييمات حتى الآن.",
+    "writeReview": "كتابة تقييم",
+    "loginToReview": "الرجاء",
+    "login": "تسجيل الدخول",
+    "relatedProducts": "منتجات ذات صلة",
+    "viewAll": "عرض الكل",
+    "viewDetails": "عرض التفاصيل",
+    "yourCart": "سلة التسوق الخاصة بك",
+    "cartEmpty": "سلة التسوق الخاصة بك فارغة",
+    "continueShopping": "مواصلة التسوق",
+    "remove": "إزالة",
+    "subtotal": "المجموع الفرعي",
+    "proceedToCheckout": "المتابعة إلى الدفع"
+  }
+
+
+,
+
+
+
+  "checkoutt": {
+    "secure_checkout": "الدفع الآمن",
+    "customer_info": "معلومات العميل",
+    "full_name": "الاسم الكامل",
+    "enter_full_name": "أدخل اسمك الكامل",
+    "phone_number": "رقم الهاتف",
+    "enter_phone": "أدخل رقم هاتفك",
+    "location": "الموقع",
+    "enter_location": "أدخل موقعك",
+    "postal_code": "الرمز البريدي",
+    "enter_postal": "أدخل الرمز البريدي الخاص بك",
+    "shipping_address": "عنوان الشحن",
+    "enter_shipping": "أدخل عنوان الشحن الكامل",
+    "payment_method": "طريقة الدفع",
+    "visa_card": "بطاقة فيزا",
+    "click_payment": "دفع كليك",
+    "card_number": "رقم البطاقة",
+    "expiry_date": "تاريخ الانتهاء",
+    "cvv": "CVV",
+    "paypal_email": "بريد باي بال",
+    "click_redirect": "سيتم توجيهك إلى صفحة دفع كليك لإكمال عملية الشراء بعد تأكيد الطلب.",
+    "order_summary": "ملخص الطلب",
+    "empty_cart": "سلة التسوق فارغة",
+    "qty": "الكمية",
+    "total": "الإجمالي",
+    "subtotal": "المجموع الفرعي",
+    "complete_purchase": "إكمال عملية الشراء الآمنة",
+    "error": "خطأ",
+    "fill_all_details": "يرجى ملء جميع التفاصيل.",
+    "invalid_phone": "رقم هاتف غير صالح",
+    "valid_phone_message": "يرجى إدخال رقم هاتف مكون من 10 أرقام.",
+    "invalid_postal": "رمز بريدي غير صالح",
+    "valid_postal_message": "يرجى إدخال رمز بريدي مكون من 5 أرقام.",
+    "fill_card_details": "يرجى ملء جميع تفاصيل البطاقة.",
+    "paypal_email": "يرجى إدخال بريد باي بال الخاص بك.",
+    "order_confirmed": "تم تأكيد الطلب",
+    "thank_you": "شكراً لشرائك!",
+    "payment_failed": "فشل الدفع",
+    "payment_error": "حدث خطأ أثناء معالجة الدفع. يرجى المحاولة مرة أخرى.",
+    "success_title": "تمت عملية الشراء بنجاح!",
+    "success_message": "شكراً لدعم الزراعة المحلية. جاري معالجة طلبك."
+  }
+
+
+,
+
+
+
+  "loginn": {
+    "app_name": "المركز الزراعي",
+    "welcome_message": "مرحباً بك في منصة إدارة الزراعة الخاصة بك",
+    "email_placeholder": "البريد الإلكتروني",
+    "password_placeholder": "كلمة المرور",
+    "remember_me": "تذكرني",
+    "forgot_password": "نسيت كلمة المرور؟",
+    "sign_in": "تسجيل الدخول",
+    "logging_in": "جاري تسجيل الدخول...",
+    "or_continue_with": "أو تابع باستخدام",
+    "no_account": "ليس لديك حساب؟",
+    "sign_up": "إنشاء حساب",
+    "login_failed": "فشل تسجيل الدخول",
+    "google_login_failed": "فشل تسجيل الدخول عبر جوجل"
+  }
+
+,
+    "reservationss": {
+      "title": "مواعيد العيادة البيطرية",
+      "subtitle": "إدارة مواعيد رعاية الحيوانات وجدول العلاج",
+      "loading": "جاري تحميل المواعيد...",
+      "fetchError": "فشل تحميل البيانات. يرجى المحاولة مرة أخرى.",
+      "doctorFetchError": "فشل تحميل مواعيد الطبيب البيطري.",
+      "noDoctors": "لا توجد أطباء بيطريين لديهم مواعيد.",
+      "retry": "حاول مرة أخرى",
+      "refresh": "تحديث",
+      "selectVet": "اختر الطبيب البيطري",
+      "drPrefix": "د.",
+      "noAppointments": "لا توجد مواعيد لـ {{doctor}} مع الفلتر المحدد.",
+      "department": "القسم",
+      "customerPhone": "هاتف العميل",
+      "reason": "سبب الزيارة",
+      "bookingId": "معرف الحجز",
+      "approve": "موافقة",
+      "reject": "رفض",
+      "markCompleted": "تم الانتهاء",
+      "markCompletedSuccess": "تم تحديد الحجز كمكتمل!",
+      "markCompletedError": "فشل تحديد الحجز كمكتمل.",
+      "approveSuccess": "تمت الموافقة على الحجز بنجاح!",
+      "approveError": "فشل الموافقة على الحجز.",
+      "rejectSuccess": "تم رفض الحجز بنجاح!",
+      "rejectError": "فشل رفض الحجز.",
+      "appointmentWith": "موعد مع {{doctor}}",
+      "tabs": {
+        "pending": "قيد الانتظار",
+        "completed": "مكتمل",
+        "all": "جميع المواعيد"
+      },
+      "status": {
+        "completed": "مكتمل",
+        "approved": "تمت الموافقة",
+        "rejected": "مرفوض",
+        "emergency": "حالة طارئة",
+        "pending": "قيد الانتظار"
+      }
+    }
+  
+
+,
+
+"PlantDiseaseDetector":"كاشف أمراض النبات",
+  "title": "كاشف أمراض النبات",
+  "description": "قم بتحميل صورة نبات للكشف عن الأمراض والحصول على توصيات علاج فورية باستخدام الذكاء الاصطناعي.",
+  "uploadSection": {
+    "selectImage": "حدد صورة النبات",
+    "instructions": "اسحب وأفلت أو انقر للتصفح",
+    "formats": "JPG, PNG, WebP",
+    "maxSize": "الحد الأقصى 10 ميجابايت",
+    "ready": "جاهز للتحليل"
+  },
+  "buttons": {
+    "analyze": "بدء التحليل",
+    "analyzing": "جارٍ التحليل..."
+  },
+  "results": {
+    "placeholder": "قم بتحميل صورة لرؤية نتائج التحليل",
+    "analyzing": "الذكاء الاصطناعي يحلل نباتك...",
+    "errorTitle": "خطأ في التحليل",
+    "diseaseDetection": "كشف الأمراض",
+    "unknownCondition": "حالة غير معروفة",
+    "treatment": "توصيات العلاج",
+    "noTreatment": "لا توجد توصيات علاج محددة متاحة."
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

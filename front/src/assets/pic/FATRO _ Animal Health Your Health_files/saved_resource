@@ -1,0 +1,1430 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-us"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie7" lang="en-us"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9 ie8" lang="en-us"><![endif]-->
+<!--[if gt IE 8]> <html class="no-js ie9" lang="en-us"><![endif]-->
+<html lang="en-us"  dir="ltr" class="ltr">
+	<head>
+
+               
+
+		<meta charset="utf-8" />
+		<title>FATRO | Animal Health Your Health</title>
+		<meta name="description" content="Negozio creato usando PrestaShop" />
+		<meta name="keywords" content="negozio, prestashop" />
+		<meta name="generator" content="PrestaShop" />
+		<meta name="robots" content="index,follow" />
+		<meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0" /> 
+		<meta name="apple-mobile-web-app-capable" content="yes" /> 
+		<link rel="icon" type="image/vnd.microsoft.icon" href="/en/img/favicon.ico?1667474786" />
+		<link rel="shortcut icon" type="image/x-icon" href="/en/img/favicon.ico?1667474786" />
+					<link rel="stylesheet" href="/en/themes/pf_ministore/css/global.css"  id="global-style" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/autoload/animate.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/autoload/jquery.bxslider.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/autoload/jquery.ui.slider.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/autoload/jquery.ui.theme.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/js/jquery/plugins/fancybox/jquery.fancybox.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/modules/blocklanguages/blocklanguages.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/modules/blockcontact/blockcontact.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/modules/blockcontactinfos/blockcontactinfos.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/product_list.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/modules/blocknewsletter/blocknewsletter.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/modules/blocksearch/blocksearch.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/js/jquery/plugins/autocomplete/jquery.autocomplete.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/modules/blocktags/blocktags.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/modules/blockuserinfo/blockuserinfo.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/modules/homeslider/homeslider.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/js/jquery/plugins/bxslider/jquery.bxslider.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/modules/ptsmaplocator/views/css/styles.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/modules/blocktopmenu/css/blocktopmenu.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/modules/blocktopmenu/css/superfish-modified.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/modules/pspagebuilder/views/css/pagebuilder.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/modules/pspagebuilder/views/css/owl.carousel.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/modules/ptsstaticcontent/views/css/hooks.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/modules/ptsblocksearch/views/css/ptsblocksearch.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/modules/psmegamenu/views/css/psmegamenu.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/modules/ptsbttestimonials/views/css/ptsbttestimonials.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/modules/wknews/views/css/font-awesome.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/modules/cmsshortcodegallery/views/css/colorbox.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/modules/cmsshortcodegallery/views/css/front.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/modules/cmsshortcodegallery/views/css/cmsshortcodegallery.css" type="text/css" media="all" />
+							<link rel="stylesheet" href="/en/themes/pf_ministore/css/modules/pssliderlayer/views/css/typo.css" type="text/css" media="all" />
+			                                    
+                        <script id="Cookiebot" data-culture="en" src="https://consent.cookiebot.eu/uc.js" data-cbid="efec4213-049f-4d73-8dc1-c8c034264eec" data-blockingmode="auto" type="text/javascript"></script>
+                    
+                	<script type="text/javascript">
+var FancyboxI18nClose = 'Close';
+var FancyboxI18nNext = 'Next';
+var FancyboxI18nPrev = 'Previous';
+var ajaxsearch = true;
+var baseDir = 'https://www.fatro.it/en/';
+var baseUri = 'https://www.fatro.it/en/';
+var blocksearch_type = 'top';
+var comparator_max_item = 3;
+var comparedProductsIds = [];
+var contentOnly = false;
+var currency = {"id":1,"name":"Euro","iso_code":"EUR","iso_code_num":"978","sign":"\u20ac","blank":"1","conversion_rate":"1.000000","deleted":"0","format":"2","decimals":"1","active":"1","prefix":"","suffix":" \u20ac","id_shop_list":null,"force_id":false};
+var currencyBlank = 1;
+var currencyFormat = 2;
+var currencyRate = 1;
+var currencySign = '€';
+var displayList = false;
+var highDPI = false;
+var homeslider_loop = true;
+var homeslider_pause = '3000';
+var homeslider_speed = '500';
+var homeslider_width = '779';
+var id_lang = 2;
+var instantsearch = false;
+var isGuest = 0;
+var isLogged = 0;
+var isMobile = false;
+var max_item = 'You cannot add more than 3 product(s) to the product comparison';
+var min_item = 'Please select at least one product';
+var page_name = 'index';
+var priceDisplayMethod = 0;
+var priceDisplayPrecision = 2;
+var quickView = true;
+var roundMode = 2;
+var search_url = 'https://www.fatro.it/en/ricerca';
+var static_token = '5f88bb11b5dbb7fd3cdef1303e233e94';
+var token = '688b4bb884e4be3482c48b61a0a18ae3';
+var usingSecureMode = true;
+</script>
+
+		<script type="text/javascript" src="/en/js/jquery/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="/en/js/jquery/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="/en/js/jquery/plugins/jquery.easing.js"></script>
+		<script type="text/javascript" src="/en/js/tools.js"></script>
+		<script type="text/javascript" src="/en/themes/pf_ministore/js/global.js"></script>
+		<script type="text/javascript" src="/en/themes/pf_ministore/js/autoload/10-bootstrap.min.js"></script>
+		<script type="text/javascript" src="/en/themes/pf_ministore/js/autoload/15-jquery.total-storage.min.js"></script>
+		<script type="text/javascript" src="/en/themes/pf_ministore/js/autoload/15-jquery.uniform-modified.js"></script>
+		<script type="text/javascript" src="/en/js/jquery/plugins/fancybox/jquery.fancybox.js"></script>
+		<script type="text/javascript" src="/en/themes/pf_ministore/js/products-comparison.js"></script>
+		<script type="text/javascript" src="/en/themes/pf_ministore/js/modules/blocknewsletter/blocknewsletter.js"></script>
+		<script type="text/javascript" src="/en/js/jquery/plugins/autocomplete/jquery.autocomplete.js"></script>
+		<script type="text/javascript" src="/en/themes/pf_ministore/js/modules/blocksearch/blocksearch.js"></script>
+		<script type="text/javascript" src="/en/themes/pf_ministore/js/modules/homeslider/js/homeslider.js"></script>
+		<script type="text/javascript" src="/en/js/jquery/plugins/bxslider/jquery.bxslider.js"></script>
+		<script type="text/javascript" src="/en/themes/pf_ministore/js/modules/blocktopmenu/js/hoverIntent.js"></script>
+		<script type="text/javascript" src="/en/themes/pf_ministore/js/modules/blocktopmenu/js/superfish-modified.js"></script>
+		<script type="text/javascript" src="/en/themes/pf_ministore/js/modules/blocktopmenu/js/blocktopmenu.js"></script>
+		<script type="text/javascript" src="/en/themes/pf_ministore/js/modules/ptsthemepanel/views/js/gallery.js"></script>
+		<script type="text/javascript" src="/en/modules/pspagebuilder/views/js/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="/en/themes/pf_ministore/js/modules/pspagebuilder/views/js/pagebuilder.js"></script>
+		<script type="text/javascript" src="/en/modules/pspagebuilder/views/js/countdown.js"></script>
+		<script type="text/javascript" src="/en/modules/cmsshortcodegallery/views/js/jquery.colorbox.js"></script>
+		<script type="text/javascript" src="/en/modules/cmsshortcodegallery/views/js/cmsshortcodegallery.js"></script>
+		<script type="text/javascript" src="/en/themes/pf_ministore/js/index.js"></script>
+		<script type="text/javascript" src="/en/modules/pssliderlayer/views/js/jquery.themepunch.enablelog.js"></script>
+		<script type="text/javascript" src="/en/modules/pssliderlayer/views/js/jquery.themepunch.revolution.js"></script>
+		<script type="text/javascript" src="/en/modules/pssliderlayer/views/js/jquery.themepunch.tools.min.js"></script>
+			    
+    
+    
+    
+
+            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDj2QuD0yW1Kk3t_lgToAQkbdjjpGHVYho&v=3.exp&amp;language=en"></script>
+            <script type="text/javascript" src="/en/modules/ptsmaplocator/views/js/gmap3.min.js"></script>
+            <script type="text/javascript" src="/en/modules/ptsmaplocator/views/js/gmap3.infobox.js"></script>
+        
+		<link href="//fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" type="text/css" media="all" />
+		<link href="//fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css" media="all" />
+                
+
+<link rel="stylesheet" href="/themes/pf_ministore/css/custom.css" type="text/css" media="all" />
+<link href="https://fonts.googleapis.com/css?family=Marck+Script&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+
+
+
+
+	</head>
+	<body id="index" class="index hide-left-column hide-right-column lang_en layout-fullwidth" >
+
+
+						
+		<div id="page">
+																							
+	<header id="header" class="header-default">	
+		<div  id="header-main">
+			<div class="container">
+				<div class="row">
+
+					<div class="header-left col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<div class="btn-group pull-left">
+
+							
+							
+<!-- Block languages module -->	
+	<div id="languages-block-top" class="btn-group">
+
+		
+		<ul id="first-languages" class="languages-block_ul ">
+		
+			<li>
+				<a href="/" title="Italiano">
+					<span><img src="/img/l/1.png" alt="it" width="24" /></span>
+				</a>
+			</li>
+			<li>
+				<a href="/en" title="Inglese">
+					<span><img src="/img/l/2.png" alt="it" width="24" /></span>
+				</a>
+			</li>
+			
+		</ul>
+	</div>
+<!-- /Block languages module -->
+
+
+						</div>	
+						<div class="pull-left">
+															
+<div class="btn-group group-userinfo">
+                    <!-- Block user information module NAV  -->
+                    
+                    
+                    <div class="group-title-custom">
+                        <a href="https://www.fatro.it/en/account"><i class="icon icon-user"></i>
+                    Login / Register
+                    </a>
+					</div>
+                                                
+                                        
+                    <ul id="header_links" class="toogle_content">
+                                                                <li>
+                                            <a href="https://www.fatro.it/en/account" title="Login to your customer account" rel="nofollow"><span class="icon icon-user"></span>My Account</a>
+                                    </li>
+                                                        
+                            
+
+                            <li class="last">
+                                <a href="https://www.fatro.it/en/index.php?controller=contact-form" title="Contact us" class="last"><span class="icon icon-paper-plane"></span>
+                                    Contact
+                                </a>
+                            </li>
+                    </ul>
+
+</div>	
+
+
+
+
+													</div>
+						<div class="btn-group pull-left">
+							
+																	
+															
+						</div>
+					</div>
+
+					<div id="header_logo" class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<div id="logo-theme" class="logo-store">
+							<a href="http://www.fatro.it/en/" title="FATRO | Animal Health Your Health">
+								<img class="logo img-responsive " src="/themes/pf_ministore/img/logo-fatro.png" alt="FATRO | Animal Health Your Health"/>
+							</a>
+						</div>
+
+					</div>
+
+					<div class="header-right col-sm-12 col-md-4 col-lg-4 col-xs-12">
+						<div class="group-header pull-right">
+							<div class="pull-right">
+																	<!-- block seach mobile -->
+	
+       <!-- Block search module TOP -->
+<div id="search_block_top" class="col-lg-12 col-md-12 col-sm-12 clearfix search-widget">
+	<form id="searchbox" method="get" action="//www.fatro.it/en/ricerca" >
+		<input type="hidden" name="controller" value="search" />
+		<input type="hidden" name="orderby" value="position" />
+		<input type="hidden" name="orderway" value="desc" />
+		<input class="search_query form-control" type="text" id="search_query_top" name="search_query" placeholder="Search" value="" />
+		
+                <button type="submit">
+			<i class="icon icon-search"></i>
+      
+		</button>
+	</form>
+</div>
+<script type="text/javascript">
+// <![CDATA[
+$('document').ready(function() {
+
+	var $input = $("#search_query_top");
+
+	$input.autocomplete(
+	'https://www.fatro.it/en/ricerca',
+	{
+		minChars: 3,
+		max: 10,
+		width: 500,
+		selectFirst: false,
+		scroll: false,
+		dataType: "json",
+		formatItem: function(data, i, max, value, term) {
+			return value;
+		},
+		parse: function(data) {
+			var mytab = [];
+			for (var i = 0; i < data.length; i++)
+				mytab[mytab.length] = { data: data[i], value: data[i].cname + ' > ' + data[i].pname };
+			return mytab;
+		},
+		extraParams: {
+			ajaxSearch: 1,
+			id_lang: 2
+		}
+	})
+	.result(function(event, data, formatted) {
+		$input.val(data.pname);
+		document.location.href = data.product_link;
+	});
+});
+// ]]>
+</script>
+
+
+<!-- /Block search module TOP -->
+					   
+															</div>
+
+							
+						</div>
+						
+					</div>						   							
+				</div>
+			</div>	
+		</div>
+	    <div  id="pts-mainnav">
+	        <div class="container">
+	        	<div class="row-inner">
+	        		<div class="row">
+			        	<div class="main-menu inner col-xs-12 col-sm-12 col-md-12 col-lg-12">			        	
+						        <nav id="cavas_menu" class="sf-contener pts-megamenu">
+    <div class="navbar" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+            </button>
+                
+                <h4 class="title-menu-mobile">Menu</h4>
+            <h4 class="title_block"> 
+                <span>Categories</span>
+            </h4>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="pts-top-menu" class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav megamenu"><li class="" >
+                    <a href="http://www.fatro.it/en/index.php?controller=/" target="_self"><span class="menu-title">Home</span></a></li><li class="parent dropdown " >
+                    <a class="dropdown-toggle has-subhtml" data-toggle="dropdown" href="https://www.fatro.it/en/content/4-fatro-company-veterinary-medicine" target="_self"><span class="menu-title">Company</span><b class="caret"></b></a><div class="dropdown-menu level1"  ><div class="dropdown-menu-inner"><div class="row"><div class="col-sm-12 mega-col" data-colwidth="12" data-type="menu" ><div class="inner"><ul><li class=" " ><a href="https://www.fatro.it/en/content/4-fatro-company-veterinary-medicine"><span class="menu-title">Company</span></a></li><li class=" " ><a href="https://www.fatro.it/en/content/18-vision-and-values"><span class="menu-title">Vision and Values</span></a></li><li class=" " ><a href="https://www.fatro.it/en/content/7-the-group"><span class="menu-title">Group</span></a></li><li class=" " ><a href="https://www.fatro.it/en/content/8-research-and-quality"><span class="menu-title">Research and sustainable production</span></a></li><li class=" " ><a href="https://www.fatro.it/en/content/9-fatro-a-welcoming-environment"><span class="menu-title">A Welcoming Environment</span></a></li><li class=" " ><a href="https://www.fatro.it/en/content/10-young-people-our-future"><span class="menu-title">Young People, our Future</span></a></li><li class=" " ><a href="https://www.fatro.it/en/content/36-one-health-eco-health"><span class="menu-title">One Health Eco Health</span></a></li><li class=" " ><a href="https://www.fatro.it/en/content/12-health-and-safety-policy"><span class="menu-title">Health and Safety Policy</span></a></li><li class=" " ><a href="https://www.fatro.it/en/content/13-group-sites"><span class="menu-title">Group Sites</span></a></li></ul></div></div></div></div></div></li><li class="parent dropdown " >
+                    <a class="dropdown-toggle has-subhtml" data-toggle="dropdown" href="https://www.fatro.it/en/2-" target="_self"><span class="menu-title">Products</span><b class="caret"></b></a><div class="dropdown-menu level1"  ><div class="dropdown-menu-inner"><div class="row"><div class="col-sm-12 mega-col" data-colwidth="12" data-type="menu" ><div class="inner"><ul><li class="parent dropdown-submenu " ><a class="dropdown-toggle" data-toggle="dropdown" href="https://www.fatro.it/en/23-pharmaceutical-drugs"><span class="menu-title">Pharmaceutical Drugs</span><b class="caret"></b></a><div class="dropdown-menu level2"  ><div class="dropdown-menu-inner"><div class="row"><div class="col-sm-12 mega-col" data-colwidth="12" data-type="menu" ><div class="inner"><ul><li class=" " ><a href="https://www.fatro.it/en/28-antimicrobials"><span class="menu-title">Antimicrobials</span></a></li><li class=" " ><a href="https://www.fatro.it/en/29-intramammary-antimicrobials"><span class="menu-title">Intramammary antimicrobials</span></a></li><li class=" " ><a href="https://www.fatro.it/en/30-anti-inflammatories"><span class="menu-title">Anti-inflammatories</span></a></li><li class=" " ><a href="https://www.fatro.it/en/31-gynecologicals"><span class="menu-title">Gynecologicals</span></a></li><li class=" " ><a href="https://www.fatro.it/en/32-anaesthetics-sedatives"><span class="menu-title">Anaesthetics - Sedatives</span></a></li><li class=" " ><a href="https://www.fatro.it/en/33-hepatoprotectors-digestants"><span class="menu-title">Hepatoprotectors - Digestants</span></a></li><li class=" " ><a href="https://www.fatro.it/en/34-metabolics"><span class="menu-title">Metabolics</span></a></li><li class=" " ><a href="https://www.fatro.it/en/35-vitamins-minerals-tonics"><span class="menu-title">Vitamins - Minerals - Tonics</span></a></li><li class=" " ><a href="https://www.fatro.it/en/36-antiparasitics"><span class="menu-title">Antiparasitics</span></a></li><li class=" " ><a href="https://www.fatro.it/en/54-spasmolytics"><span class="menu-title">Spasmolytics</span></a></li><li class=" " ><a href="https://www.fatro.it/en/37-dermatologicals"><span class="menu-title">Dermatologicals</span></a></li><li class=" " ><a href="https://www.fatro.it/en/38-otologicals"><span class="menu-title">Otologicals</span></a></li><li class=" " ><a href="https://www.fatro.it/en/39-urologicals"><span class="menu-title">Urologicals</span></a></li><li class=" " ><a href="https://www.fatro.it/en/40-cardiologicals"><span class="menu-title">Cardiologicals</span></a></li></ul></div></div></div></div></div></li><li class=" " ><a href="https://www.fatro.it/en/55-pharmaceutical-drugs-pets"><span class="menu-title">Pharmaceutical Drugs pets</span></a></li><li class="parent dropdown-submenu " ><a class="dropdown-toggle" data-toggle="dropdown" href="https://www.fatro.it/en/24-vaccines"><span class="menu-title">Vaccines</span><b class="caret"></b></a><div class="dropdown-menu level2"  ><div class="dropdown-menu-inner"><div class="row"><div class="col-sm-12 mega-col" data-colwidth="12" data-type="menu" ><div class="inner"><ul><li class=" " ><a href="https://www.fatro.it/en/41-cattle"><span class="hasicon menu-icon" style="background:url('http://www.fatro.it/en/modules/psmegamenu/views/img/bovino.jpg') no-repeat;"><span class="menu-title">Cattle</span></span></a></li><li class=" " ><a href="https://www.fatro.it/en/42-pigs"><span class="hasicon menu-icon" style="background:url('http://www.fatro.it/en/modules/psmegamenu/views/img/suino.jpg') no-repeat;"><span class="menu-title">Pigs</span></span></a></li><li class=" " ><a href="https://www.fatro.it/en/43-sheep"><span class="hasicon menu-icon" style="background:url('http://www.fatro.it/en/modules/psmegamenu/views/img/ovino.jpg') no-repeat;"><span class="menu-title">Sheep</span></span></a></li><li class=" " ><a href="https://www.fatro.it/en/44-rabbits"><span class="hasicon menu-icon" style="background:url('http://www.fatro.it/en/modules/psmegamenu/views/img/coniglio.jpg') no-repeat;"><span class="menu-title">Rabbits</span></span></a></li><li class=" " ><a href="https://www.fatro.it/en/45-poultry"><span class="hasicon menu-icon" style="background:url('http://www.fatro.it/en/modules/psmegamenu/views/img/oviario.jpg') no-repeat;"><span class="menu-title">Poultry</span></span></a></li><li class=" " ><a href="https://www.fatro.it/en/46-fish"><span class="hasicon menu-icon" style="background:url('http://www.fatro.it/en/modules/psmegamenu/views/img/pesce.jpg') no-repeat;"><span class="menu-title">Fish</span></span></a></li></ul></div></div></div></div></div></li><li class=" " ><a href="https://www.fatro.it/en/25-feed-additives"><span class="menu-title">Feed additives</span></a></li><li class=" " ><a href="https://www.fatro.it/en/26-medicated-premix"><span class="menu-title">Medicated premix</span></a></li></ul></div></div></div></div></div></li><li class="" >
+                    <a href="https://www.fatro.it/en/content/8-research-and-quality" target="_self"><span class="menu-title">Research and quality</span></a></li><li class="" >
+                    <a href="https://www.fatro.it/en/blog/news-c9.html" target="_self"><span class="menu-title">News</span></a></li><li class="" >
+                    <a href="https://www.fatro.it/en/content/14-the-corrado-e-bruno-maria-zaini-foundation" target="_self"><span class="menu-title">Foundation</span></a></li><li class="" >
+                    <a href="https://www.fatro.it/en/content/31-contacts" target="_self"><span class="menu-title">Contacts</span></a></li></ul>
+        </div>
+    </div>  
+</nav>
+<script type="text/javascript">
+    if($(window).width() >= 992){
+        $('#pts-top-menu a.dropdown-toggle').click(function(){
+            var redirect_url = $(this).attr('href');
+            window.location = redirect_url;
+        });
+    }
+</script>
+						</div>
+
+	        		</div>
+				</div>
+	        </div>
+	    </div>
+	</header>
+				
+			    
+                        	<div id="columns" class="pagebuilder-content">
+					<div id="ptspagebuilder1743977533" class="pagebuilder clearfix">
+    
+     
+        <div class="pts-container  " style="">        
+            <div class="pts-inner container-fluid">
+        
+    <div class="row-inner row-level-1">
+        <div class="row   clearfix" >
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-pssliderlayer">
+                                <div class="pts-widget" id="wid-key_1440746702100">    <div class="bannercontainer banner-fullwidth" style="padding: 0;margin: 0 0 25px;background-color:#fff">
+        <div id="sliderlayer212487550" class="rev_slider fullwidthbanner" style="width:100%;height:550px; " >
+            <ul>
+                                                    
+                <li data-link="https://www.fatro.it/en/content/36-one-health-eco-health"  data-target="_self" data-masterspeed="300"  data-transition="slotfade-vertical" data-slotamount="7" data-thumb="/en/modules/pssliderlayer/views/img/slideecohomeFATRObovini.jpg">
+                                        <img src="/en/modules/pssliderlayer/views/img/slideecohomeFATRObovini.jpg" alt=""/>
+                                                        </li>           
+                
+                <li data-link="https://www.fatro.it/en/content/36-one-health-eco-health"  data-target="_self" data-masterspeed="300"  data-transition="slotfade-vertical" data-slotamount="7" data-thumb="/en/modules/pssliderlayer/views/img/slideecohomeFATROovini.jpg">
+                                        <img src="/en/modules/pssliderlayer/views/img/slideecohomeFATROovini.jpg" alt=""/>
+                                                        </li>           
+                
+                <li data-link="https://www.fatro.it/en/content/36-one-health-eco-health"  data-target="_self" data-masterspeed="300"  data-transition="slotfade-vertical" data-slotamount="7" data-thumb="/en/modules/pssliderlayer/views/img/slideecohomeFATROpolli.jpg">
+                                        <img src="/en/modules/pssliderlayer/views/img/slideecohomeFATROpolli.jpg" alt=""/>
+                                                        </li>           
+                
+                <li data-link="https://www.fatro.it/en/content/36-one-health-eco-health"  data-target="_self" data-masterspeed="300"  data-transition="slotfade-vertical" data-slotamount="7" data-thumb="/en/modules/pssliderlayer/views/img/slideecohomeFATROcanegatto.jpg">
+                                        <img src="/en/modules/pssliderlayer/views/img/slideecohomeFATROcanegatto.jpg" alt=""/>
+                                                        </li>           
+                                            </ul>
+                    </div>
+    </div>
+
+<script type="text/javascript">
+             
+                 var tpj=jQuery;
+                 
+                 if (tpj.fn.cssOriginal!=undefined)
+                 tpj.fn.css = tpj.fn.cssOriginal;
+
+                 tpj("#sliderlayer212487550").revolution(
+                 {
+                     delay:5000,
+                 startheight:550,
+                 startwidth:1920,
+
+
+                 hideThumbs:0,
+
+                 thumbWidth:100,                     
+                 thumbHeight:50,
+                 thumbAmount:5,
+                                  navigationType:"none",
+                                  navigationArrows:"none",                
+                                  navigationStyle:"round",          
+                 
+                 navOffsetHorizontal:0,
+                                  navOffsetVertical:20,  
+                    
+                 touchenabled:"on",         
+                 onHoverStop:"on",                     
+                 shuffle:"on",  
+                 stopAtSlide: -1,                        
+                 stopAfterLoops:-1,                     
+
+                 hideCaptionAtLimit:0,              
+                 hideAllCaptionAtLilmit:0,              
+                 hideSliderAtLimit:0,           
+                 fullWidth:"on",
+                 shadow:3,
+                 startWithSlide:0
+         
+                 });
+                 $( document ).ready(function() {
+                    $('.caption',$('#sliderlayer212487550')).click(function(){
+                        if($(this).data('link') != undefined && $(this).data('link') != '') location.href = $(this).data('link');
+                    });
+
+                   
+                 });
+             
+</script>
+
+
+</div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                    </div>
+    </div>
+                </div>
+        </div>
+    
+     
+        <div class="pts-container  " style="">        
+            <div class="pts-inner container">
+        
+    <div class="row-inner row-level-1">
+        <div class="row   clearfix" >
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-heading_group">
+                                <div class="pts-widget" id="wid-key_1468470649835"><div class="headding_group block-borderbox  block default">
+    
+            <h3 class="group_title title_block">
+            Animal health your health
+        </h3>
+    
+    
+</div></div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                    </div>
+    </div>
+                </div>
+        </div>
+    
+     
+        <div class="pts-container  " style="">        
+            <div class="pts-inner container">
+        
+    <div class="row-inner row-level-1">
+        <div class="row   clearfix" >
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-image">
+                                <div class="pts-widget" id="wid-key_1465635410461"><div class="widget-images block space-30 ">
+		<div class="widget-inner block_content clearfix">
+		 <div class="image-item">
+		 			 	
+		 			 	<a href="/en/content/46-fatro-movie" class="pts-btnlink img-animation" title="Large Image">
+		 	<img src="/en/modules/pspagebuilder/views/img/BannerHomeVideoIT_1.jpg" alt="" /></a>
+		 			 </div>
+	</div>
+</div>
+ </div>
+                            </div>
+                                                                                                            <div class="widget-html">
+                                <div class="pts-widget" id="wid-key_1525768990730"><div class="widget-html block widget-name-category block-borderbox">
+		<div class="widget-inner block_content">
+		<div class="name-category">FATRO movie</div>
+	</div>
+</div>
+</div>
+                            </div>
+                                                                                                        
+        
+    <div class="row-inner row-level-2">
+        <div class="row   clearfix" >
+                            <div class="col-lg-12 col-md-4 col-sm-6 col-xs-12">
+                     
+                                                               <div class="col-inner  " style="">
+                                                                                <div class="widget-image">
+                                <div class="pts-widget" id="wid-key_1468480106192"><div class="widget-images block  ">
+		<div class="widget-inner block_content clearfix">
+		 <div class="image-item">
+		 			 	
+		 			 	<a href="/en/blog/acquisition-of-quadrel-b328.html" class="pts-btnlink img-animation" title="Large Image">
+		 	<img src="/en/modules/pspagebuilder/views/img/slide home Quadrel_1.jpg" alt="" /></a>
+		 			 </div>
+	</div>
+</div>
+ </div>
+                            </div>
+                                                                                                            <div class="widget-html">
+                                <div class="pts-widget" id="wid-key_1525769088656"><div class="widget-html block widget-name-category block-borderbox">
+		<div class="widget-inner block_content">
+		<div class="name-category">Acquisition of Quadrel</div>
+	</div>
+</div>
+</div>
+                            </div>
+                                                                                                    </div>
+
+                     
+                                                            </div>
+                    </div>
+    </div>
+        
+                                                </div>
+
+                                    </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-image">
+                                <div class="pts-widget" id="wid-key_1465635441947"><div class="widget-images block space-30 ">
+		<div class="widget-inner block_content clearfix">
+		 <div class="image-item">
+		 			 	
+		 			 	<a href="/en/content/36-one-health-eco-health" class="pts-btnlink img-animation" title="Large Image">
+		 	<img src="/en/modules/pspagebuilder/views/img/Slide One Health_1.jpg" alt="" /></a>
+		 			 </div>
+	</div>
+</div>
+ </div>
+                            </div>
+                                                                                                            <div class="widget-html">
+                                <div class="pts-widget" id="wid-key_1525769160997"><div class="widget-html block widget-name-category block-borderbox">
+		<div class="widget-inner block_content">
+		<div class="name-category">One Health Eco Health FATRO Group</div>
+	</div>
+</div>
+</div>
+                            </div>
+                                                                                                        
+        
+    <div class="row-inner row-level-2">
+        <div class="row   clearfix" >
+                            <div class="col-lg-12 col-md-4 col-sm-6 col-xs-12">
+                     
+                                                               <div class="col-inner  " style="">
+                                                                                <div class="widget-image">
+                                <div class="pts-widget" id="wid-key_1468480164287"><div class="widget-images block  ">
+		<div class="widget-inner block_content clearfix">
+		 <div class="image-item">
+		 			 	
+		 			 	<a href="/en/blog/fatro-calendars-c20.html" class="pts-btnlink img-animation" title="Large Image">
+		 	<img src="/en/modules/pspagebuilder/views/img/Sslide calendari Home.jpg" alt="" /></a>
+		 			 </div>
+	</div>
+</div>
+ </div>
+                            </div>
+                                                                                                            <div class="widget-html">
+                                <div class="pts-widget" id="wid-key_1525769237755"><div class="widget-html block widget-name-category block-borderbox">
+		<div class="widget-inner block_content">
+		<div class="name-category">FATRO Calendars</div>
+	</div>
+</div>
+</div>
+                            </div>
+                                                                                                    </div>
+
+                     
+                                                            </div>
+                    </div>
+    </div>
+        
+                                                </div>
+
+                                    </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-image">
+                                <div class="pts-widget" id="wid-key_1465635480404"><div class="widget-images block space-30 ">
+		<div class="widget-inner block_content clearfix">
+		 <div class="image-item">
+		 			 	
+		 			 	<a href="/en/content/7-" class="pts-btnlink img-animation" title="Large Image">
+		 	<img src="/en/modules/pspagebuilder/views/img/Fatro Group home_1.jpg" alt="" /></a>
+		 			 </div>
+	</div>
+</div>
+ </div>
+                            </div>
+                                                                                                            <div class="widget-html">
+                                <div class="pts-widget" id="wid-key_1526628314555"><div class="widget-html block widget-name-category block-borderbox">
+		<div class="widget-inner block_content">
+		<div class="name-category">FATRO Group</div>
+	</div>
+</div>
+</div>
+                            </div>
+                                                                                                        
+        
+    <div class="row-inner row-level-2">
+        <div class="row   clearfix" >
+                            <div class="col-lg-12 col-md-4 col-sm-6 col-xs-12">
+                     
+                                                               <div class="col-inner  " style="">
+                                                                                <div class="widget-image">
+                                <div class="pts-widget" id="wid-key_1468480222174"><div class="widget-images block  ">
+		<div class="widget-inner block_content clearfix">
+		 <div class="image-item">
+		 			 	
+		 			 	<a href="/en/content/14-" class="pts-btnlink img-animation" title="Large Image">
+		 	<img src="/en/modules/pspagebuilder/views/img/slide Fondazione_1.jpg" alt="" /></a>
+		 			 </div>
+	</div>
+</div>
+ </div>
+                            </div>
+                                                                                                            <div class="widget-html">
+                                <div class="pts-widget" id="wid-key_1525769258962"><div class="widget-html block widget-name-category block-borderbox">
+		<div class="widget-inner block_content">
+		<div class="name-category">The Foundation</div>
+	</div>
+</div>
+</div>
+                            </div>
+                                                                                                    </div>
+
+                     
+                                                            </div>
+                    </div>
+    </div>
+        
+                                                </div>
+
+                                    </div>
+                    </div>
+    </div>
+                </div>
+        </div>
+    
+     
+        <div class="pts-container parallax-one  pts-parallax" style=" background-image:url('/en/modules/pspagebuilder/views/img/shutterstock_414972325.jpg') ">        
+            <div class="pts-inner container-fluid">
+        
+    <div class="row-inner row-level-1">
+        <div class="row pts-row default   clearfix" >
+                            <div class="col-lg-12 col-md-4 col-sm-6 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                        </div>
+
+                                    </div>
+                    </div>
+    </div>
+                </div>
+        </div>
+    
+     
+        <div class="pts-container title-custom-category " style="background-color:#f2f2f2">        
+            <div class="pts-inner container">
+        
+    <div class="row-inner row-level-1">
+        <div class="row   clearfix" >
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-heading_group">
+                                <div class="pts-widget" id="wid-key_1525685523102"><div class="headding_group block-borderbox  block default">
+    
+            <h3 class="group_title title_block">
+            Our range of products
+        </h3>
+    
+    
+</div></div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                    </div>
+    </div>
+                </div>
+        </div>
+    
+     
+        <div class="pts-container  " style="background-color:#f2f2f2">        
+            <div class="pts-inner container">
+        
+    <div class="row-inner row-level-1">
+        <div class="row   clearfix" >
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-image">
+                                <div class="pts-widget" id="wid-key_1525709535457"><div class="widget-images block image-category ">
+		<div class="widget-inner block_content clearfix">
+		 <div class="image-item">
+		 			 	
+		 			 	<a href="/en/23-pharmaceutical-drugs" class="pts-btnlink img-animation" title="Large Image">
+		 	<img src="/en/modules/pspagebuilder/views/img/Specialità.jpg" alt="" /></a>
+		 			 </div>
+	</div>
+</div>
+ </div>
+                            </div>
+                                                                                                            <div class="widget-html">
+                                <div class="pts-widget" id="wid-key_1525764084200"><div class="widget-html block widget-name-category block-borderbox">
+		<div class="widget-inner block_content">
+		<div class="name-category">Pharmaceutical drugs</div>
+	</div>
+</div>
+</div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-image">
+                                <div class="pts-widget" id="wid-key_1525763661838"><div class="widget-images block image-category ">
+		<div class="widget-inner block_content clearfix">
+		 <div class="image-item">
+		 			 	
+		 			 	<a href="/en/24-vaccines" class="pts-btnlink img-animation" title="Large Image">
+		 	<img src="/en/modules/pspagebuilder/views/img/Vaccini.jpg" alt="" /></a>
+		 			 </div>
+	</div>
+</div>
+ </div>
+                            </div>
+                                                                                                            <div class="widget-html">
+                                <div class="pts-widget" id="wid-key_1525764162942"><div class="widget-html block widget-name-category block-borderbox">
+		<div class="widget-inner block_content">
+		<div class="name-category">Vaccines</div>
+	</div>
+</div>
+</div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-image">
+                                <div class="pts-widget" id="wid-key_1525763784488"><div class="widget-images block image-category ">
+		<div class="widget-inner block_content clearfix">
+		 <div class="image-item">
+		 			 	
+		 			 	<a href="/en/25-complementary-feeds" class="pts-btnlink img-animation" title="Large Image">
+		 	<img src="/en/modules/pspagebuilder/views/img/Mangimi.jpg" alt="" /></a>
+		 			 </div>
+	</div>
+</div>
+ </div>
+                            </div>
+                                                                                                            <div class="widget-html">
+                                <div class="pts-widget" id="wid-key_1525764201264"><div class="widget-html block widget-name-category block-borderbox">
+		<div class="widget-inner block_content">
+		<div class="name-category">Feed additives</div>
+	</div>
+</div>
+</div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                    </div>
+    </div>
+                </div>
+        </div>
+    
+     
+        <div class="pts-container  " style="background-color:#f2f2f2">        
+            <div class="pts-inner container">
+        
+    <div class="row-inner row-level-1">
+        <div class="row   clearfix" >
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-image">
+                                <div class="pts-widget" id="wid-key_1525763860341"><div class="widget-images block  ">
+		<div class="widget-inner block_content clearfix">
+		 <div class="image-item">
+		 			 	
+		 			 	<a href="/en/26-feed-additives" class="pts-btnlink img-animation" title="Large Image">
+		 	<img src="/en/modules/pspagebuilder/views/img/Mangimi alternativi.jpg" alt="" /></a>
+		 			 </div>
+	</div>
+</div>
+ </div>
+                            </div>
+                                                                                                            <div class="widget-html">
+                                <div class="pts-widget" id="wid-key_1525765021827"><div class="widget-html block widget-name-category block-borderbox">
+		<div class="widget-inner block_content">
+		<div class="name-category">Medicated premix</div>
+	</div>
+</div>
+</div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-image">
+                                <div class="pts-widget" id="wid-key_1525763929019"><div class="widget-images block  ">
+		<div class="widget-inner block_content clearfix">
+		 <div class="image-item">
+		 			 	
+		 			 	<a href="/en/content/29-original-products" class="pts-btnlink img-animation" title="Large Image">
+		 	<img src="/en/modules/pspagebuilder/views/img/original products.jpg" alt="" /></a>
+		 			 </div>
+	</div>
+</div>
+ </div>
+                            </div>
+                                                                                                            <div class="widget-html">
+                                <div class="pts-widget" id="wid-key_1525765042397"><div class="widget-html block widget-name-category block-borderbox">
+		<div class="widget-inner block_content">
+		<div class="name-category">Original products</div>
+	</div>
+</div>
+</div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-image">
+                                <div class="pts-widget" id="wid-key_1525763957810"><div class="widget-images block  ">
+		<div class="widget-inner block_content clearfix">
+		 <div class="image-item">
+		 			 	
+		 			 	<a href="/en/2-" class="pts-btnlink img-animation" title="Large Image">
+		 	<img src="/en/modules/pspagebuilder/views/img/tutti i prodotti.jpg" alt="" /></a>
+		 			 </div>
+	</div>
+</div>
+ </div>
+                            </div>
+                                                                                                            <div class="widget-html">
+                                <div class="pts-widget" id="wid-key_1525765049672"><div class="widget-html block widget-name-category block-borderbox">
+		<div class="widget-inner block_content">
+		<div class="name-category">All products</div>
+	</div>
+</div>
+</div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                    </div>
+    </div>
+                </div>
+        </div>
+    
+     
+        <div class="pts-container parallax-two  pts-parallax" style=" background-image:url('/en/modules/pspagebuilder/views/img/shutterstock_414972325-2.jpg') ">        
+            <div class="pts-inner container-fluid">
+        
+    <div class="row-inner row-level-1">
+        <div class="row pts-row default   clearfix" >
+                            <div class="col-lg-12 col-md-4 col-sm-6 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                        </div>
+
+                                    </div>
+                    </div>
+    </div>
+                </div>
+        </div>
+    
+     
+        <div class="pts-container  " style="">        
+            <div class="pts-inner container">
+        
+    <div class="row-inner row-level-1">
+        <div class="row   clearfix" >
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-heading_group">
+                                <div class="pts-widget" id="wid-key_1525682915657"><div class="headding_group block-borderbox  block default">
+    
+            <h3 class="group_title title_block">
+            News
+        </h3>
+    
+    
+</div></div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                    </div>
+    </div>
+                </div>
+        </div>
+    
+     
+        <div class="pts-container  " style="">        
+            <div class="pts-inner container">
+        
+    <div class="row-inner row-level-1">
+        <div class="row pts-row default   clearfix" >
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-bloglatest">
+                                <div class="pts-widget" id="wid-key_1468639398152">
+<div id="ptsblockblogstabs3270920433" class="widget-latestblog block space-50 block-borderbox">
+			<div class="block_content">
+									
+<div class=" boxcarousel widget-content owl-carousel-play" data-ride="owlcarousel">
+ 		 	<div class="carousel-controls">
+		 	<a class="left carousel-control left_carousel" href="#"><i class="icon icon-angle-left"></i></a>
+			<a class="right carousel-control right_carousel" href="#"><i class="icon icon-angle-right"></i></a>
+		</div>
+		<div class="owl-carousel  grid" data-columns="3"  data-pagination="false"  data-navigation="true"
+		data-desktop="[1200,3]"		data-desktopsmall="[992,2]"		data-tablet="[768,2]"		data-mobile="[480,1]">
+					<div class="item">
+								
+					<div class="blog_container grid clearfix">	
+	
+		<div class="blog-image">
+							<a href="https://www.fatro.it/en/blog/acquisition-of-quadrel-b328.html" title="Acquisition of Quadrel" class="link">
+					<img src="https://www.fatro.it/en/img/leoblog/b/328/370_370/b-slide news quadrel.jpg" title="Acquisition of Quadrel" alt="Acquisition of Quadrel" class="img-responsive" alt="" />
+				</a>
+			
+			<div class="blog_content-top">
+				
+									<h5 class="clearfix blog-title">
+						<a href="https://www.fatro.it/en/blog/acquisition-of-quadrel-b328.html" title="Acquisition of Quadrel">Acquisition of Quadrel</a>
+					</h5>
+				
+				
+
+						
+
+									<div class="blog-meta-right">
+						
+						
+                                                
+						
+
+					</div>
+				
+			</div>
+		</div>
+	
+	<div class="blog_inner">
+		<div class="blog_content">
+								</div>
+		
+	</div>
+</div>
+							</div>
+					<div class="item">
+								
+					<div class="blog_container grid clearfix">	
+	
+		<div class="blog-image">
+							<a href="https://www.fatro.it/en/blog/esda-2022-b309.html" title="ESDA 2022" class="link">
+					<img src="https://www.fatro.it/en/img/leoblog/b/309/370_370/b-slide esda 2022.jpg" title="ESDA 2022" alt="ESDA 2022" class="img-responsive" alt="" />
+				</a>
+			
+			<div class="blog_content-top">
+				
+									<h5 class="clearfix blog-title">
+						<a href="https://www.fatro.it/en/blog/esda-2022-b309.html" title="ESDA 2022">ESDA 2022</a>
+					</h5>
+				
+				
+
+						
+
+									<div class="blog-meta-right">
+						
+						
+                                                
+						
+
+					</div>
+				
+			</div>
+		</div>
+	
+	<div class="blog_inner">
+		<div class="blog_content">
+								</div>
+		
+	</div>
+</div>
+							</div>
+					<div class="item">
+								
+					<div class="blog_container grid clearfix">	
+	
+		<div class="blog-image">
+							<a href="https://www.fatro.it/en/blog/icar20202-bologna-italy-b306.html" title="ICAR2020+2 Bologna, Italy" class="link">
+					<img src="https://www.fatro.it/en/img/leoblog/b/306/370_370/b-slide icar.jpg" title="ICAR2020+2 Bologna, Italy" alt="ICAR2020+2 Bologna, Italy" class="img-responsive" alt="" />
+				</a>
+			
+			<div class="blog_content-top">
+				
+									<h5 class="clearfix blog-title">
+						<a href="https://www.fatro.it/en/blog/icar20202-bologna-italy-b306.html" title="ICAR2020+2 Bologna, Italy">ICAR2020+2 Bologna, Italy</a>
+					</h5>
+				
+				
+
+						
+
+									<div class="blog-meta-right">
+						
+						
+                                                
+						
+
+					</div>
+				
+			</div>
+		</div>
+	
+	<div class="blog_inner">
+		<div class="blog_content">
+								</div>
+		
+	</div>
+</div>
+							</div>
+					<div class="item">
+								
+					<div class="blog_container grid clearfix">	
+	
+		<div class="blog-image">
+							<a href="https://www.fatro.it/en/blog/fatro-travel-grant-2022-b299.html" title="FATRO Travel Grant 2022" class="link">
+					<img src="https://www.fatro.it/en/img/leoblog/b/299/370_370/b-slide borsa di studio.jpg" title="FATRO Travel Grant 2022" alt="FATRO Travel Grant 2022" class="img-responsive" alt="" />
+				</a>
+			
+			<div class="blog_content-top">
+				
+									<h5 class="clearfix blog-title">
+						<a href="https://www.fatro.it/en/blog/fatro-travel-grant-2022-b299.html" title="FATRO Travel Grant 2022">FATRO Travel Grant 2022</a>
+					</h5>
+				
+				
+
+						
+
+									<div class="blog-meta-right">
+						
+						
+                                                
+						
+
+					</div>
+				
+			</div>
+		</div>
+	
+	<div class="blog_inner">
+		<div class="blog_content">
+								</div>
+		
+	</div>
+</div>
+							</div>
+					<div class="item">
+								
+					<div class="blog_container grid clearfix">	
+	
+		<div class="blog-image">
+							<a href="https://www.fatro.it/en/blog/one-health-eco-health-b268.html" title="One Health Eco Health" class="link">
+					<img src="https://www.fatro.it/en/img/leoblog/b/268/370_370/b-testata one health ing_1.jpg" title="One Health Eco Health" alt="One Health Eco Health" class="img-responsive" alt="" />
+				</a>
+			
+			<div class="blog_content-top">
+				
+									<h5 class="clearfix blog-title">
+						<a href="https://www.fatro.it/en/blog/one-health-eco-health-b268.html" title="One Health Eco Health">One Health Eco Health</a>
+					</h5>
+				
+				
+
+						
+
+									<div class="blog-meta-right">
+						
+						
+                                                
+						
+
+					</div>
+				
+			</div>
+		</div>
+	
+	<div class="blog_inner">
+		<div class="blog_content">
+								</div>
+		
+	</div>
+</div>
+							</div>
+					<div class="item">
+								
+					<div class="blog_container grid clearfix">	
+	
+		<div class="blog-image">
+							<a href="https://www.fatro.it/en/blog/fatro-still-young-but-with-70-years-of-experience-b21.html" title="FATRO, Still young but with 70 years of experience" class="link">
+					<img src="https://www.fatro.it/en/img/leoblog/b/21/370_370/b-70 anni.jpg" title="FATRO, Still young but with 70 years of experience" alt="FATRO, Still young but with 70 years of experience" class="img-responsive" alt="" />
+				</a>
+			
+			<div class="blog_content-top">
+				
+									<h5 class="clearfix blog-title">
+						<a href="https://www.fatro.it/en/blog/fatro-still-young-but-with-70-years-of-experience-b21.html" title="FATRO, Still young but with 70 years of experience">FATRO, Still young but with 70 years of experience</a>
+					</h5>
+				
+				
+
+						
+
+									<div class="blog-meta-right">
+						
+						
+                                                
+						
+
+					</div>
+				
+			</div>
+		</div>
+	
+	<div class="blog_inner">
+		<div class="blog_content">
+								</div>
+		
+	</div>
+</div>
+							</div>
+			</div>
+</div>
+									
+	</div>
+</div>
+ </div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                    </div>
+    </div>
+                </div>
+        </div>
+    
+     
+        <div class="pts-container parallax-three  pts-parallax" style=" background-image:url('/en/modules/pspagebuilder/views/img/pecore1.jpg') ">        
+            <div class="pts-inner container-fluid">
+        
+    <div class="row-inner row-level-1">
+        <div class="row pts-row default   clearfix" >
+                            <div class="col-lg-12 col-md-4 col-sm-6 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                        </div>
+
+                                    </div>
+                    </div>
+    </div>
+                </div>
+        </div>
+        
+</div>
+						  			
+  				</div ><!-- .columns-container -->
+					
+				
+				<footer id="footer">
+					<div id="ptsfooterbuilder1743976832" class="footerbuilder clearfix">
+    
+     
+        <div class="pts-container footer-center " style="">        
+            <div class="pts-inner container">
+        
+    <div class="row-inner row-level-1">
+        <div class="row   clearfix" >
+                            <div class="col-lg-6 col-md-3 col-sm-6 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-ourservice">
+                                <div class="pts-widget" id="wid-key_1463040065405"><div class="ps-ourservice block">
+	<div class="media">
+					<div class="pull-left  box-icon">
+							<img src="http://www.fatro.it/en/cache/pspagebuilder/logo-fatro-footer.png" alt="icon"/>
+					</div>
+					<div class="media-body widget-block-content">
+						<div class="ourservice-content">
+				<div class="widget-banner-desc">
+<div class="pts-contact-footer">
+<p><span style="color: #000;"><strong>FATRO S.p.A. - Veterinary Pharmaceutical Industry</strong></span></p>
+<p><span>Via Emilia, 285 - 40064 Ozzano dell’Emilia (BO) Italy<br /> T +39 051 6512711</span> | <a href="mailto:fatro@fatro.it" style="color: #000; text-transform: lowercase;">fatro@fatro.it</a></p>
+<p style="padding-top: 10px;"><span>Registered Capital Euro 11.900.000,00 fully paid up R.E.A. BO 357982<br /> Tax Code and Registration number with the Bologna Company Register 01125080372 <br />P. IVA 01665321202 - CEE VAT number IT 01665321202</span></p>
+</div>
+</div>
+			</div>
+		</div>
+			</div>
+</div></div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-links">
+                                <div class="pts-widget" id="wid-key_1468484532054"><div class="widget-links block  ">
+	      <div class="widget-block-content">
+					<h4 class="title_block">
+				Range of Products
+			</h4>
+		
+		<div class="widget-inner block_content">	
+			<div id="tabs783496849" class="panel-group">
+				
+				<ul class="nav-links">
+				    
+				  <li ><a href="/en/23-" >Pharmaceutical Drugs</a></li>
+				    
+				  <li ><a href="/en/24-" >Vaccines</a></li>
+				    
+				  <li ><a href="/en/25-" >Complementary Feeds</a></li>
+				    
+				  <li ><a href="/en/26-" >Feed Additives</a></li>
+				    
+				  <li ><a href="/en/2-" >All Products</a></li>
+				  				</ul>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-links">
+                                <div class="pts-widget" id="wid-key_1460621109891"><div class="widget-links block  ">
+	      <div class="widget-block-content">
+					<h4 class="title_block">
+				Information
+			</h4>
+		
+		<div class="widget-inner block_content">	
+			<div id="tabs892388512" class="panel-group">
+				
+				<ul class="nav-links">
+				    
+				  <li ><a href="/en/content/4-" >Company</a></li>
+				    
+				  <li ><a href="/en/blog/vet-updates-c12.html" >Vet Updates</a></li>
+				    
+				  <li ><a href="/en/blog/news-c9.html" >News</a></li>
+				    
+				  <li ><a href="/en/content/14-" >Foundation</a></li>
+				    
+				  <li ><a href="/en/contattaci" >Contacts</a></li>
+				  				</ul>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-links">
+                                <div class="pts-widget" id="wid-key_1460621905994"><div class="widget-links block  ">
+	      <div class="widget-block-content">
+					<h4 class="title_block">
+				IN EVIDENCE
+			</h4>
+		
+		<div class="widget-inner block_content">	
+			<div id="tabs1461464840" class="panel-group">
+				
+				<ul class="nav-links">
+				    
+				  <li ><a href="/en/2-" >FATRO products</a></li>
+				    
+				  <li ><a href="/en/blog/fatro-calendars-c20.html" >FATRO Calendars</a></li>
+				    
+				  <li ><a href="/en/content/7-" >FATRO Group</a></li>
+				    
+				  <li ><a href="/en/content/18-" >Vision and Values</a></li>
+				    
+				  <li ><a href="/en/content/11-" >Environmental Policy</a></li>
+				  				</ul>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                    </div>
+    </div>
+                </div>
+        </div>
+    
+     
+        <div class="pts-container pts-copyright  " style="">        
+            <div class="pts-inner container">
+        
+    <div class="row-inner row-level-1">
+        <div class="row   clearfix" >
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-html">
+                                <div class="pts-widget" id="wid-key_1442285073576"><div class="widget-html block  block-borderbox">
+		<div class="widget-inner block_content">
+		<p>© 2018-2025 FATRO S.p.A.</p>
+<ul class="list-inline">
+<li><a href="/en/content/15-">Cookies Policy</a></li>
+<li><a href="/en/content/24-">Privacy</a></li>
+</ul>
+	</div>
+</div>
+</div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                            <div class="col-inner  " style="">
+                                                                                <div class="widget-image">
+                                <div class="pts-widget" id="wid-key_1468489838144"><div class="widget-images block no-animation ">
+		<div class="widget-inner block_content clearfix">
+		 <div class="image-item">
+		 			 	
+		 			 	<a href="#" class="pts-btnlink img-animation" title="Large Image">
+		 	<img src="/en/modules/pspagebuilder/views/img/" alt="" /></a>
+		 			 </div>
+	</div>
+</div>
+ </div>
+                            </div>
+                                                                                                    </div>
+
+                                    </div>
+                    </div>
+    </div>
+                </div>
+        </div>
+        
+</div>
+
+													
+						
+					<div id="pts-footercenter">
+						<div class="container">
+							<div class="inner">
+								<div class="row">
+									
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+                                                                
+                                                                                                                                    <div class="aisa">
+                                                                                                                                        <img src="/themes/pf_ministore/img/CERT. AMBIENT INGLESE.png" alt="" border="">
+                                                                                                                                        </div>
+                                                                                                                                <div class="grass-background"></div>
+				</footer>
+					</div>
+		<!-- gototop -->
+				<a id="to_top" href="javascript:;" style="display: inline;"><span><i class="icon icon-angle-up"></i></span></a>
+				<!-- #page -->
+
+
+	<div id="fancybox-compare-add" style="display:none;">
+	   <div id="fancybox-html">
+	    <div class="msg">Add product to compare successful</div>
+	    <a href="https://www.fatro.it/en/confronto-prodotti" title="compare product">
+	      <strong>Compare </strong>
+	    </a>
+	   </div>
+	  </div>
+
+	  <div id="fancybox-compare-remove" style="display:none;">
+	   <div id="fancybox-html1">
+	    <div class="msg">Remove product successful</div>
+	    <a href="https://www.fatro.it/en/confronto-prodotti" title="compare product">
+	     <strong>Click here to compare</strong>
+	    </a>
+	   </div>
+	  </div>
+</body></html>

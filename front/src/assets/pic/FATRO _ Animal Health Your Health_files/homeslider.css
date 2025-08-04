@@ -1,0 +1,361 @@
+/* $gray-lighter:        lighten($gray-base, 93.5%) !default; // #eee */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/** CHECKOUT BY STEP */
+/* --- SCSS For Accordion --- */
+/* --- SCSS For Breadcrumb --- */
+/* --- SCSS For Buttons --- */
+/* --- SCSS For Call-to-action --- */
+/* --- SCSS For Content-slider --- */
+/*  */
+/* carousel-controls-v1 */
+/* carousel-controls-v2 */
+/* carousel-controls-v3 */
+/* Navigation Styles */
+/* carousel-indicators-v1 */
+/* carousel-indicators-v2 */
+/* carousel-indicators-v3 */
+/* carousel-indicators-v4 */
+/* carousel-indicators-v5 */
+/* carousel-indicators-v6 */
+/* --- SCSS For Counters --- */
+/* --- SCSS For Heading --- */
+/* --- SCSS For Icon-box --- */
+/* --- SCSS For Interactive-banner --- */
+/* --- SCSS For Latest-posts --- */
+/* latest posts */
+/* --- SCSS For List --- */
+/* variables for list */
+/* variables for list light */
+/* --- SCSS For Message --- */
+/* --- SCSS For Newsletter --- */
+/* --- SCSS For Piechart --- */
+/* --- SCSS For Pricing --- */
+/* --- SCSS For Process-steps --- */
+/* process-steps */
+/* --- SCSS For Service --- */
+/* variables for tab style1 using as base of tab */
+/* --- SCSS For Style-icon --- */
+/* Variables icons default */
+/* Variables icons bodered */
+/* Variables icons darker */
+/* Variables icons light */
+/* Variables icons plain */
+/* Variables icons for light style */
+/* Variables icons outline */
+/* Variables icons inverse */
+/* --- SCSS For Table --- */
+/* --- SCSS For Tabs --- */
+/* variables for tab style1 using as base of tab */
+/* tab style version 5 */
+/* tab style version 6 */
+/* --- SCSS For Testimonials --- */
+/* testimonials default */
+/* testimonials-v1 */
+/* testimonials light */
+/* --- SCSS For Typography --- */
+/******************************************************************************
+						Home Page Slider
+*******************************************************************************/
+#homepage-slider #homeslider {
+  margin: 0 auto;
+  padding: 0;
+}
+#homepage-slider .homeslider-description {
+  padding: 10px;
+  cursor: pointer;
+  color: #555555;
+}
+#homepage-slider .homeslider-description h3 {
+  font: 21px/30px "Raleway";
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  clear: both;
+}
+#homepage-slider .homeslider-description h2 {
+  font: 36px/20px "Raleway";
+  text-transform: uppercase;
+  border: 2px solid #000;
+  display: inline;
+  padding: 0 10px;
+}
+#homepage-slider .homeslider-description p {
+  font: 14px "Work Sans", sans-serif;
+  padding: 20px 0 0;
+}
+@media (max-width: 1200px) {
+  #homepage-slider .homeslider-description {
+    padding: 20px;
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 992px) {
+  #homepage-slider .homeslider-description {
+    padding: 0 10px 0 0;
+    font-size: 0.7em;
+  }
+  #homepage-slider .homeslider-description p {
+    padding: 15px 0 0;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 480px) {
+  #homepage-slider .homeslider-description {
+    padding: 30px;
+    font-size: 0.5em;
+  }
+  #homepage-slider .homeslider-description p {
+    font-size: 1.7em;
+  }
+}
+
+/*****************************************************************************
+						BXSlider Styles
+********************************************************************************/
+#homepage-slider .homeslider-container {
+  position: relative;
+}
+#homepage-slider .homeslider-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.rtl #homepage-slider .homeslider-image {
+  right: 0;
+  left: auto;
+}
+#homepage-slider .homeslider-description {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 50%;
+}
+.rtl #homepage-slider .homeslider-description {
+  right: 0;
+  left: auto;
+}
+#homepage-slider .bx-wrapper {
+  position: relative;
+  padding: 0;
+  *zoom: 1;
+}
+#homepage-slider .bx-wrapper a {
+  display: block;
+}
+#homepage-slider .bx-wrapper .bx-viewport {
+  width: 100%;
+}
+#homepage-slider .bx-wrapper .bx-pager,
+#homepage-slider .bx-wrapper .bx-controls-auto {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+}
+#homepage-slider .bx-wrapper .bx-loading {
+  min-height: 50px;
+  /* background: url(images/bx_loader.gif) center center no-repeat $light-background; */
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+.rtl #homepage-slider .bx-wrapper .bx-loading {
+  right: 0;
+  left: auto;
+}
+#homepage-slider .bx-wrapper .bx-pager {
+  text-align: center;
+  font-size: .85em;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  color: #666;
+  padding-top: 20px;
+}
+#homepage-slider .bx-wrapper .bx-pager .bx-pager-item,
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a {
+  background: #666;
+  text-indent: -9999px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  outline: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a:hover,
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #000;
+}
+#homepage-slider .bx-wrapper .bx-prev {
+  right: 60px;
+}
+.rtl #homepage-slider .bx-wrapper .bx-prev {
+  left: 60px;
+  right: auto;
+}
+#homepage-slider .bx-wrapper .bx-prev:after {
+  content: "\f053";
+}
+#homepage-slider .bx-wrapper .bx-next {
+  right: 10px;
+}
+.rtl #homepage-slider .bx-wrapper .bx-next {
+  left: 10px;
+  right: auto;
+}
+#homepage-slider .bx-wrapper .bx-next:after {
+  content: "\f054";
+}
+#homepage-slider .bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  bottom: 10px;
+  outline: 0;
+  width: 52px;
+  height: 52px;
+  text-indent: -9999px;
+  z-index: 9999;
+  border: 2px solid #262626;
+}
+#homepage-slider .bx-wrapper .bx-controls-direction a:before {
+  height: 48px;
+  width: 48px;
+  display: block;
+  background: #FFFFFF;
+  content: ".";
+  filter: alpha(opacity=14);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=14)";
+  -moz-opacity: 0.14;
+  -khtml-opacity: 0.14;
+  opacity: 0.14;
+  text-indent: -9999px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.rtl #homepage-slider .bx-wrapper .bx-controls-direction a:before {
+  right: 0;
+  left: auto;
+}
+#homepage-slider .bx-wrapper .bx-controls-direction a:after {
+  display: block;
+  width: 48px;
+  height: 48px;
+  color: #000000;
+  text-indent: 0;
+  text-align: center;
+  font-size: 21px;
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 16px 0 0 0;
+}
+.rtl #homepage-slider .bx-wrapper .bx-controls-direction a:after {
+  right: 0;
+  left: auto;
+}
+#homepage-slider .bx-wrapper .bx-controls-direction a:hover:before {
+  background: #FFFFFF;
+  filter: alpha(opacity=80);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}
+#homepage-slider .bx-wrapper .bx-controls-direction a.disabled {
+  display: none;
+}
+#homepage-slider .bx-wrapper .bx-controls-auto {
+  text-align: center;
+}
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-start {
+  display: block;
+  text-indent: -9999px;
+  width: 10px;
+  height: 11px;
+  outline: 0;
+  margin: 0 3px;
+}
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-start:hover,
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-start.active {
+  background-position: -86px 0;
+}
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-stop {
+  display: block;
+  text-indent: -9999px;
+  width: 9px;
+  height: 11px;
+  outline: 0;
+  margin: 0 3px;
+}
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-stop:hover,
+#homepage-slider .bx-wrapper .bx-controls-auto .bx-stop.active {
+  background-position: -86px -33px;
+}
+#homepage-slider .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+  text-align: left;
+  width: 80%;
+}
+#homepage-slider .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+  right: 0;
+  width: 35px;
+}
+#homepage-slider .bx-wrapper .bx-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #666 \9;
+  background: rgba(80, 80, 80, 0.75);
+  width: 100%;
+}
+#homepage-slider .bx-wrapper .bx-caption span {
+  color: #000000;
+  font-family: "Work Sans", sans-serif;
+  display: block;
+  font-size: .85em;
+  padding: 10px;
+}
+
+.ie8 #homepage-slider .bx-wrapper .bx-controls-direction a:before {
+  background: #000000;
+}

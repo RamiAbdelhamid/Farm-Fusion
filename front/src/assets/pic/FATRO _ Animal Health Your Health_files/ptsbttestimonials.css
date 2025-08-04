@@ -1,0 +1,257 @@
+/* $gray-lighter:        lighten($gray-base, 93.5%) !default; // #eee */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/** CHECKOUT BY STEP */
+/* --- SCSS For Accordion --- */
+/* --- SCSS For Breadcrumb --- */
+/* --- SCSS For Buttons --- */
+/* --- SCSS For Call-to-action --- */
+/* --- SCSS For Content-slider --- */
+/*  */
+/* carousel-controls-v1 */
+/* carousel-controls-v2 */
+/* carousel-controls-v3 */
+/* Navigation Styles */
+/* carousel-indicators-v1 */
+/* carousel-indicators-v2 */
+/* carousel-indicators-v3 */
+/* carousel-indicators-v4 */
+/* carousel-indicators-v5 */
+/* carousel-indicators-v6 */
+/* --- SCSS For Counters --- */
+/* --- SCSS For Heading --- */
+/* --- SCSS For Icon-box --- */
+/* --- SCSS For Interactive-banner --- */
+/* --- SCSS For Latest-posts --- */
+/* latest posts */
+/* --- SCSS For List --- */
+/* variables for list */
+/* variables for list light */
+/* --- SCSS For Message --- */
+/* --- SCSS For Newsletter --- */
+/* --- SCSS For Piechart --- */
+/* --- SCSS For Pricing --- */
+/* --- SCSS For Process-steps --- */
+/* process-steps */
+/* --- SCSS For Service --- */
+/* variables for tab style1 using as base of tab */
+/* --- SCSS For Style-icon --- */
+/* Variables icons default */
+/* Variables icons bodered */
+/* Variables icons darker */
+/* Variables icons light */
+/* Variables icons plain */
+/* Variables icons for light style */
+/* Variables icons outline */
+/* Variables icons inverse */
+/* --- SCSS For Table --- */
+/* --- SCSS For Tabs --- */
+/* variables for tab style1 using as base of tab */
+/* tab style version 5 */
+/* tab style version 6 */
+/* --- SCSS For Testimonials --- */
+/* testimonials default */
+/* testimonials-v1 */
+/* testimonials light */
+/* --- SCSS For Typography --- */
+/*******************************************************************
+          ptsbttestimonials
+********************************************************************/
+#product .bg_testimonial {
+  margin: 0 0 70px 0;
+}
+@media (max-width: 479px) {
+  #product .bg_testimonial .testimonials .testimonials-body {
+    width: 30% !important;
+    display: inline-block;
+    float: left;
+  }
+  .rtl #product .bg_testimonial .testimonials .testimonials-body {
+    float: right;
+  }
+}
+@media (max-width: 1200px) {
+  #product .bg_testimonial .ptsbttestimonials {
+    height: auto !important;
+  }
+}
+
+.ptsbttestimonials .carousel-controls {
+  display: none;
+}
+.ptsbttestimonials .testimonial-item {
+  margin: 35px 50px;
+}
+.ptsbttestimonials .testimonial-body {
+  padding: 15px 50px;
+  background-color: #fff;
+}
+.ptsbttestimonials .test-info {
+  font-size: 13px;
+  clear: both;
+}
+.ptsbttestimonials .media {
+  position: relative;
+}
+.ptsbttestimonials .t-avatar {
+  clear: both;
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  z-index: 10;
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  margin-top: -30px;
+}
+.rtl .ptsbttestimonials .t-avatar {
+  right: -30px;
+  left: auto;
+}
+.ptsbttestimonials .t-avatar:hover .icon {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+.ptsbttestimonials .t-avatar .icon {
+  position: absolute;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  padding: 0;
+  text-align: center;
+  left: 50%;
+  margin-left: -15px;
+  top: 50%;
+  margin-top: -15px;
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.rtl .ptsbttestimonials .t-avatar .icon {
+  right: 50%;
+  left: auto;
+}
+.rtl .ptsbttestimonials .t-avatar .icon {
+  margin-right: -15px;
+  margin-left: inherit;
+}
+.ptsbttestimonials .t-profile {
+  overflow: hidden;
+}
+.ptsbttestimonials .t-profile .name {
+  color: #86bde9;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.ptsbttestimonials .t-profile .name:hover, .ptsbttestimonials .t-profile .name:focus {
+  text-decoration: underline;
+}
+.ptsbttestimonials .t-profile .job {
+  font-family: Georgia;
+  margin-bottom: 10px;
+}
+.ptsbttestimonials .carousel-control {
+  filter: alpha(opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+.ptsbttestimonials .carousel-control.left {
+  left: 0;
+}
+.rtl .ptsbttestimonials .carousel-control.left {
+  right: 0;
+  left: auto;
+}
+.ptsbttestimonials .carousel-control.right {
+  right: 0;
+}
+.rtl .ptsbttestimonials .carousel-control.right {
+  left: 0;
+  right: auto;
+}
+.ptsbttestimonials .carousel-control:hover, .ptsbttestimonials .carousel-control:focus {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+.ptsbttestimonials .carousel-linked-nav {
+  height: 15px;
+  min-height: 15px;
+  line-height: 15px;
+  padding-left: 120px;
+}
+.rtl .ptsbttestimonials .carousel-linked-nav {
+  padding-right: 120px;
+  padding-left: inherit;
+}
+.ptsbttestimonials .carousel-linked-nav > li {
+  margin: 0;
+}
+.ptsbttestimonials .carousel-linked-nav > li.active a {
+  background-color: #86bde9;
+  border-color: transparent;
+}
+.ptsbttestimonials .carousel-linked-nav > li > a {
+  background: #cecece;
+  text-indent: -9999px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  min-width: 10px;
+  margin: 0 3px;
+  padding: 0;
+  outline: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.ptsbttestimonials .carousel-linked-nav > li > a:hover {
+  background-color: #86bde9;
+  border-color: transparent;
+}

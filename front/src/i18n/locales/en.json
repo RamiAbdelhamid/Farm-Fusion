@@ -1,0 +1,770 @@
+{
+  "aboutTitle": "About Our Company",
+  "whoWeAre": "Who We Are",
+  "description": "Welcome to Farm Fusion, your ideal destination in the world of agriculture and animal production.",
+  "ourServices": "Our Services",
+  "agriculture": "Agricultural Production",
+  "animal": "Animal Production",
+  "equipment": "Agricultural Equipment",
+  "consulting": "Support and Consulting",
+  "ourVision": "Our Vision",
+  "global": "Global Reach & Expansion",
+  "leadership": "Industry Leadership",
+  "innovation": "Sustainable Innovation",
+  "happyClients": "Happy Clients",
+  "products": "Products",
+  "bookings": "Bookings",
+  "vets": "Veterinarians",
+
+  
+  "contactTitle": "Get In Touch",
+  "contactSubtitle": "Have questions about livestock care, crop management, or agricultural solutions? Our team of experts is here to help you grow and succeed.",
+  "contactFormTitle": "Contact Form",
+  "firstNameLabel": "First Name",
+  "lastNameLabel": "Last Name",
+  "emailLabel": "Email",
+  "subjectLabel": "Subject",
+  "selectTopic": "Select a topic",
+  "livestockOption": "Livestock Care",
+  "cropOption": "Crop Management",
+  "equipmentOption": "Agricultural Equipment",
+  "pricingOption": "Pricing & Services",
+  "otherOption": "Other",
+  "messageLabel": "Message",
+  "messagePlaceholder": "Tell us how we can help with your farming or animal care needs...",
+  "sendButton": "Send Message",
+  "whatsappButton": "WhatsApp Us",
+  "sending": "Sending...",
+  "contactInfoTitle": "Contact Information",
+  "locationTitle": "Our Location",
+  "locationAddress": "Zarqa, Jordan",
+  "phoneTitle": "Phone",
+  "phoneNumber": "+962785956180",
+  "emailTitle": "Email",
+  "emailAddress": "info@farmfusion.com",
+  "businessHoursTitle": "Business Hours",
+  "weekdaysLabel": "Saturday - Wednesday",
+  "weekdaysHours": "8:00 AM - 5:00 PM",
+  "saturdayLabel": "Thursday",
+  "saturdayHours": "9:00 AM - 2:00 PM",
+  "sundayLabel": "Friday",
+  "sundayHours": "Closed",
+  "servicesTitle": "Our Services",
+  "service1": "Livestock Health & Management",
+  "service2": "Crop Planning & Rotation",
+  "service3": "Sustainable Farming Practices",
+  "service4": "Equipment Sales & Rentals",
+  "service5": "Agricultural Consultations",
+  "findUsTitle": "Find Us",
+  "mapTitle": "Our Location",
+  "chatTitle": "Farm Assistant",
+  "chatPlaceholder": "Ask about our services...",
+  "chatWelcomeMessage": "Hello! How can I help you with your animal or agriculture questions today?",
+  "defaultBotResponse": "I'll have someone from our team get back to you on this question.",
+  "livestockBotResponse": "Our livestock specialists can help with animal health, breeding, and management questions. Would you like me to connect you with a specialist?",
+  "cropBotResponse": "Our crop experts can provide guidance on planting, fertilization, pest management, and harvesting. Do you need specific crop information?",
+  "hoursBotResponse": "Our office is open Monday-Friday from 8am to 5pm, and Saturday from 9am to 2pm. We're closed on Sundays.",
+  "pricingBotResponse": "Pricing varies by service. For a detailed quote, please fill out our contact form or call us directly at (555) 123-4567.",
+  "locationBotResponse": "We're located at 123 Farm Road, Rural County, State 12345. You can view our location on the map below the contact form.",
+  "thankYou": "Thank You!",
+  "contactSuccessMessage": "Your message has been sent successfully. We'll get back to you soon!",
+  "great": "Great!",
+  "loginRequired": "Please login first",
+  "loginPrompt": "You need to log in before sending a message.",
+  "login": "Login",
+  "contactErrorMessage": "Failed to send message. Please try again.",
+  "whatsappTitle": "WhatsApp Us!",
+  "whatsappPrompt": "Would you like to chat with us on WhatsApp?",
+  "openWhatsApp": "Yes, open WhatsApp",
+  "notNow": "Not now"
+,
+
+  "alerts": {
+    "success": "Success!",
+    "error": "Error!",
+    "warning": "Warning!"
+  },
+  "vetBooking": {
+    "title": "Farm Vet Services",
+    "subtitle": "Expert veterinary care for your farm animals",
+    "programName": "Rural Agricultural Support Program",
+    "step1": "Select Department",
+    "step2": "Choose Veterinarian",
+    "step3": "Appointment Details",
+    "emergencyCase": "Emergency Case",
+    "emergencyNote": "Emergency cases receive priority scheduling",
+    "selectVet": "Select a Veterinarian",
+    "selectVetPlaceholder": "Select a Veterinarian",
+    "drPrefix": "Dr.",
+    "yearsExperience": "Years Experience",
+    "specializations": "Specializations",
+    "nextAvailable": "Next Available",
+    "selectDepartmentFirst": "Please select a department first",
+    "reservedDates": "Reserved Dates",
+    "noReservedDates": "No reserved dates found for this vet",
+    "selectDate": "Select Date",
+    "phoneNumber": "Your Phone Number",
+    "phonePlaceholder": "Enter your phone number",
+    "phoneFormat": "Format: +1234567890 or 0123456789",
+    "reasonForVisit": "Reason for Visit",
+    "reasonPlaceholder": "Please describe the issue or reason for your visit...",
+    "bookAppointment": "Book Appointment",
+    "bookingSummary": "You're booking with Dr. {vetName} for {departmentName}",
+    "namear": "namear",
+    "footer": "Farm Vet Services - Providing quality care to farm animals since 2010",
+    "alerts": {
+      "loginRequired": "Please login to access veterinary services",
+      "departmentsError": "Failed to load departments. Please try again later.",
+      "loginVets": "Please login to view available veterinarians",
+      "vetsError": "Failed to load veterinarians. Please try again later.",
+      "loginDates": "Please login to view available dates",
+      "datesError": "Failed to load reserved dates. Please try again later.",
+      "fillAllFields": "Please fill in all required fields!",
+      "dateBooked": "This date is already booked for the selected veterinarian. Please choose another date.",
+      "validPhone": "Please enter a valid phone number (10-15 digits)",
+      "loginBook": "Please login to book an appointment",
+      "bookingError": "An error occurred while saving your booking. Please try again.",
+      "networkError": "Network error. Please check your connection and try again.",
+      "bookingSuccess": "Your appointment has been booked successfully!"
+    },
+    "processing": "Processing...",
+    "pleaseWait": "Please wait while we book your appointment"
+
+
+
+
+
+
+    
+  }
+
+
+
+,
+
+  "agriculturalHealthPlatform": "Agricultural Health Platform",
+  "healthPlatformDescription": "Comprehensive resource for animal and plant health information",
+  "searchPlaceholder": "Search articles by title, content or tags...",
+  "filters": "Filters",
+  "advancedFilters": "Advanced Filters",
+  "dateRange": "Date Range",
+  "allTime": "All Time",
+  "pastWeek": "Past Week",
+  "pastMonth": "Past Month",
+  "pastYear": "Past Year",
+  "sortBy": "Sort By",
+  "newestFirst": "Newest First",
+  "oldestFirst": "Oldest First",
+  "aToZ": "A-Z",
+  "zToA": "Z-A",
+  "agriculturalHealthArticles": "Agricultural Health Articles",
+  "showingArticles": "Showing {{count}} articles",
+  "noArticlesFound": "No articles found",
+  "adjustSearchFilters": "Try adjusting your search filters or explore a different category",
+  "prev": "Prev",
+  "next": "Next",
+  "pageInfo": "Page {{current}} of {{total}}",
+  "articleContent": "Article Content",
+  "references": "References",
+  "relatedArticles": "Related Articles",
+  "readMore": "Read More",
+  "by": "by",
+  "unknown": "Unknown",
+  "unknownAuthor": "Unknown Author"
+
+
+,
+
+  "home": "Home",
+  "shop": "Shop",
+  "veterinarians": "Veterinarians",
+  "reservations": "Reservations",
+  "healthGuide": "Health Guide",
+  "about": "About",
+  "contact": "Contact",
+  "login": "Login",
+  "signUp": "Sign Up",
+  "yourProfile": "Your Profile",
+  "signOut": "Sign out",
+  "openMenu": "Open main menu",
+  "openUserMenu": "Open user menu",
+  "userProfile": "User profile",
+  "shoppingCart": "Shopping Cart",
+  "emptyCart": "Your cart is empty",
+  "startShopping": "Start adding some items to your cart",
+  "continueShopping": "Continue Shopping",
+  "jd": "JD",
+  "subtotal": "Subtotal",
+  "shippingCalc": "Shipping and taxes calculated at checkout.",
+  "checkout": "Checkout",
+  "clearCart": "Clear Cart",
+  "remove": "Remove",
+  "logoutSuccess": "Logged out successfully",
+  "logoutFailed": "Logout failed",
+  "fetchUserError": "Failed to fetch user data"
+
+,
+
+
+  "slide1Title": "Complete Poultry Solutions",
+  "slide1Description": "Vaccines, equipment, and expertise for optimal poultry farming",
+  "slide2Title": "From Farm to Future",
+  "slide2Description": "Modern solutions for traditional farming challenges",
+  "slide3Title": "Quality Agricultural Solutions",
+  "slide3Description": "Providing farmers with the best products for sustainable growth",
+  "viewSolutions": "View Solutions",
+  "exploreProducts": "Explore Products",
+  "shopNow": "Shop Now",
+  "goToSlide": "Go to slide {{number}}",
+  "browserNotSupportVideo": "Your browser does not support the video tag."
+
+
+
+
+,
+
+
+  "vaccine": "Vaccine",
+  "vitamins": "Vitamins",
+  "disinfectants": "Disinfectants",
+  "fertilizers": "Fertilizers",
+  "seeds": "Seeds",
+  "equipment": "Equipment",
+  "Live Vaccine": "Live Vaccine",
+  "Vitamins": "Vitamins",
+  "Disinfectants": "Disinfectants",
+  "Fertilizer": "Fertilizer",
+  "Seeds": "Seeds",
+  "Equipment": "Equipment"
+
+
+
+
+,
+
+  "dir": "ltr",
+  "homepage": {
+    "categories": {
+      "title": "Our Product Categories",
+      "description": "Explore our wide range of high-quality agricultural products and livestock."
+    },
+    "featured": {
+      "tag": "Featured",
+      "title": "Premium Thyme Products"
+    },
+    "poultry": {
+      "tag": "Livestock",
+      "title": "Chicken Farming Solutions"
+    },
+    "calendar": {
+      "tag": "Seasonal Guide",
+      "title": "Farming Calendar",
+      "description": "Plan your agricultural activities according to the seasons",
+      "spring_items": [
+        "Planting vegetables",
+        "Pruning fruit trees",
+        "Preparing soil for summer crops"
+      ],
+      "summer_items": [
+        "Irrigation management",
+        "Harvesting early crops",
+        "Pest control"
+      ],
+      "fall_items": [
+        "Planting winter crops",
+        "Harvesting summer fruits",
+        "Soil preparation"
+      ],
+      "winter_items": [
+        "Greenhouse maintenance",
+        "Livestock care",
+        "Equipment repair"
+      ]
+    },
+    "services": {
+      "title": "Our Services",
+      "description": "Comprehensive solutions for all your agricultural needs",
+      "shop": {
+        "title": "Online Shop",
+        "description": "Purchase high-quality seeds, tools, and agricultural supplies"
+      },
+      "health": {
+        "title": "Health Guides",
+        "description": "Expert advice for maintaining livestock and crop health"
+      },
+      "vet": {
+        "title": "Veterinarians",
+        "description": "Connect with certified animal health professionals"
+      }
+    },
+    "cta": {
+      "title": "Ready to Grow With Us?",
+      "description": "Join thousands of farmers who trust our products and services",
+      "vet_button": "Find a Vet",
+      "products_button": "Browse Products"
+    }
+  },
+  "seasons": {
+    "spring": "Spring",
+    "summer": "Summer",
+    "fall": "Fall",
+    "winter": "Winter"
+  }
+
+,
+"homepagee": {
+  "featured": {
+    "thyme_image_alt": "Premium organic thyme crop",
+    "organic_badge": "100% Organic",
+    "grown_naturally": "Grown Naturally",
+    "section_title": "Our Premium Crop",
+    "description_paragraph1": "Discover the goodness and creativity of nature with our harvest of authentic local thyme carefully grown in an ideal natural environment. Our thyme is distinguished by its fragrant aroma and strong flavor that adds an exceptional touch to your recipes.",
+    "description_paragraph2": "It is grown using sustainable agricultural methods that ensure high quality and complete purity, making it the perfect choice for cooking, herbal tea, or traditional medicinal uses.",
+    "benefits": {
+      "organic": {
+        "title": "100% Organic",
+        "description": "No chemicals or pesticides"
+      },
+      "flavor": {
+        "title": "Rich Flavor",
+        "description": "Aromatic and potent"
+      },
+      "health": {
+        "title": "Health Benefits",
+        "description": "Rich in essential oils"
+      },
+      "sustainable": {
+        "title": "Sustainable",
+        "description": "Eco-friendly farming"
+      }
+    },
+    "cta_button": "Explore Our Organic Products"
+  }
+}
+
+
+,
+
+"homepageChicken": {
+  "poultry": {
+    "main_image_alt": "Broiler farming operation",
+    "main_title": "Premium Broiler Solutions",
+    "main_subtitle": "Comprehensive care from day one to market-ready birds",
+    "excellence_tag": "Poultry Excellence",
+    "description": "We offer you the best broiler farming solutions that guarantee you high productivity and unmatched quality! We take care of every detail to ensure the health of the poultry and their rapid growth.",
+    "why_choose_title": "Why Choose Our Services?",
+    "benefits": {
+      "integrated_care": {
+        "title": "Integrated Care",
+        "description": "Balanced feeding & comprehensive vaccination programs"
+      },
+      "vitamins": {
+        "title": "Advanced Vitamins",
+        "description": "Fortified products ensure rapid growth & excellent performance"
+      },
+      "productivity": {
+        "title": "High Productivity",
+        "description": "Optimal care leads to better meat quality & weight gain"
+      },
+      "environment": {
+        "title": "Healthy Environment",
+        "description": "Clean & well-maintained poultry farming conditions"
+      }
+    },
+    "cta_button": "Explore Poultry Solutions",
+    "gallery": {
+      "chicks_alt": "Day-old chicks",
+      "bedding_alt": "Quality wood shavings bedding",
+      "broilers_alt": "Healthy broiler chickens"
+    },
+    "stats_title": "Our Poultry Success",
+    "stats_subtitle": "Real results from our integrated approach",
+    "stats": {
+      "survival_rate": "Survival Rate",
+      "growth_rate": "Faster Growth",
+      "avg_weight": "Average Weight",
+      "farmers": "Happy Farmers"
+    }
+  }
+}
+
+
+,
+
+  "footer": {
+    "brandName": "FarmFusion",
+    "brandDescription": "Growing together for a greener future. We provide top-quality agricultural products and veterinary services to help your farm and animals thrive.",
+    "home": "Home",
+    "shop": "Shop",
+    "contact": "Contact",
+    "about": "About Us",
+    "createAccount": "Create Account",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "faq": "FAQ",
+    "quickLinksTitle": "Quick Links",
+    "usefulLinksTitle": "Useful Links",
+    "newsletterTitle": "Join Our Newsletter",
+    "emailPlaceholder": "Your email address",
+    "subscribe": "Subscribe",
+    "thankYouSubscribe": "Thank you for subscribing!",
+    "connectWithUs": "Connect With Us",
+    "followUs": "Follow us on",
+    "address": "123 Farm Road, Greenville, AG 54321",
+    "phone": "+1 (555) 123-4567",
+    "copyright": "FarmFusion Team. All rights reserved."
+  }
+
+
+,
+
+
+  "partners": {
+    "trustedBy": "Trusted By",
+    "title": "Our Partners & Suppliers",
+    "nabil": "Nabil",
+    "tamam": "Tamam",
+    "alEzz": "Al-Ezz",
+    "alJazeera": "Al-Jazeera",
+    "siniora": "Siniora",
+    "alWataniya": "Al-Wataniya"
+  }
+
+,
+  "wishlist": {
+    "title": "My Wishlist",
+    "items": "items",
+    "emptyTitle": "Your wishlist is empty",
+    "emptyMessage": "Explore our collection and save your favorite items to view them later",
+    "continueShopping": "Continue Shopping"
+  }
+,
+  "profile": {
+    "fetchError": "Failed to fetch user data",
+    "bookingsError": "Failed to fetch bookings",
+    "updateSuccess": "Information updated successfully",
+    "updateError": "Failed to update information",
+    "logoutError": "Logout failed",
+    "loading": "Loading Farm Profile...",
+    "signOut": "Sign out",
+    "personalInfo": "Personal Information",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "name": "Name",
+    "email": "Email",
+    "profilePicture": "Profile Picture",
+    "saveChanges": "Save Changes",
+    "role": "Role",
+    "creationDate": "Creation Date",
+    "vetBookings": "Veterinary Bookings",
+    "noBookings": "No veterinary bookings yet",
+    "vetConsultation": "Veterinary Consultation",
+    "emergency": "Emergency",
+    "routine": "Routine",
+    "veterinarian": "Veterinarian",
+    "date": "Date",
+    "reasonForVisit": "Reason for Visit",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of"
+  }
+
+
+
+,
+
+
+  "shopTitle": "Our Products",
+  "searchPlaceholder": "Search for products...",
+  "categories": "Categories",
+  "allProducts": "All Products",
+  "resetFilters": "Reset Filters",
+  "addToCart": "Add to Cart",
+  "viewDetails": "View Details",
+  "currency": "JD",
+  "loadingProducts": "Loading products...",
+  "noItemsFound": "No items found",
+  "noItemsMatch": "No items match your filters.",
+  "noItemsAvailable": "No products available at the moment.",
+  "showingResults": "Showing {{start}} to {{end}} of {{total}} products",
+  "cart": "Cart",
+  "shoppingCart": "Shopping Cart",
+  "cartEmpty": "Your cart is empty",
+  "startAddingItems": "Start adding items to your cart",
+  "continueShopping": "Continue Shopping",
+  "remove": "Remove",
+  "subtotal": "Subtotal",
+  "shippingCalculated": "Shipping and taxes calculated at checkout.",
+  "checkout": "Checkout",
+  "clearCart": "Clear Cart"
+
+
+,
+
+
+  "addNewProduct": "Add New Product",
+  "productName": "Product Name",
+  "category": "Category",
+  "description": "Description",
+  "details": "Details",
+  "price": "Price",
+  "currency": "JD",
+  "productImage": "Product Image",
+  "english": "English",
+  "arabic": "Arabic",
+  "addProduct": "Add Product",
+  "confirmProductAddition": "Confirm Product Addition",
+  "confirmAddProductMessage": "Are you sure you want to add this product?",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "submitting": "Submitting",
+  "productAddedSuccess": "Product added successfully!",
+  "errorAddingProduct": "Error adding product: "
+
+,
+
+
+
+  "productDetails": {
+    "checkOut": "Check out this product:",
+    "errorLoading": "Error loading product",
+    "goBack": "Go Back",
+    "notFound": "Product not found!",
+    "back": "Back to Products",
+    "shareFacebook": "Share on Facebook",
+    "shareWhatsApp": "Share on WhatsApp",
+    "shareInstagram": "Share on Instagram",
+    "currency": "JD",
+    "category": "Category",
+    "availability": "Availability",
+    "inStock": "In Stock",
+    "addToCart": "Add to Cart",
+    "description": "Description",
+    "details": "Details",
+    "reviews": "Reviews",
+    "noDetails": "No detailed specifications available for this product.",
+    "customerReviews": "Customer Reviews",
+    "noReviews": "No reviews yet.",
+    "writeReview": "Write a Review",
+    "loginToReview": "Please",
+    "login": "login",
+    "relatedProducts": "Related Products",
+    "viewAll": "View All",
+    "viewDetails": "View Details",
+    "yourCart": "Your Cart",
+    "cartEmpty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "remove": "Remove",
+    "subtotal": "Subtotal",
+    "proceedToCheckout": "Proceed to Checkout"
+  }
+
+,
+
+
+  "checkoutt": {
+    "secure_checkoutt": "Secure Checkout",
+    "customer_info": "Customer Information",
+    "full_name": "Full Name",
+    "enter_full_name": "Enter your full name",
+    "phone_number": "Phone Number",
+    "enter_phone": "Enter your phone number",
+    "location": "Location",
+    "enter_location": "Enter your location",
+    "postal_code": "Postal Code",
+    "enter_postal": "Enter your postal code",
+    "shipping_address": "Shipping Address",
+    "enter_shipping": "Enter your complete shipping address",
+    "payment_method": "Payment Method",
+    "visa_card": "Visa Card",
+    "click_payment": "Click Payment",
+    "card_number": "Card Number",
+    "expiry_date": "Expiration Date",
+    "cvv": "CVV",
+    "paypal_email": "PayPal Email",
+    "click_redirect": "You'll be redirected to Click Payment to complete your purchase after confirming your order.",
+    "order_summary": "Order Summary",
+    "empty_cart": "Your cart is empty",
+    "qty": "Qty",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "complete_purchase": "Complete Secure Purchase",
+    "error": "Error",
+    "fill_all_details": "Please fill out all the details.",
+    "invalid_phone": "Invalid Phone",
+    "valid_phone_message": "Please enter a valid 10-digit phone number.",
+    "invalid_postal": "Invalid Postal Code",
+    "valid_postal_message": "Please enter a valid 5-digit postal code.",
+    "fill_card_details": "Please fill in all card details.",
+    "paypal_email": "Please enter your PayPal email.",
+    "order_confirmed": "Order Confirmed",
+    "thank_you": "Thank you for your purchase!",
+    "payment_failed": "Payment Failed",
+    "payment_error": "There was an issue processing your payment. Please try again.",
+    "success_title": "Your purchase was successful!",
+    "success_message": "Thank you for supporting local agriculture. Your order is being processed."
+  }
+,
+
+
+  "loginn": {
+    "app_name": "Agricultural Hub",
+    "welcome_message": "Welcome to your agricultural management platform",
+    "email_placeholder": "Email Address",
+    "password_placeholder": "Password",
+    "remember_me": "Remember me",
+    "forgot_password": "Forgot password?",
+    "sign_in": "Sign In",
+    "logging_in": "Logging in...",
+    "or_continue_with": "Or continue with",
+    "no_account": "Don't have an account?",
+    "sign_up": "Sign up",
+    "login_failed": "Login failed",
+    "google_login_failed": "Google login failed"
+  }
+
+
+,
+    "reservationss": {
+      "title": "Veterinary Appointments",
+      "subtitle": "Manage animal care appointments and treatment schedules",
+      "loading": "Loading appointments...",
+      "fetchError": "Failed to load data. Please try again.",
+      "doctorFetchError": "Failed to load doctor's appointments.",
+      "noDoctors": "No veterinarians with appointments found.",
+      "retry": "Try Again",
+      "refresh": "Refresh",
+      "selectVet": "Select Veterinarian",
+      "drPrefix": "Dr.",
+      "noAppointments": "No appointments found for {{doctor}} with the selected filter.",
+      "department": "Department",
+      "customerPhone": "Customer Phone",
+      "reason": "Reason for Visit",
+      "bookingId": "Booking ID",
+      "approve": "Approve",
+      "reject": "Reject",
+      "markCompleted": "Mark as Completed",
+      "markCompletedSuccess": "Reservation marked as completed!",
+      "markCompletedError": "Failed to mark reservation as completed.",
+      "approveSuccess": "Booking approved successfully!",
+      "approveError": "Failed to approve booking.",
+      "rejectSuccess": "Booking rejected successfully!",
+      "rejectError": "Failed to reject booking.",
+      "appointmentWith": "Appointment with {{doctor}}",
+      "tabs": {
+        "pending": "Pending",
+        "completed": "Completed",
+        "all": "All Appointments"
+      },
+      "status": {
+        "completed": "Completed",
+        "approved": "Approved",
+        "rejected": "Rejected",
+        "emergency": "Emergency",
+        "pending": "Pending"
+      },
+      "confirmCompleteTitle": "Confirm Completion",
+      "confirmCompleteText": "Are you sure you want to mark this appointment as completed?",
+      "completedSuccessTitle": "Appointment Completed",
+      "confirmApproveTitle": "Confirm Approval",
+      "confirmApproveText": "Are you sure you want to approve this appointment?",
+      "approvedSuccessTitle": "Appointment Approved",
+      "confirmRejectTitle": "Confirm Rejection",
+      "confirmRejectText": "Are you sure you want to reject this appointment?",
+      "confirmRejectButton": "Yes, Reject",
+      "rejectedTitle": "Appointment Rejected",
+      "errorTitle": "Error",
+      "refreshTitle": "Refresh Data",
+      "refreshText": "Are you sure you want to refresh the data?",
+      "confirmButton": "Confirm",
+      "cancelButton": "Cancel"
+    }
+  
+,
+
+
+"PlantDiseaseDetector":"Plant Disease Detector",
+  "title": "Plant Disease Detector",
+  "description": "Upload a plant image to detect diseases and get instant treatment recommendations using AI.",
+  "uploadSection": {
+    "selectImage": "Select plant image",
+    "instructions": "Drag and drop or click to browse",
+    "formats": "JPG, PNG, WebP",
+    "maxSize": "Max 10MB",
+    "ready": "Ready for analysis"
+  },
+  "buttons": {
+    "analyze": "Start Analysis",
+    "analyzing": "Analyzing..."
+  },
+  "results": {
+    "placeholder": "Upload an image to see analysis results",
+    "analyzing": "AI is analyzing your plant...",
+    "errorTitle": "Analysis Error",
+    "diseaseDetection": "Disease Detection",
+    "unknownCondition": "Unknown condition",
+    "treatment": "Treatment Recommendation",
+    "noTreatment": "No specific treatment recommendation available."
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

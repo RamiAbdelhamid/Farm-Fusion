@@ -1,0 +1,33 @@
+/**
+ * Awesome image gallery for your prestashop store.
+ * 
+ * CmsShortcodeGallery by Vipul Hadiya(http://www.vipulhadiya.com) is licensed under a 
+ * Creative Creative Commons Attribution-NoDerivatives 4.0 International License.
+ * Based on a work at http://www.clavolike.com.
+ * Permissions beyond the scope of this license may be available at http://www.vipulhadiya.com.
+ * To view a copy of this license, visit http://creativecommons.org/licenses/by-nd/4.0/.
+ * 
+ * @author    Vipul Hadiya <vip@vipulhadiya.com>
+ * @copyright 2015 Vipul Hadiya
+ * @license   http://creativecommons.org/licenses/by-nd/4.0/
+ */
+ 
+$(document).ready(function(){
+   $( "#cmsgalleryfilter" ).change(function() {
+        $('#process').addClass('zpress-process');
+        $.ajax({
+            url: baseDir + 'modules/cmsshortcodegallery/php/handle.php',
+            data: {ajax:1, id_gallery_front: $(this).val()},
+            type: 'POST'
+        }).success(function(data){
+            $('#ajaxdiv').html(data);
+            $('#process').removeClass('zpress-process');
+        });
+    });
+	
+	$(".colobox-img").colorbox({
+		transition:"fade",
+		maxWidth:'100%',
+		maxHeight:'100%'
+	}); 
+});
