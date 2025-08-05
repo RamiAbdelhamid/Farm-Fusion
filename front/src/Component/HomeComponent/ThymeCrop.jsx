@@ -15,7 +15,7 @@ const ThymeCrop = () => {
         <div className="relative">
           <div className="absolute -top-4 -left-4 w-full h-full bg-green-200 rounded-xl z-0"></div>
           <img
-            src="/src/assets/pic/زعتر.jpg"
+            src="زعتر.jpg"
             alt={t('homepagee.featured.thyme_image_alt')}
             className="rounded-xl shadow-lg w-full max-w-lg object-cover z-10 relative"
           />

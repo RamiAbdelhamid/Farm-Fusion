@@ -64,7 +64,7 @@ function Carousel() {
               loop
             >
               <source
-                src="../../../src/assets/videos/Untitled video - Made with Clipchamp.mp4"
+                src="Untitled video - Made with Clipchamp.mp4"
                 type="video/mp4"
               />
               {t("browserNotSupportVideo")}
@@ -115,7 +115,7 @@ function Carousel() {
               loop
             >
               <source
-                src="../../../src/assets/videos/agricultuer.mp4"
+                src="agricultuer.mp4"
                 type="video/mp4"
               />
               {t("browserNotSupportVideo")}
@@ -167,7 +167,7 @@ function Carousel() {
               loop
             >
               <source
-                src="../../../src/assets/videos/e0ec37cb8c7b8a43ca796912f8593f05.mp4"
+                src="e0ec37cb8c7b8a43ca796912f8593f05.mp4"
                 type="video/mp4"
               />
               {t("browserNotSupportVideo")}

@@ -40,17 +40,17 @@ const EnhancedCinematicPartnerAnimation = () => {
   }, [isVisible]);
 
   const partners = [
-    { name: t("partners.nabil"), image: "../../src/assets/pic/نبيل.jpeg" },
-    { name: t("partners.tamam"), image: "../../src/assets/pic/تمام.jpg" },
-    { name: t("partners.alEzz"), image: "../../src/assets/pic/العز.png" },
+    { name: t("partners.nabil"), image: "نبيل.jpeg" },
+    { name: t("partners.tamam"), image: "تمام.jpg" },
+    { name: t("partners.alEzz"), image: "العز.png" },
     {
       name: t("partners.alJazeera"),
-      image: "../../src/assets/pic/الجزيرة.png",
+      image: "الجزيرة.png",
     },
-    { name: t("partners.siniora"), image: "../../src/assets/pic/سنيورة.png" },
+    { name: t("partners.siniora"), image: "سنيورة.png" },
     {
       name: t("partners.alWataniya"),
-      image: "../../src/assets/pic/الوطنية.jpeg",
+      image: "الوطنية.jpeg",
     },
   ];
 

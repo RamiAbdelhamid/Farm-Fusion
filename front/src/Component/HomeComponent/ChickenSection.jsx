@@ -13,7 +13,7 @@ const ChickenSection = () => {
       {/* Header Section with Improved Styling */}
       <div className="relative mb-16 rounded-xl overflow-hidden">
         <img
-          src="/src/assets/pic/ch.png"
+          src="ch.png"
           alt={t("homepageChicken.poultry.main_image_alt")}
           className="w-full h-64 lg:h-96 object-cover rounded-xl shadow-xl"
         />
@@ -181,21 +181,21 @@ const ChickenSection = () => {
           <div className="grid grid-cols-12 grid-rows-6 gap-3 h-full">
             <div className="col-span-12 row-span-3 rounded-lg shadow-lg overflow-hidden">
               <img
-                src="/src/assets/pic/صيصان.png"
+                src="صيصان.png"
                 alt={t("homepageChicken.poultry.gallery.chicks_alt")}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="col-span-6 row-span-3 rounded-lg shadow-lg overflow-hidden">
               <img
-                src="/src/assets/pic/نجارة.jpeg"
+                src="نجارة.jpeg"
                 alt={t("homepageChicken.poultry.gallery.bedding_alt")}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="col-span-6 row-span-3 rounded-lg shadow-lg overflow-hidden">
               <img
-                src="/src/assets/pic/جاج 30.jpg"
+                src="جاج 30.jpg"
                 alt={t("homepageChicken.poultry.gallery.broilers_alt")}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />

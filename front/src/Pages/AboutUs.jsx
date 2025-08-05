@@ -138,7 +138,7 @@ const AboutUs = () => {
                 }`}
               ></div>
               <img
-                src="/src/assets/pic/farmfusion7-scaled.webp"
+                src="farmfusion7-scaled.webp"
                 alt={t("teamImageAlt")}
                 className="w-full h-auto rounded-lg shadow-xl object-cover border-4 border-green-100"
               />

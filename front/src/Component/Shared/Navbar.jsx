@@ -242,8 +242,8 @@ const Navbar = () => {
       >
         {({ open }) => (
           <>
-            <div className="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
-              <div className="relative flex h-20 items-center justify-between">
+            <div className="container mx-auto px-2 sm:px-4 lg:px-8">
+              <div className="relative flex h-16 sm:h-20 items-center justify-between">
                 {/* Mobile menu button */}
                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                   <DisclosureButton className="relative inline-flex items-center justify-center p-2 rounded-md text-green-100 hover:text-white hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white transition-all duration-200">
@@ -259,7 +259,7 @@ const Navbar = () => {
                 {/* Logo and desktop navigation */}
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 items-center">
-                    <div className="flex items-center space-x-2">
+                    <div className="hidden sm:flex items-center space-x-2">
                       <div className="h-10 w-10 ml-5 bg-white rounded-full flex items-center justify-center shadow-md transform hover:scale-110 transition-transform duration-200">
                         <a href="/">
                           <span className="text-2xl cursor-pointer">🌿</span>
@@ -270,7 +270,7 @@ const Navbar = () => {
 
                   <div className="hidden sm:ml-6 sm:block">
                     <div
-                      className={`flex ${
+                      className={`flex overflow-x-auto no-scrollbar ${
                         i18n.language === "ar"
                           ? "space-x-reverse space-x-1"
                           : "space-x-2"
@@ -317,7 +317,7 @@ const Navbar = () => {
                 </div>
 
                 {/* User menu or auth buttons */}
-                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 space-x-2 sm:space-x-4">
                   {/* Language Toggle Button */}
                   {/* <button
                     onClick={() =>
@@ -334,9 +334,9 @@ const Navbar = () => {
                     as="div"
                     className="relative inline-block text-left mr-4"
                   >
-                    <Menu.Button className="inline-flex items-center ml-6 mr-4 px-2 py-1 bg-white text-green-800 rounded shadow hover:bg-green-100 transition duration-200">
-                      <Globe className="w-5 h-5 mr-1" />
-                      <ChevronDown className="w-4 h-4" />
+                    <Menu.Button className="inline-flex items-center ml-2 sm:ml-6 mr-2 sm:mr-4 px-2 py-1 bg-white text-green-800 rounded shadow hover:bg-green-100 transition duration-200">
+                      <Globe className="w-4 h-4 sm:w-5 sm:h-5 mr-1" />
+                      <ChevronDown className="w-3 h-3 sm:w-4 sm:h-4" />
                     </Menu.Button>
                     <Menu.Items className="absolute right-0 mt-2 w-36 bg-white border rounded shadow-lg z-50">
                       <Menu.Item>
@@ -381,9 +381,9 @@ const Navbar = () => {
                   {/* Cart Button */}
                   <button
                     onClick={() => setShowCart(true)}
-                    className="relative p-2 mr-4 text-green-100 hover:text-white transition-colors duration-200 cursor-pointer"
+                    className="relative p-2 mr-2 sm:mr-4 text-green-100 hover:text-white transition-colors duration-200 cursor-pointer"
                   >
-                    <ShoppingCart className="h-6 w-6" />
+                    <ShoppingCart className="h-5 w-5 sm:h-6 sm:w-6" />
                     {totalItems > 0 && (
                       <span className="absolute -top-1 -right-1 bg-white text-green-800 text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
                         {totalItems}
@@ -394,12 +394,12 @@ const Navbar = () => {
                   {/* Wishlist Button */}
                   <Link
                     to="/wishlist"
-                    className="relative p-2 mr-6 ml-6 text-green-100 hover:text-white transition-colors duration-200"
+                    className="relative p-2 mr-3 sm:mr-6 ml-3 sm:ml-6 text-green-100 hover:text-white transition-colors duration-200"
                   >
                     {wishlist.length > 0 ? (
-                      <HeartFilled className="h-6 w-6 text-white-500" />
+                      <HeartFilled className="h-5 w-5 sm:h-6 sm:w-6 text-white-500" />
                     ) : (
-                      <HeartOutline className="h-6 w-6" />
+                      <HeartOutline className="h-5 w-5 sm:h-6 sm:w-6" />
                     )}
                     {wishlist.length > 0 && (
                       <span className="absolute -top-1 -right-1 bg-white text-green-800 text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
@@ -414,7 +414,7 @@ const Navbar = () => {
                         <MenuButton className="flex rounded-full bg-green-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-green-700 transition-all duration-200 hover:ring-2 transform hover:scale-105">
                           <span className="sr-only">{t("openUserMenu")}</span>
                           <img
-                            className="h-13 w-13  rounded-full border-2 border-white cursor-pointer"
+                            className="h-10 w-10 sm:h-13 sm:w-13 rounded-full border-2 border-white cursor-pointer"
                             src={
                               user
                                 ? `http://localhost:5000${user.profilePicture}`
@@ -462,7 +462,7 @@ const Navbar = () => {
                       </Transition>
                     </Menu>
                   ) : (
-                    <div className="flex space-x-2">
+                    <div className="hidden sm:flex space-x-2">
                       <Link
                         to="/login"
                         className="relative overflow-hidden px-3 py-1.5 text-white bg-green-800 hover:bg-green-900 rounded-md text-sm font-medium transition-all duration-200 transform hover:scale-105 shadow-md"
