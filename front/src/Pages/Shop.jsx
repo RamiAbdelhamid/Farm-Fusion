@@ -93,32 +93,45 @@ const Shop = () => {
   };
 
   useEffect(() => {
-    let timer;
     const fetchProducts = async () => {
-      setLoading(true);
-      setProgress(0);
-      // start a timer that bumps progress until we’re done:
-      timer = setInterval(() => {
-        setProgress((p) => Math.min(p + Math.random() * 10, 95));
-      }, 200);
-  
       try {
-        const { data } = await axios.get(
-          "https://farm-fusion-srt9.onrender.com/api/products"
+        setLoading(true);
+        setProgress(0);
+  
+        const response = await axios.get(
+          "https://farm-fusion-srt9.onrender.com/api/products",
+          {
+            onDownloadProgress: (e) => {
+              if (e.total) {
+                const percent = Math.floor((e.loaded / e.total) * 100);
+                setProgress(percent);
+              }
+            },
+          }
         );
-        clearInterval(timer);
+  
         setProgress(100);
-        setProducts(data);
-      } catch (err) {
-        clearInterval(timer);
-        console.error(err);
+        setProducts(response.data);
+  
+        const categories = [
+          ...new Set(response.data.map((product) => product.category)),
+        ];
+        setCategoryCounts(
+          categories.reduce((acc, category) => {
+            acc[category] = response.data.filter(
+              (product) => product.category === category
+            ).length;
+            return acc;
+          }, {})
+        );
+      } catch (error) {
+        console.error("Error fetching products:", error);
       } finally {
         setLoading(false);
       }
     };
   
     fetchProducts();
-    return () => clearInterval(timer);
   }, []);
   
 
