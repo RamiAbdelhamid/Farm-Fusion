@@ -96,9 +96,23 @@ const Shop = () => {
     const fetchProducts = async () => {
       try {
         setLoading(true);
-        const response = await axios.get("https://farm-fusion-srt9.onrender.com/api/products");
+        setProgress(0);
+  
+        const response = await axios.get(
+          "https://farm-fusion-srt9.onrender.com/api/products",
+          {
+            onDownloadProgress: (e) => {
+              if (e.total) {
+                const percent = Math.floor((e.loaded / e.total) * 100);
+                setProgress(percent);
+              }
+            },
+          }
+        );
+  
+        setProgress(100);
         setProducts(response.data);
-
+  
         const categories = [
           ...new Set(response.data.map((product) => product.category)),
         ];
@@ -116,9 +130,10 @@ const Shop = () => {
         setLoading(false);
       }
     };
-
+  
     fetchProducts();
   }, []);
+  
 
   const filteredProducts = products.filter((product) => {
     const matchesSearch = product.name
