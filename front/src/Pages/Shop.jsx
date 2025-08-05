@@ -41,6 +41,7 @@ const Shop = () => {
   const [categoryCounts, setCategoryCounts] = useState({});
   const [loading, setLoading] = useState(true);
   const { isInWishlist, toggleWishlist } = useWishlist();
+  const [progress, setProgress] = useState(0);
 
   // Pagination states
   const [currentPage, setCurrentPage] = useState(1);
@@ -159,6 +160,7 @@ const Shop = () => {
         <div className="text-center">
           <Loader2 className="w-12 h-12 mx-auto animate-spin text-green-600" />
           <p className="mt-4 text-lg text-gray-600">{t("loadingProducts")}</p>
+          <p className="mt-2 text-xl font-bold text-green-700">{progress}%</p>
         </div>
       </div>
     );
