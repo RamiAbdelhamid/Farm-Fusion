@@ -32,15 +32,19 @@ app.use(cookieParser());
 
 
 // Middleware 
-app.use(
-  cors({
-    origin: [
-      "http://localhost:5173",
-      "https://agriculture-and-animals-3.onrender.com",
-    ],
-    credentials: true, // إذا كنت تستخدم كوكيز أو توكن
-  })
-);
+// app.use(
+//   cors({
+//     origin: [
+//       "http://localhost:5173",
+//       "https://agriculture-and-animals-3.onrender.com",
+//     ],
+//     credentials: true, // إذا كنت تستخدم كوكيز أو توكن
+//   })
+// );
+app.use(cors({
+  origin: 'https://farm-fusion-11.onrender.com',
+  credentials: true,                // إذا كنت ترسل كوكيز أو credentials
+}));
 
 
 
